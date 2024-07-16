@@ -1,0 +1,363 @@
+[
+    {
+        "school": {
+            "name": "Dhaka International School",
+            "address": "456 Gulshan Avenue, Dhaka, Bangladesh",
+            "phone": "+880-2-1234567",
+            "email": "info@dhakainternationalschool.edu.bd"
+        },
+        "students": [
+            {
+                "_id": "1",
+                "roll_number": "1",
+                "name": "Rafi Ahmed",
+                "grade": "Pre-Primary",
+                "age": 5,
+                "date_of_birth": "2019-03-15",
+                "hobbies": ["Drawing", "Playing with Toys"],
+                "photo_url": "https://example.com/photos/rafi_ahmed.jpg",
+                "ambition": "Artist"
+            },
+            {
+                "_id": "2",
+                "roll_number": "2",
+                "name": "Aisha Khan",
+                "grade": "Pre-Primary",
+                "age": 5,
+                "date_of_birth": "2019-05-22",
+                "hobbies": ["Reading", "Dancing"],
+                "photo_url": "https://example.com/photos/aisha_khan.jpg",
+                "ambition": "Dancer"
+            },
+            {
+                "_id": "3",
+                "roll_number": "3",
+                "name": "Hasan Karim",
+                "grade": "Class 1",
+                "age": 6,
+                "date_of_birth": "2018-08-10",
+                "hobbies": ["Playing Football", "Cycling"],
+                "photo_url": "https://example.com/photos/hasan_karim.jpg",
+                "ambition": "Football Player"
+            },
+            {
+                "_id": "4",
+                "roll_number": "4",
+                "name": "Maria Islam",
+                "grade": "Class 1",
+                "age": 6,
+                "date_of_birth": "2018-11-05",
+                "hobbies": ["Painting", "Swimming"],
+                "photo_url": "https://example.com/photos/maria_islam.jpg",
+                "ambition": "Painter"
+            },
+            {
+                "_id": "5",
+                "roll_number": "5",
+                "name": "Zara Rahman",
+                "grade": "Class 2",
+                "age": 7,
+                "date_of_birth": "2017-07-19",
+                "hobbies": ["Singing", "Gardening"],
+                "photo_url": "https://example.com/photos/zara_rahman.jpg",
+                "ambition": "Singer"
+            },
+            {
+                "_id": "6",
+                "roll_number": "6",
+                "name": "Omar Faruk",
+                "grade": "Class 2",
+                "age": 7,
+                "date_of_birth": "2017-09-12",
+                "hobbies": ["Playing Video Games", "Drawing"],
+                "photo_url": "https://example.com/photos/omar_faruk.jpg",
+                "ambition": "Game Developer"
+            },
+            {
+                "_id": "7",
+                "roll_number": "7",
+                "name": "Tania Akter",
+                "grade": "Class 3",
+                "age": 8,
+                "date_of_birth": "2016-04-20",
+                "hobbies": ["Dancing", "Cycling"],
+                "photo_url": "https://example.com/photos/tania_akter.jpg",
+                "ambition": "Dancer"
+            },
+            {
+                "_id": "8",
+                "roll_number": "8",
+                "name": "Rashedul Hasan",
+                "grade": "Class 3",
+                "age": 8,
+                "date_of_birth": "2016-10-10",
+                "hobbies": ["Reading", "Football"],
+                "photo_url": "https://example.com/photos/rashedul_hasan.jpg",
+                "ambition": "Football Player"
+            },
+            {
+                "_id": "9",
+                "roll_number": "9",
+                "name": "Ayesha Begum",
+                "grade": "Class 4",
+                "age": 9,
+                "date_of_birth": "2015-02-15",
+                "hobbies": ["Reading Books", "Painting"],
+                "photo_url": "https://example.com/photos/ayesha_begum.jpg",
+                "ambition": "Artist"
+            },
+            {
+                "_id": "10",
+                "roll_number": "10",
+                "name": "Moshiur Rahman",
+                "grade": "Class 4",
+                "age": 9,
+                "date_of_birth": "2015-06-20",
+                "hobbies": ["Playing Cricket", "Watching Movies"],
+                "photo_url": "https://example.com/photos/moshiur_rahman.jpg",
+                "ambition": "Cricketer"
+            },
+            {
+                "_id": "11",
+                "roll_number": "11",
+                "name": "Rina Sultana",
+                "grade": "Class 5",
+                "age": 10,
+                "date_of_birth": "2014-03-22",
+                "hobbies": ["Singing", "Gardening"],
+                "photo_url": "https://example.com/photos/rina_sultana.jpg",
+                "ambition": "Singer"
+            },
+            {
+                "_id": "12",
+                "roll_number": "12",
+                "name": "Jamal Uddin",
+                "grade": "Class 5",
+                "age": 10,
+                "date_of_birth": "2014-12-10",
+                "hobbies": ["Reading Books", "Photography"],
+                "photo_url": "https://example.com/photos/jamal_uddin.jpg",
+                "ambition": "Photographer"
+            }
+        ],
+        "teachers": [
+            {
+                "_id": "T001",
+                "date_of_joining": "২০১৯-০৪-১৫",
+                "name": "আব্দুস সালাম",
+                "subject": "লোক প্রশাসন",
+                "date_of_birth": "১৯৮৬-০২-০১",
+                "phone": "+৮৮০-২-৬৭৮৯০১২",
+                "photo_url": "https://i.ibb.co/ypsVBnS/abdus-png.png",
+                "highest_level_of_education": "মাস্টার্স ইন সোশ্যাল সায়েন্স",
+                "area_of_interest": "প্রোগ্রামিং",
+                "experience": "11 years",
+                "category": "popular"
+            },
+            {
+                "_id": "T002",
+                "date_of_joining": "২০১৮-০৩-১০",
+                "name": "নুরজাহান আক্তার",
+                "subject": "বাংলা",
+                "date_of_birth": "১৯৯০-০৭-২৫",
+                "phone": "+৮৮০-২-৫৬৭৮৯০১",
+                "photo_url": "https://example.com/photos/ms_rahman.jpg",
+                "highest_level_of_education": "মাস্টার্স ইন বাংলা",
+                "area_of_interest": "কবিতা",
+                "experience": "8 years",
+                "category": "popular"
+            },
+            {
+                "_id": "T003",
+                "date_of_joining": "2015-08-01",
+                "name": "সমীর চন্দ্র সাহা",
+                "subject": "English",
+                "date_of_birth": "1980-09-12",
+                "phone": "+880-2-2345678",
+                "photo_url": "https://example.com/photos/mrs_akhter.jpg",
+                "highest_level_of_education": "Masters in English",
+                "area_of_interest": "Literature",
+                "experience": "16 years",
+                "category": "popular"
+            },
+            {
+                "_id": "T004",
+                "date_of_joining": "2016-09-15",
+                "name": "আয়েশা আক্তার",
+                "subject": "Mathematics",
+                "date_of_birth": "1975-03-30",
+                "phone": "+880-2-3456789",
+                "photo_url": "https://example.com/photos/mr_chowdhury.jpg",
+                "highest_level_of_education": "Masters in Mathematics",
+                "area_of_interest": "Algebra",
+                "experience": "22 years",
+                "category": "popular"
+            },
+            {
+                "_id": "T005",
+                "date_of_joining": "2017-01-20",
+                "name": "রহিমা ইসলাম",
+                "subject": "Science",
+                "date_of_birth": "1985-01-18",
+                "phone": "+880-2-4567890",
+                "photo_url": "https://example.com/photos/mrs_hossain.jpg",
+                "highest_level_of_education": "Masters in Science",
+                "area_of_interest": "Physics",
+                "category": "popular",
+                "experience": "8 years"
+            },
+            {
+                "_id": "T006",
+                "date_of_joining": "2018-03-10",
+                "name": "নাদিয়া রহমান মিলি",
+                "subject": "Bengali",
+                "date_of_birth": "1990-07-25",
+                "phone": "+880-2-5678901",
+                "photo_url": "https://example.com/photos/ms_rahman.jpg",
+                "highest_level_of_education": "Masters in Bengali",
+                "area_of_interest": "Poetry",
+                "category": "popular",
+                "experience": "5 years"
+            }
+        ],
+        "assistants": [
+            {
+                "_id": "A001",
+                "roll_number": "A006",
+                "name": "Mr. Nasir",
+                "subject": "Classroom Assistant",
+                "date_of_birth": "1992-05-18",
+                "phone": "+880-2-7890124",
+                "photo_url": "https://example.com/photos/mr_nasir.jpg"
+            }
+        ],
+        "head_teacher": {
+            "_id": "HT001",
+            "roll_number": "HT001",
+            "name": "Dr. Farhana",
+            "subject": "Head Teacher",
+            "date_of_birth": "1970-01-12",
+            "phone": "+880-2-8901235",
+            "photo_url": "https://example.com/photos/dr_farhana.jpg"
+        },
+        "committee": [
+            {
+                "_id": "C001",
+                "member_id": "CM001",
+                "name": "Mr. Rahman",
+                "role": "Chairperson",
+                "date_of_birth": "1965-02-14",
+                "phone": "+880-2-1111111",
+                "photo_url": "https://example.com/photos/mr_rahman.jpg"
+            },
+            {
+                "_id": "C002",
+                "member_id": "CM002",
+                "name": "Mrs. Sultana",
+                "role": "Vice Chairperson",
+                "date_of_birth": "1970-07-22",
+                "phone": "+880-2-2222222",
+                "photo_url": "https://example.com/photos/mrs_sultana.jpg"
+            },
+            {
+                "_id": "C003",
+                "member_id": "CM003",
+                "name": "Mr. Chowdhury",
+                "role": "Secretary",
+                "date_of_birth": "1980-03-15",
+                "phone": "+880-2-3333333",
+                "photo_url": "https://example.com/photos/mr_chowdhury_committee.jpg"
+            },
+            {
+                "_id": "C004",
+                "member_id": "CM004",
+                "name": "Ms. Hasan",
+                "role": "Treasurer",
+                "date_of_birth": "1985-11-30",
+                "phone": "+880-2-4444444",
+                "photo_url": "https://example.com/photos/ms_hasan.jpg"
+            },
+            {
+                "_id": "C005",
+                "member_id": "CM005",
+                "name": "Mr. Ahmed",
+                "role": "Member",
+                "date_of_birth": "1978-09-05",
+                "phone": "+880-2-5555555",
+                "photo_url": "https://example.com/photos/mr_ahmed_committee.jpg"
+            },
+            {
+                "_id": "C006",
+                "member_id": "CM006",
+                "name": "Ms. Begum",
+                "role": "Member",
+                "date_of_birth": "1990-02-14",
+                "phone": "+880-2-6666666",
+                "photo_url": "https://example.com/photos/ms_begum_committee.jpg"
+            },
+            {
+                "_id": "C007",
+                "member_id": "CM007",
+                "name": "Mr. Karim",
+                "role": "Member",
+                "date_of_birth": "1975-08-20",
+                "phone": "+880-2-7777777",
+                "photo_url": "https://example.com/photos/mr_karim_committee.jpg"
+            },
+            {
+                "_id": "C008",
+                "member_id": "CM008",
+                "name": "Mrs. Ali",
+                "role": "Member",
+                "date_of_birth": "1983-05-17",
+                "phone": "+880-2-8888888",
+                "photo_url": "https://example.com/photos/mrs_ali.jpg"
+            },
+            {
+                "_id": "C009",
+                "member_id": "CM009",
+                "name": "Mr. Hossain",
+                "role": "Member",
+                "date_of_birth": "1988-11-30",
+                "phone": "+880-2-9999999",
+                "photo_url": "https://example.com/photos/mr_hossain.jpg"
+            },
+            {
+                "_id": "C010",
+                "member_id": "CM010",
+                "name": "Ms. Rahman",
+                "role": "Member",
+                "date_of_birth": "1992-04-12",
+                "phone": "+880-2-0000000",
+                "photo_url": "https://example.com/photos/ms_rahman_committee.jpg"
+            },
+            {
+                "_id": "C011",
+                "member_id": "CM011",
+                "name": "Mr. Chowdhury",
+                "role": "Member",
+                "date_of_birth": "1976-06-25",
+                "phone": "+880-2-1111000",
+                "photo_url": "https://example.com/photos/mr_chowdhury_committee.jpg"
+            },
+            {
+                "_id": "C012",
+                "member_id": "CM012",
+                "name": "Ms. Akter",
+                "role": "Member",
+                "date_of_birth": "1984-01-15",
+                "phone": "+880-2-2222200",
+                "photo_url": "https://example.com/photos/ms_akter.jpg"
+            },
+            {
+                "_id": "C013",
+                "member_id": "CM013",
+                "name": "Mr. Islam",
+                "role": "Member",
+                "date_of_birth": "1989-07-20",
+                "phone": "+880-2-3333300",
+                "photo_url": "https://example.com/photos/mr_islam_committee.jpg"
+            }
+        ]
+    }
+]
