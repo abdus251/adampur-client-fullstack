@@ -13,7 +13,7 @@
                 "date_of_birth": "2019-03-15",
                 "hobbies": ["Drawing", "Playing with Toys"],
                 "photo_url": "https://example.com/photos/rafi_ahmed.jpg",
-                "ambition": "Artist"
+                "category": "Artist"
             },
             {
                 "_id": "2",
@@ -24,7 +24,7 @@
                 "date_of_birth": "2019-05-22",
                 "hobbies": ["Reading", "Dancing"],
                 "photo_url": "https://example.com/photos/aisha_khan.jpg",
-                "ambition": "Dancer"
+                "category": "Doctor"
             },
             {
                 "_id": "3",
@@ -35,7 +35,7 @@
                 "date_of_birth": "2018-08-10",
                 "hobbies": ["Playing Football", "Cycling"],
                 "photo_url": "https://example.com/photos/hasan_karim.jpg",
-                "ambition": "Football Player"
+                "category": "Engineer"
             },
             {
                 "_id": "4",
@@ -46,7 +46,7 @@
                 "date_of_birth": "2018-11-05",
                 "hobbies": ["Painting", "Swimming"],
                 "photo_url": "https://example.com/photos/maria_islam.jpg",
-                "ambition": "Painter"
+                "category": "Painter"
             },
             {
                 "_id": "5",
@@ -57,7 +57,7 @@
                 "date_of_birth": "2017-07-19",
                 "hobbies": ["Singing", "Gardening"],
                 "photo_url": "https://example.com/photos/zara_rahman.jpg",
-                "ambition": "Singer"
+                "category": "Teacher"
             },
             {
                 "_id": "6",
@@ -68,7 +68,7 @@
                 "date_of_birth": "2017-09-12",
                 "hobbies": ["Playing Video Games", "Drawing"],
                 "photo_url": "https://example.com/photos/omar_faruk.jpg",
-                "ambition": "Game Developer"
+                "category": "Game Developer"
             },
             {
                 "_id": "7",
@@ -79,7 +79,7 @@
                 "date_of_birth": "2016-04-20",
                 "hobbies": ["Dancing", "Cycling"],
                 "photo_url": "https://example.com/photos/tania_akter.jpg",
-                "ambition": "Dancer"
+                "category": "Doctor"
             },
             {
                 "_id": "8",
@@ -90,7 +90,7 @@
                 "date_of_birth": "2016-10-10",
                 "hobbies": ["Reading", "Football"],
                 "photo_url": "https://example.com/photos/rashedul_hasan.jpg",
-                "ambition": "Football Player"
+                "category": "Engineer"
             },
             {
                 "_id": "9",
@@ -101,7 +101,7 @@
                 "date_of_birth": "2015-02-15",
                 "hobbies": ["Reading Books", "Painting"],
                 "photo_url": "https://example.com/photos/ayesha_begum.jpg",
-                "ambition": "Artist"
+                "category": "Artist"
             },
             {
                 "_id": "10",
@@ -112,7 +112,7 @@
                 "date_of_birth": "2015-06-20",
                 "hobbies": ["Playing Cricket", "Watching Movies"],
                 "photo_url": "https://example.com/photos/moshiur_rahman.jpg",
-                "ambition": "Cricketer"
+                "category": "Cricketer"
             },
             {
                 "_id": "11",
@@ -123,7 +123,7 @@
                 "date_of_birth": "2014-03-22",
                 "hobbies": ["Singing", "Gardening"],
                 "photo_url": "https://example.com/photos/rina_sultana.jpg",
-                "ambition": "Singer"
+                "category": "Teacher"
             },
             {
                 "_id": "12",
@@ -134,8 +134,206 @@
                 "date_of_birth": "2014-12-10",
                 "hobbies": ["Reading Books", "Photography"],
                 "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "ambition": "Photographer"
+                "category": "Business"
             },
+            {
+                "_id": "13",
+                "roll_number": "1",
+                "name": "শফিকুল ইসলাম",
+                "grade": "শ্রেণি 1",
+                "age": 6,
+                "date_of_birth": "2018-05-14",
+                "hobbies": ["আঁকা", "পড়া"],
+                "photo_url": "https://example.com/photos/shafikul_islam.jpg",
+                "category": "শিল্পী"
+            },
+            {
+                "_id": "14",
+                "roll_number": "2",
+                "name": "সামিয়া রহমান",
+                "grade": "শ্রেণি 1",
+                "age": 6,
+                "date_of_birth": "2018-03-22",
+                "hobbies": ["গান করা", "নাচ করা"],
+                "photo_url": "https://example.com/photos/samia_rahman.jpg",
+                "category": "গায়িকা"
+            },
+            {
+                "_id": "14",
+                "roll_number": "3",
+                "name": "ফারহান আহমেদ",
+                "grade": "শ্রেণি 2",
+                "age": 7,
+                "date_of_birth": "2017-09-30",
+                "hobbies": ["সাইক্লিং", "ক্রিকেট খেলা"],
+                "photo_url": "https://example.com/photos/farhan_ahmed.jpg",
+                "category": "ক্রিকেটার"
+            },
+            {
+                "_id": "15",
+                "roll_number": "4",
+                "name": "মাহমুদা সুলতানা",
+                "grade": "শ্রেণি 2",
+                "age": 7,
+                "date_of_birth": "2017-11-11",
+                "hobbies": ["আঁকা", "সাঁতার কাটা"],
+                "photo_url": "https://example.com/photos/mahmuda_sultana.jpg",
+                "category": "শিল্পী"
+            },
+            {
+                "_id": "16",
+                "roll_number": "5",
+                "name": "আরিফুল হক",
+                "grade": "শ্রেণি 3",
+                "age": 8,
+                "date_of_birth": "2016-07-15",
+                "hobbies": ["ফুটবল খেলা", "সাইক্লিং"],
+                "photo_url": "https://example.com/photos/ariful_haque.jpg",
+                "category": "ফুটবল খেলোয়াড়"
+            },
+            {
+                "_id": "17",
+                "roll_number": "6",
+                "name": "রেহানা পারভীন",
+                "grade": "শ্রেণি 3",
+                "age": 8,
+                "date_of_birth": "2016-04-10",
+                "hobbies": ["গান করা", "গার্ডেনিং"],
+                "photo_url": "https://example.com/photos/rehana_parvin.jpg",
+                "category": "গায়িকা"
+            },
+            {
+                "_id": "18",
+                "roll_number": "7",
+                "name": "ইমরান হোসেন",
+                "grade": "শ্রেণি 4",
+                "age": 9,
+                "date_of_birth": "2015-01-22",
+                "hobbies": ["ফুটবল খেলা", "সাইক্লিং"],
+                "photo_url": "https://example.com/photos/imran_hossain.jpg",
+                "category": "ফুটবল খেলোয়াড়"
+            },
+            {
+                "_id": "19",
+                "roll_number": "8",
+                "name": "মারুফ হাসান",
+                "grade": "শ্রেণি 4",
+                "age": 9,
+                "date_of_birth": "2015-06-14",
+                "hobbies": ["আঁকা", "পড়া"],
+                "photo_url": "https://example.com/photos/maruf_hasan.jpg",
+                "category": "শিল্পী"
+            },
+            {
+                "_id": "20",
+                "roll_number": "9",
+                "name": "সাবিনা আক্তার",
+                "grade": "শ্রেণি 5",
+                "age": 10,
+                "date_of_birth": "2014-03-28",
+                "hobbies": ["গান করা", "সাঁতার কাটা"],
+                "photo_url": "https://example.com/photos/sabina_akter.jpg",
+                "category": "গায়িকা"
+            },
+            {
+                "_id": "21",
+                "roll_number": "10",
+                "name": "রাকিব হাসান",
+                "grade": "শ্রেণি 5",
+                "age": 10,
+                "date_of_birth": "2014-09-19",
+                "hobbies": ["ক্রিকেট খেলা", "সাইক্লিং"],
+                "photo_url": "https://example.com/photos/rakib_hasan.jpg",
+                "category": "ক্রিকেটার"
+            },
+            {
+                "_id": "22",
+                "roll_number": "11",
+                "name": "নাদিয়া সুলতানা",
+                "grade": "শ্রেণি 6",
+                "age": 11,
+                "date_of_birth": "2013-07-11",
+                "hobbies": ["আঁকা", "পড়া"],
+                "photo_url": "https://example.com/photos/nadia_sultana.jpg",
+                "category": "শিল্পী"
+            },
+            {
+                "_id": "23",
+                "roll_number": "12",
+                "name": "রাকিবুল ইসলাম",
+                "grade": "শ্রেণি 6",
+                "age": 11,
+                "date_of_birth": "2013-12-18",
+                "hobbies": ["গান করা", "গার্ডেনিং"],
+                "photo_url": "https://example.com/photos/rakibul_islam.jpg",
+                "category": "গায়ক"
+            },
+            {
+                "_id": "24",
+                "roll_number": "13",
+                "name": "তানিয়া আক্তার",
+                "grade": "শ্রেণি 7",
+                "age": 12,
+                "date_of_birth": "2012-11-20",
+                "hobbies": ["গান করা", "নাচ করা"],
+                "photo_url": "https://example.com/photos/tania_akter.jpg",
+                "category": "গায়িকা"
+            },
+            {
+                "_id": "25",
+                "roll_number": "14",
+                "name": "আবির হাসান",
+                "grade": "শ্রেণি 7",
+                "age": 12,
+                "date_of_birth": "2012-03-12",
+                "hobbies": ["ক্রিকেট খেলা", "সাইক্লিং"],
+                "photo_url": "https://example.com/photos/abir_hasan.jpg",
+                "category": "ক্রিকেটার"
+            },
+            {
+                "_id": "26",
+                "roll_number": "15",
+                "name": "রিনা খাতুন",
+                "grade": "শ্রেণি 8",
+                "age": 13,
+                "date_of_birth": "2011-05-24",
+                "hobbies": ["গান করা", "গার্ডেনিং"],
+                "photo_url": "https://example.com/photos/rina_khatun.jpg",
+                "category": "গায়িকা"
+            },
+            {
+                "_id": "27",
+                "roll_number": "16",
+                "name": "মো. হাসান",
+                "grade": "শ্রেণি 8",
+                "age": 13,
+                "date_of_birth": "2011-10-05",
+                "hobbies": ["ফুটবল খেলা", "সাইক্লিং"],
+                "photo_url": "https://example.com/photos/md_hasan.jpg",
+                "category": "ফুটবল খেলোয়াড়"
+            },
+            {
+                "_id": "28",
+                "roll_number": "17",
+                "name": "আফসানা বেগম",
+                "grade": "শ্রেণি 9",
+                "age": 14,
+                "date_of_birth": "2010-08-16",
+                "hobbies": ["গান করা", "গার্ডেনিং"],
+                "photo_url": "https://example.com/photos/afsana_begum.jpg",
+                "category": "গায়িকা"
+            },
+            {
+                "_id": "29",
+                "roll_number": "18",
+                "name": "রাকিবুল হাসান",
+                "grade": "শ্রেণি 9",
+                "age": 14,
+                "date_of_birth": "2010-12-25",
+                "hobbies": ["ক্রিকেট খেলা", "সাইক্লিং"],
+                "photo_url": "https://example.com/photos/rakibul_hasan.jpg",
+                "category": "ক্রিকেটার"
+            },     
             {
                 "_id": "T001",
                 "date_of_joining": "২০১৯-০৪-১৫",
@@ -350,3 +548,4 @@
                 "photo_url": "https://example.com/photos/mr_islam_committee.jpg"
             }
         ]
+        
