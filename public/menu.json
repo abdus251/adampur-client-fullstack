@@ -1,12 +1,9 @@
 [
     {
-        "school": {
             "name": "Dhaka International School",
             "address": "456 Gulshan Avenue, Dhaka, Bangladesh",
             "phone": "+880-2-1234567",
-            "email": "info@dhakainternationalschool.edu.bd"
-        },
-        "students": [
+            "email": "info@dhakainternationalschool.edu.bd"        },
             {
                 "_id": "1",
                 "roll_number": "1",
@@ -138,9 +135,7 @@
                 "hobbies": ["Reading Books", "Photography"],
                 "photo_url": "https://example.com/photos/jamal_uddin.jpg",
                 "ambition": "Photographer"
-            }
-        ],
-        "teachers": [
+            },
             {
                 "_id": "T001",
                 "date_of_joining": "২০১৯-০৪-১৫",
@@ -218,9 +213,7 @@
                 "area_of_interest": "Poetry",
                 "category": "popular",
                 "experience": "5 years"
-            }
-        ],
-        "assistants": [
+            },
             {
                 "_id": "A001",
                 "roll_number": "A006",
@@ -229,9 +222,8 @@
                 "date_of_birth": "1992-05-18",
                 "phone": "+880-2-7890124",
                 "photo_url": "https://example.com/photos/mr_nasir.jpg"
-            }
-        ],
-        "head_teacher": {
+            },
+         {
             "_id": "HT001",
             "roll_number": "HT001",
             "name": "Dr. Farhana",
@@ -240,8 +232,7 @@
             "phone": "+880-2-8901235",
             "photo_url": "https://example.com/photos/dr_farhana.jpg"
         },
-        "committee": [
-            {
+      {
                 "_id": "C001",
                 "member_id": "CM001",
                 "name": "Mr. Rahman",
@@ -359,5 +350,3 @@
                 "photo_url": "https://example.com/photos/mr_islam_committee.jpg"
             }
         ]
-    }
-]

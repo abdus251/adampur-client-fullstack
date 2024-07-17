@@ -1,27 +1,18 @@
-import { useQuery } from '@tanstack/react-query';
 import SectionTitle from '../../components/SectionTitle';
+import { useEffect, useState } from 'react';
 import MenuItem from '../Shared/MenuItem/MenuItem';
 
+
 const PopularMenu = () => {
-    const getServices = async () => {
-        return await fetch('http://localhost:5000/menu').then((res) => res.json());
-    };
-
-    const { data, isLoading, isError } = useQuery({
-        queryKey: ['services'],
-        queryFn: getServices,
-    });
-
-    if (isLoading) {
-        return <p>Loading ...</p>;
-    }
-
-    if (isError) {
-        return <p>Error loading data...</p>;
-    }
-
-    const popularTeachers = data[0]?.teachers?.filter(teacher => teacher.category === 'popular') || [];
-
+    const [menu, setMenu] = useState([]);
+    useEffect(() => {
+        fetch('http://localhost:5000/menu')
+            .then(res => res.json())
+            .then(data => {
+                const popularItems = data.filter(item => item.category === 'popular')
+                setMenu(popularItems)
+            })
+    }, [])
     return (
         <section className='mb-12'>
             <SectionTitle
@@ -31,8 +22,9 @@ const PopularMenu = () => {
 
             <div className="grid md:grid-cols-2 gap-10">
                 {
-                    popularTeachers.map(teacher => <MenuItem key={teacher._id}
-                        teacher={teacher}
+                    menu.map(item => <MenuItem
+                        key={item._id}
+                        item={item}
                     ></MenuItem>)
                 }
             </div>

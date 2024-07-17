@@ -1,7 +1,7 @@
 
 
-const MenuItem = ({teacher }) => {
-    const {name, highest_level_of_education,photo_url,  subject, experience} = teacher
+const MenuItem = ({ item}) => {
+    const {name, highest_level_of_education,photo_url,  subject, experience} = item
   return (
     <div className="">
         <img src={photo_url} alt="" />
