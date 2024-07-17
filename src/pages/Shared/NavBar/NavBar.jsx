@@ -4,6 +4,8 @@ const NavBar = () => {
     const navOptions = <>
             <li><Link to='/'> হোম</Link></li>
             <li><Link to='/menu'>মেনু</Link></li>
+            <li><Link to='/order'>আমাদের বিদ্যালয়</Link></li>
+
                         <li><a>Item 3</a></li>
     </>
     return (
