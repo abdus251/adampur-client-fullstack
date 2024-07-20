@@ -13,7 +13,7 @@
                 "date_of_birth": "2019-03-15",
                 "hobbies": ["Drawing", "Playing with Toys"],
                 "photo_url": "https://example.com/photos/rafi_ahmed.jpg",
-                "category": "Artist"
+                "category": "artist"
             },
             {
                 "_id": "2",
@@ -24,7 +24,7 @@
                 "date_of_birth": "2019-05-22",
                 "hobbies": ["Reading", "Dancing"],
                 "photo_url": "https://example.com/photos/aisha_khan.jpg",
-                "category": "Doctor"
+                "category": "doctor"
             },
             {
                 "_id": "3",
@@ -35,7 +35,7 @@
                 "date_of_birth": "2018-08-10",
                 "hobbies": ["Playing Football", "Cycling"],
                 "photo_url": "https://example.com/photos/hasan_karim.jpg",
-                "category": "Engineer"
+                "category": "engineer"
             },
             {
                 "_id": "4",
@@ -57,7 +57,7 @@
                 "date_of_birth": "2017-07-19",
                 "hobbies": ["Singing", "Gardening"],
                 "photo_url": "https://example.com/photos/zara_rahman.jpg",
-                "category": "Teacher"
+                "category": "teacher"
             },
             {
                 "_id": "6",
@@ -79,7 +79,7 @@
                 "date_of_birth": "2016-04-20",
                 "hobbies": ["Dancing", "Cycling"],
                 "photo_url": "https://example.com/photos/tania_akter.jpg",
-                "category": "Doctor"
+                "category": "doctor"
             },
             {
                 "_id": "8",
@@ -90,7 +90,7 @@
                 "date_of_birth": "2016-10-10",
                 "hobbies": ["Reading", "Football"],
                 "photo_url": "https://example.com/photos/rashedul_hasan.jpg",
-                "category": "Engineer"
+                "category": "engineer"
             },
             {
                 "_id": "9",
@@ -101,7 +101,7 @@
                 "date_of_birth": "2015-02-15",
                 "hobbies": ["Reading Books", "Painting"],
                 "photo_url": "https://example.com/photos/ayesha_begum.jpg",
-                "category": "Artist"
+                "category": "artist"
             },
             {
                 "_id": "10",
@@ -123,7 +123,51 @@
                 "date_of_birth": "2014-03-22",
                 "hobbies": ["Singing", "Gardening"],
                 "photo_url": "https://example.com/photos/rina_sultana.jpg",
-                "category": "Teacher"
+                "category": "teacher"
+            },
+            {
+                "_id": "12",
+                "roll_number": "12",
+                "name": "Akther Uddin",
+                "grade": "Class 5",
+                "age": 10,
+                "date_of_birth": "2014-12-10",
+                "hobbies": ["Reading Books", "Photography"],
+                "photo_url": "https://example.com/photos/jamal_uddin.jpg",
+                "category": "business"
+            },
+            {
+                "_id": "121",
+                "roll_number": "13",
+                "name": "Kamal Uddin",
+                "grade": "Class 5",
+                "age": 10,
+                "date_of_birth": "2014-12-10",
+                "hobbies": ["Reading Books", "Photography"],
+                "photo_url": "https://example.com/photos/jamal_uddin.jpg",
+                "category": "business"
+            },
+            {
+                "_id": "122",
+                "roll_number": "14",
+                "name": "Amal Uddin",
+                "grade": "Class 5",
+                "age": 10,
+                "date_of_birth": "2014-12-10",
+                "hobbies": ["Reading Books", "Photography"],
+                "photo_url": "https://example.com/photos/jamal_uddin.jpg",
+                "category": "business"
+            },
+            {
+                "_id": "12",
+                "roll_number": "12",
+                "name": "Tomal Uddin",
+                "grade": "Class 5",
+                "age": 10,
+                "date_of_birth": "2014-12-10",
+                "hobbies": ["Reading Books", "Photography"],
+                "photo_url": "https://example.com/photos/jamal_uddin.jpg",
+                "category": "business"
             },
             {
                 "_id": "12",
@@ -134,7 +178,40 @@
                 "date_of_birth": "2014-12-10",
                 "hobbies": ["Reading Books", "Photography"],
                 "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "Business"
+                "category": "business"
+            },
+            {
+                "_id": "12",
+                "roll_number": "12",
+                "name": "Jamal Uddin",
+                "grade": "Class 5",
+                "age": 10,
+                "date_of_birth": "2014-12-10",
+                "hobbies": ["Reading Books", "Photography"],
+                "photo_url": "https://example.com/photos/jamal_uddin.jpg",
+                "category": "business"
+            },
+            {
+                "_id": "125",
+                "roll_number": "125",
+                "name": "Yamal Uddin",
+                "grade": "Class 5",
+                "age": 10,
+                "date_of_birth": "2014-12-10",
+                "hobbies": ["Reading Books", "Photography"],
+                "photo_url": "https://example.com/photos/jamal_uddin.jpg",
+                "category": "business"
+            },
+            {
+                "_id": "126",
+                "roll_number": "126",
+                "name": "Zamal Uddin",
+                "grade": "Class 5",
+                "age": 10,
+                "date_of_birth": "2014-12-10",
+                "hobbies": ["Reading Books", "Photography"],
+                "photo_url": "https://example.com/photos/jamal_uddin.jpg",
+                "category": "business"
             },
             {
                 "_id": "13",
@@ -333,7 +410,52 @@
                 "hobbies": ["ক্রিকেট খেলা", "সাইক্লিং"],
                 "photo_url": "https://example.com/photos/rakibul_hasan.jpg",
                 "category": "ক্রিকেটার"
-            },     
+            },  
+            {
+                "_id": "300",
+                "roll_number": "30",
+                "name": "Mashiur Rahman",
+                "grade": "Class 4",
+                "age": 9,
+                "date_of_birth": "2015-06-20",
+                "hobbies": ["Playing Cricket", "Watching Movies"],
+                "photo_url": "https://example.com/photos/moshiur_rahman.jpg",
+                "category": "teacher"
+            },
+            {
+                "_id": "301",
+                "roll_number": "30",
+                "name": "Mr. Nasir",
+                "grade": "Class 4",
+                "age": 9,
+                "date_of_birth": "2015-06-20",
+                "hobbies": ["Playing Cricket", "Watching Movies"],
+                "photo_url": "https://example.com/photos/moshiur_rahman.jpg",
+                "category": "teacher"
+            },
+            {
+                "_id": "302",
+                "roll_number": "30",
+                "name": "Bashiur Rahman",
+                "grade": "Class 4",
+                "age": 9,
+                "date_of_birth": "2015-06-20",
+                "hobbies": ["Playing Football", "Watching Movies"],
+                "photo_url": "https://example.com/photos/moshiur_rahman.jpg",
+                "category": "teacher"
+            },
+            {
+                "_id": "302",
+                "roll_number": "30",
+                "name": "Bashiur Rahman",
+                "grade": "Class 4",
+                "age": 9,
+                "date_of_birth": "2015-06-20",
+                "hobbies": ["Playing Football", "Watching Movies"],
+                "photo_url": "https://example.com/photos/moshiur_rahman.jpg",
+                "category": "teacher"
+            },
+            
             {
                 "_id": "T001",
                 "date_of_joining": "২০১৯-০৪-১৫",
@@ -425,7 +547,7 @@
             "_id": "HT001",
             "roll_number": "HT001",
             "name": "Dr. Farhana",
-            "subject": "Head Teacher",
+            "subject": "Head teacher",
             "date_of_birth": "1970-01-12",
             "phone": "+880-2-8901235",
             "photo_url": "https://example.com/photos/dr_farhana.jpg"

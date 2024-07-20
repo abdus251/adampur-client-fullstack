@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom"
+import logo from '../../../../public/Adompur logo.jpg'
+
 
 const NavBar = () => {
     const navOptions = <>
             <li><Link to='/'> হোম</Link></li>
             <li><Link to='/menu'>মেনু</Link></li>
-            <li><Link to='/order'>আমাদের বিদ্যালয়</Link></li>
+            <li><Link to='/order/teacher'>আমাদের বিদ্যালয়</Link></li>
 
                         <li><a>Item 3</a></li>
     </>
@@ -32,7 +34,9 @@ const NavBar = () => {
 
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">আদমপুর সরকারি প্রাথমিক বিদ্যালয়, বন্দর, নারায়ণগঞ্জ</a>
+                <a className="btn btn-ghost text-base">
+                    <img className="h-10 w-10" src={logo} alt="" />
+                    আদমপুর সরকারি প্রাথমিক বিদ্যালয়, বন্দর, নারায়ণগঞ্জ</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
