@@ -17,7 +17,7 @@ const Testimonials = () => {
     }, [])
 
     return (
-        <section className='my-20'>
+        <section className='my-20 font-noto-sans-bengali'>
             <SectionTitle subHeading="অভিবাবকদের মতামত" heading="প্রশংসা জ্ঞাপন"></SectionTitle>
             
             

@@ -1,543 +1,563 @@
 [
     {
-            "name": "Dhaka International School",
+            "schoolName": "Dhaka International School",
             "address": "456 Gulshan Avenue, Dhaka, Bangladesh",
             "phone": "+880-2-1234567",
-            "email": "info@dhakainternationalschool.edu.bd"        },
-            {
-                "_id": "1",
-                "roll_number": "1",
-                "name": "Rafi Ahmed",
-                "grade": "Pre-Primary",
-                "age": 5,
-                "date_of_birth": "2019-03-15",
-                "hobbies": ["Drawing", "Playing with Toys"],
-                "photo_url": "https://example.com/photos/rafi_ahmed.jpg",
-                "category": "artist"
-            },
-            {
-                "_id": "2",
-                "roll_number": "2",
-                "name": "Aisha Khan",
-                "grade": "Pre-Primary",
-                "age": 5,
-                "date_of_birth": "2019-05-22",
-                "hobbies": ["Reading", "Dancing"],
-                "photo_url": "https://example.com/photos/aisha_khan.jpg",
-                "category": "doctor"
-            },
+            "email": "info@dhakainternationalschool.edu.bd"  
+        },
+        {
+            "_id": "1",
+            "roll_number": "১",
+            "name": "রাফি আহমেদ",
+            "grade": "প্রাক-প্রাথমিক",
+            "age": "৫",
+            "date_of_birth": "২০১৯-০৩-১৫",
+            "hobbies": ["অঙ্কন", "খেলনা দিয়ে খেলা"],
+            "photo_url": "https://img.freepik.com/free-photo/portrait-young-boy-student-attending-school_23-2150911447.jpg?uid=R98122162&ga=GA1.1.1193485818.1725585533&semt=ais_hybrid",
+            "category": "prePrimary"
+        },
+        {
+            "_id": "2",
+            "roll_number": "২",
+            "name": "আয়শা খান",
+            "grade": "প্রাক-প্রাথমিক",
+            "age": "৫",
+            "date_of_birth": "২০১৯-০৫-২২",
+            "hobbies": ["পাঠ করা", "নাচ"],
+            "photo_url": "https://img.freepik.com/free-photo/little-girl-lying-floor-drawing_23-2147797865.jpg?uid=R98122162&ga=GA1.1.1193485818.1725585533&semt=ais_hybrid",
+            "category": "prePrimary"
+        },
+        {
+            "_id": "3",
+            "roll_number": "৩",
+            "name": "হাসান করিম",
+            "grade": "প্রথম শ্রেণি",
+            "age": "৬",
+            "date_of_birth": "২০১৮-০৮-১০",
+            "hobbies": ["ফুটবল খেলা", "সাইকেল চালানো"],
+            "photo_url": "https://example.com/photos/hasan_karim.jpg",
+            "category": "classOne"
+        },
+        {
+            "_id": "4",
+            "roll_number": "৪",
+            "name": "মারিয়া ইসলাম",
+            "grade": "প্রথম শ্রেণি",
+            "age": "৬",
+            "date_of_birth": "২০১৮-১১-০৫",
+            "hobbies": ["চিত্রাঙ্কন", "সাঁতার কাটা"],
+            "photo_url": "https://example.com/photos/maria_islam.jpg",
+            "category": "classOne"
+        },
+        {
+            "_id": "5",
+            "roll_number": "৫",
+            "name": "জারা রহমান",
+            "grade": "দ্বিতীয় শ্রেণি",
+            "age": "৭",
+            "date_of_birth": "২০১৭-০৭-১৯",
+            "hobbies": ["গান গাওয়া", "বাগান করা"],
+            "photo_url": "https://example.com/photos/zara_rahman.jpg",
+            "category": "classTwo"
+        },
+        {
+            "_id": "6",
+            "roll_number": "৬",
+            "name": "ওমর ফারুক",
+            "grade": "দ্বিতীয় শ্রেণি",
+            "age": "৭",
+            "date_of_birth": "২০১৭-০৯-১২",
+            "hobbies": ["ভিডিও গেম খেলা", "অঙ্কন"],
+            "photo_url": "https://example.com/photos/omar_faruk.jpg",
+            "category": "classTwo"
+        },
             {
                 "_id": "3",
                 "roll_number": "3",
                 "name": "Hasan Karim",
-                "grade": "Class 1",
+                "grade": "classOne",
                 "age": 6,
                 "date_of_birth": "2018-08-10",
                 "hobbies": ["Playing Football", "Cycling"],
                 "photo_url": "https://example.com/photos/hasan_karim.jpg",
-                "category": "engineer"
+                "category": "classOne"
             },
             {
                 "_id": "4",
                 "roll_number": "4",
                 "name": "Maria Islam",
-                "grade": "Class 1",
+                "grade": "classOne",
                 "age": 6,
                 "date_of_birth": "2018-11-05",
                 "hobbies": ["Painting", "Swimming"],
                 "photo_url": "https://example.com/photos/maria_islam.jpg",
-                "category": "Painter"
+                "category": "classOne"
             },
             {
                 "_id": "5",
                 "roll_number": "5",
                 "name": "Zara Rahman",
-                "grade": "Class 2",
+                "grade": "classTwo",
                 "age": 7,
                 "date_of_birth": "2017-07-19",
                 "hobbies": ["Singing", "Gardening"],
                 "photo_url": "https://example.com/photos/zara_rahman.jpg",
-                "category": "teacher"
+                "category": "classTwo"
             },
             {
                 "_id": "6",
                 "roll_number": "6",
                 "name": "Omar Faruk",
-                "grade": "Class 2",
+                "grade": "classTwo",
                 "age": 7,
                 "date_of_birth": "2017-09-12",
                 "hobbies": ["Playing Video Games", "Drawing"],
                 "photo_url": "https://example.com/photos/omar_faruk.jpg",
-                "category": "Game Developer"
+                "category": "classTwo"
             },
             {
                 "_id": "7",
                 "roll_number": "7",
                 "name": "Tania Akter",
-                "grade": "Class 3",
+                "grade": "classThree",
                 "age": 8,
                 "date_of_birth": "2016-04-20",
                 "hobbies": ["Dancing", "Cycling"],
                 "photo_url": "https://example.com/photos/tania_akter.jpg",
-                "category": "doctor"
+                "category": "classThree"
             },
             {
                 "_id": "8",
                 "roll_number": "8",
                 "name": "Rashedul Hasan",
-                "grade": "Class 3",
+                "grade": "classThree",
                 "age": 8,
                 "date_of_birth": "2016-10-10",
                 "hobbies": ["Reading", "Football"],
                 "photo_url": "https://example.com/photos/rashedul_hasan.jpg",
-                "category": "engineer"
+                "category": "classThree"
             },
             {
                 "_id": "9",
                 "roll_number": "9",
                 "name": "Ayesha Begum",
-                "grade": "Class 4",
+                "grade": "classFour",
                 "age": 9,
                 "date_of_birth": "2015-02-15",
                 "hobbies": ["Reading Books", "Painting"],
                 "photo_url": "https://example.com/photos/ayesha_begum.jpg",
-                "category": "artist"
+                "category": "classFour"
             },
             {
                 "_id": "10",
                 "roll_number": "10",
                 "name": "Moshiur Rahman",
-                "grade": "Class 4",
+                "grade": "classFour",
                 "age": 9,
                 "date_of_birth": "2015-06-20",
                 "hobbies": ["Playing Cricket", "Watching Movies"],
                 "photo_url": "https://example.com/photos/moshiur_rahman.jpg",
-                "category": "Cricketer"
+                "category": "classFour"
             },
             {
                 "_id": "11",
-                "roll_number": "11",
-                "name": "Rina Sultana",
-                "grade": "Class 5",
-                "age": 10,
-                "date_of_birth": "2014-03-22",
-                "hobbies": ["Singing", "Gardening"],
+                "roll_number": "১১",
+                "name": "সিনহা আক্তার",
+                "grade": "classFive",
+                "age": "০১",
+                "date_of_birth": "২২-০৩-২০২৪",
+                "hobbies": ["গান করা", "বাগান করা"],
                 "photo_url": "https://example.com/photos/rina_sultana.jpg",
-                "category": "teacher"
+                "category": "classFive"
             },
             {
                 "_id": "12",
                 "roll_number": "12",
                 "name": "Akther Uddin",
-                "grade": "Class 5",
+                "grade": "classFive",
                 "age": 10,
                 "date_of_birth": "2014-12-10",
                 "hobbies": ["Reading Books", "Photography"],
                 "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "business"
+                "category": "classFive"
             },
             {
                 "_id": "121",
                 "roll_number": "13",
                 "name": "Kamal Uddin",
-                "grade": "Class 5",
+                "grade": "classFive",
                 "age": 10,
                 "date_of_birth": "2014-12-10",
                 "hobbies": ["Reading Books", "Photography"],
                 "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "business"
+                "category": "classFive"
             },
             {
                 "_id": "122",
                 "roll_number": "14",
                 "name": "Amal Uddin",
-                "grade": "Class 5",
+                "grade": "classFive",
                 "age": 10,
                 "date_of_birth": "2014-12-10",
                 "hobbies": ["Reading Books", "Photography"],
                 "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "business"
+                "category": "classFive"
             },
             {
                 "_id": "12",
                 "roll_number": "12",
                 "name": "Tomal Uddin",
-                "grade": "Class 5",
+                "grade": "classFive",
                 "age": 10,
                 "date_of_birth": "2014-12-10",
                 "hobbies": ["Reading Books", "Photography"],
                 "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "business"
+                "category": "classFive"
             },
             {
                 "_id": "12",
                 "roll_number": "12",
                 "name": "Jamal Uddin",
-                "grade": "Class 5",
+                "grade": "classFive",
                 "age": 10,
                 "date_of_birth": "2014-12-10",
                 "hobbies": ["Reading Books", "Photography"],
                 "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "business"
+                "category": "classFive"
             },
             {
                 "_id": "12",
                 "roll_number": "12",
                 "name": "Jamal Uddin",
-                "grade": "Class 5",
+                "grade": "classFive",
                 "age": 10,
                 "date_of_birth": "2014-12-10",
                 "hobbies": ["Reading Books", "Photography"],
                 "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "business"
+                "category": "classFive"
             },
             {
                 "_id": "125",
                 "roll_number": "125",
                 "name": "Yamal Uddin",
-                "grade": "Class 5",
+                "grade": "classFive",
                 "age": 10,
                 "date_of_birth": "2014-12-10",
                 "hobbies": ["Reading Books", "Photography"],
                 "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "business"
+                "category": "classFive"
             },
             {
                 "_id": "126",
                 "roll_number": "126",
                 "name": "Zamal Uddin",
-                "grade": "Class 5",
+                "grade": "classFive",
                 "age": 10,
                 "date_of_birth": "2014-12-10",
                 "hobbies": ["Reading Books", "Photography"],
                 "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "business"
+                "category": "classFive"
             },
             {
                 "_id": "13",
                 "roll_number": "1",
                 "name": "শফিকুল ইসলাম",
-                "grade": "শ্রেণি 1",
+                "grade": "classOne",
                 "age": 6,
                 "date_of_birth": "2018-05-14",
                 "hobbies": ["আঁকা", "পড়া"],
                 "photo_url": "https://example.com/photos/shafikul_islam.jpg",
-                "category": "শিল্পী"
+                "category": "classOne"
             },
             {
                 "_id": "14",
                 "roll_number": "2",
                 "name": "সামিয়া রহমান",
-                "grade": "শ্রেণি 1",
+                "grade": "classOne",
                 "age": 6,
                 "date_of_birth": "2018-03-22",
                 "hobbies": ["গান করা", "নাচ করা"],
                 "photo_url": "https://example.com/photos/samia_rahman.jpg",
-                "category": "গায়িকা"
+                "category": "classOne"
             },
             {
                 "_id": "14",
                 "roll_number": "3",
                 "name": "ফারহান আহমেদ",
-                "grade": "শ্রেণি 2",
+                "grade": "classTwo",
                 "age": 7,
                 "date_of_birth": "2017-09-30",
                 "hobbies": ["সাইক্লিং", "ক্রিকেট খেলা"],
                 "photo_url": "https://example.com/photos/farhan_ahmed.jpg",
-                "category": "ক্রিকেটার"
+                "category": "classTwo"
             },
             {
                 "_id": "15",
                 "roll_number": "4",
                 "name": "মাহমুদা সুলতানা",
-                "grade": "শ্রেণি 2",
+                "grade": "classTwo",
                 "age": 7,
                 "date_of_birth": "2017-11-11",
                 "hobbies": ["আঁকা", "সাঁতার কাটা"],
                 "photo_url": "https://example.com/photos/mahmuda_sultana.jpg",
-                "category": "শিল্পী"
+                "category": "classTwo"
             },
             {
                 "_id": "16",
                 "roll_number": "5",
                 "name": "আরিফুল হক",
-                "grade": "শ্রেণি 3",
+                "grade": "classThree",
                 "age": 8,
                 "date_of_birth": "2016-07-15",
                 "hobbies": ["ফুটবল খেলা", "সাইক্লিং"],
                 "photo_url": "https://example.com/photos/ariful_haque.jpg",
-                "category": "ফুটবল খেলোয়াড়"
+                "category": "classThree"
             },
             {
                 "_id": "17",
                 "roll_number": "6",
                 "name": "রেহানা পারভীন",
-                "grade": "শ্রেণি 3",
+                "grade": "classThree",
                 "age": 8,
                 "date_of_birth": "2016-04-10",
                 "hobbies": ["গান করা", "গার্ডেনিং"],
                 "photo_url": "https://example.com/photos/rehana_parvin.jpg",
-                "category": "গায়িকা"
+                "category": "classThree"
             },
             {
                 "_id": "18",
                 "roll_number": "7",
                 "name": "ইমরান হোসেন",
-                "grade": "শ্রেণি 4",
+                "grade": "classThree",
                 "age": 9,
                 "date_of_birth": "2015-01-22",
                 "hobbies": ["ফুটবল খেলা", "সাইক্লিং"],
                 "photo_url": "https://example.com/photos/imran_hossain.jpg",
-                "category": "ফুটবল খেলোয়াড়"
+                "category": "classThree"
             },
             {
-                "_id": "19",
-                "roll_number": "8",
+                "_id": "১৯",
+                "roll_number": "৮",
                 "name": "মারুফ হাসান",
-                "grade": "শ্রেণি 4",
-                "age": 9,
-                "date_of_birth": "2015-06-14",
+                "grade": "classThree",
+                "age": "৯",
+                "date_of_birth": "১৪/০৬/২০১৫",
                 "hobbies": ["আঁকা", "পড়া"],
                 "photo_url": "https://example.com/photos/maruf_hasan.jpg",
-                "category": "শিল্পী"
+                "category": "classThree"
             },
             {
                 "_id": "20",
                 "roll_number": "9",
                 "name": "সাবিনা আক্তার",
-                "grade": "শ্রেণি 5",
+                "grade": "classFive",
                 "age": 10,
                 "date_of_birth": "2014-03-28",
                 "hobbies": ["গান করা", "সাঁতার কাটা"],
                 "photo_url": "https://example.com/photos/sabina_akter.jpg",
-                "category": "গায়িকা"
+                "category": "classFive"
             },
             {
                 "_id": "21",
                 "roll_number": "10",
                 "name": "রাকিব হাসান",
-                "grade": "শ্রেণি 5",
+                "grade": "classFive",
                 "age": 10,
                 "date_of_birth": "2014-09-19",
                 "hobbies": ["ক্রিকেট খেলা", "সাইক্লিং"],
                 "photo_url": "https://example.com/photos/rakib_hasan.jpg",
-                "category": "ক্রিকেটার"
+                "category": "classFive"
             },
             {
                 "_id": "22",
                 "roll_number": "11",
                 "name": "নাদিয়া সুলতানা",
-                "grade": "শ্রেণি 6",
+                "grade": "classTwo",
                 "age": 11,
                 "date_of_birth": "2013-07-11",
                 "hobbies": ["আঁকা", "পড়া"],
                 "photo_url": "https://example.com/photos/nadia_sultana.jpg",
-                "category": "শিল্পী"
+                "category": "classTwo"
             },
             {
                 "_id": "23",
                 "roll_number": "12",
                 "name": "রাকিবুল ইসলাম",
-                "grade": "শ্রেণি 6",
+                "grade": "classTwo",
                 "age": 11,
                 "date_of_birth": "2013-12-18",
                 "hobbies": ["গান করা", "গার্ডেনিং"],
                 "photo_url": "https://example.com/photos/rakibul_islam.jpg",
-                "category": "গায়ক"
+                "category": "classTwo"
             },
             {
                 "_id": "24",
                 "roll_number": "13",
                 "name": "তানিয়া আক্তার",
-                "grade": "শ্রেণি 7",
+                "grade": "prePrimary",
                 "age": 12,
                 "date_of_birth": "2012-11-20",
                 "hobbies": ["গান করা", "নাচ করা"],
-                "photo_url": "https://example.com/photos/tania_akter.jpg",
-                "category": "গায়িকা"
-            },
-            {
-                "_id": "25",
-                "roll_number": "14",
-                "name": "আবির হাসান",
-                "grade": "শ্রেণি 7",
-                "age": 12,
-                "date_of_birth": "2012-03-12",
-                "hobbies": ["ক্রিকেট খেলা", "সাইক্লিং"],
-                "photo_url": "https://example.com/photos/abir_hasan.jpg",
-                "category": "ক্রিকেটার"
-            },
-            {
-                "_id": "26",
-                "roll_number": "15",
-                "name": "রিনা খাতুন",
-                "grade": "শ্রেণি 8",
-                "age": 13,
-                "date_of_birth": "2011-05-24",
-                "hobbies": ["গান করা", "গার্ডেনিং"],
-                "photo_url": "https://example.com/photos/rina_khatun.jpg",
-                "category": "গায়িকা"
-            },
-            {
-                "_id": "27",
-                "roll_number": "16",
-                "name": "মো. হাসান",
-                "grade": "শ্রেণি 8",
-                "age": 13,
-                "date_of_birth": "2011-10-05",
-                "hobbies": ["ফুটবল খেলা", "সাইক্লিং"],
-                "photo_url": "https://example.com/photos/md_hasan.jpg",
-                "category": "ফুটবল খেলোয়াড়"
+                "photo_url": "https://img.freepik.com/free-photo/schoolgirl-gesturing-two-fingers_23-2147659220.jpg?uid=R98122162&ga=GA1.1.1193485818.1725585533&semt=ais_hybrid",
+                "category": "prePrimary"
             },
             {
                 "_id": "28",
                 "roll_number": "17",
                 "name": "আফসানা বেগম",
-                "grade": "শ্রেণি 9",
+                "grade": "classTwo",
                 "age": 14,
                 "date_of_birth": "2010-08-16",
                 "hobbies": ["গান করা", "গার্ডেনিং"],
                 "photo_url": "https://example.com/photos/afsana_begum.jpg",
-                "category": "গায়িকা"
+                "category": "classTwo"
             },
             {
                 "_id": "29",
                 "roll_number": "18",
                 "name": "রাকিবুল হাসান",
-                "grade": "শ্রেণি 9",
+                "grade": "classTwo",
                 "age": 14,
                 "date_of_birth": "2010-12-25",
                 "hobbies": ["ক্রিকেট খেলা", "সাইক্লিং"],
                 "photo_url": "https://example.com/photos/rakibul_hasan.jpg",
-                "category": "ক্রিকেটার"
+                "category": "classTwo"
             },  
             {
                 "_id": "300",
                 "roll_number": "30",
                 "name": "Mashiur Rahman",
-                "grade": "Class 4",
+                "grade": "classFour",
                 "age": 9,
                 "date_of_birth": "2015-06-20",
                 "hobbies": ["Playing Cricket", "Watching Movies"],
                 "photo_url": "https://example.com/photos/moshiur_rahman.jpg",
-                "category": "teacher"
+                "category": "classFour"
             },
             {
                 "_id": "301",
                 "roll_number": "30",
                 "name": "Mr. Nasir",
-                "grade": "Class 4",
+                "grade": "classFour",
                 "age": 9,
                 "date_of_birth": "2015-06-20",
                 "hobbies": ["Playing Cricket", "Watching Movies"],
                 "photo_url": "https://example.com/photos/moshiur_rahman.jpg",
-                "category": "teacher"
+                "category": "classFour"
             },
             {
                 "_id": "302",
                 "roll_number": "30",
                 "name": "Bashiur Rahman",
-                "grade": "Class 4",
+                "grade": "classFour",
                 "age": 9,
                 "date_of_birth": "2015-06-20",
                 "hobbies": ["Playing Football", "Watching Movies"],
                 "photo_url": "https://example.com/photos/moshiur_rahman.jpg",
-                "category": "teacher"
+                "category": "classFour"
             },
             {
                 "_id": "302",
                 "roll_number": "30",
                 "name": "Bashiur Rahman",
-                "grade": "Class 4",
+                "grade": "classFour",
                 "age": 9,
                 "date_of_birth": "2015-06-20",
                 "hobbies": ["Playing Football", "Watching Movies"],
                 "photo_url": "https://example.com/photos/moshiur_rahman.jpg",
-                "category": "teacher"
-            },
-            
-            {
-                "_id": "T001",
-                "date_of_joining": "২০১৯-০৪-১৫",
-                "name": "আব্দুস সালাম",
-                "subject": "লোক প্রশাসন",
-                "date_of_birth": "১৯৮৬-০২-০১",
-                "phone": "+৮৮০-২-৬৭৮৯০১২",
-                "photo_url": "https://i.ibb.co/ypsVBnS/abdus-png.png",
-                "highest_level_of_education": "মাস্টার্স ইন সোশ্যাল সায়েন্স",
-                "area_of_interest": "প্রোগ্রামিং",
-                "experience": "11 years",
-                "category": "popular"
+                "category": "classFour"
             },
             {
-                "_id": "T002",
-                "date_of_joining": "২০১৮-০৩-১০",
-                "name": "নুরজাহান আক্তার",
-                "subject": "বাংলা",
-                "date_of_birth": "১৯৯০-০৭-২৫",
-                "phone": "+৮৮০-২-৫৬৭৮৯০১",
-                "photo_url": "https://example.com/photos/ms_rahman.jpg",
-                "highest_level_of_education": "মাস্টার্স ইন বাংলা",
-                "area_of_interest": "কবিতা",
-                "experience": "8 years",
+                "_id": "T004",
+                "date_of_joining": "2016-09-15",
+                "tName": "আয়েশা আক্তার",
+                "tPost": "প্রধান শিক্ষক (ভারপ্রাপ্ত)",
+                "subject": "ইংরেজি",
+                "date_of_birth": "1975-03-30",
+                "phone": "+880-2-3456789",
+                "photo_url": "https://i.ibb.co.com/m8Z2jC8/ayesha.png",
+                "highest_level_of_education": "Masters in English",
+                "area_of_interest": "বাগান করা, ভ্রমণ করা",
+                "experience": "২২ বছর",
                 "category": "popular"
             },
             {
                 "_id": "T003",
                 "date_of_joining": "2015-08-01",
-                "name": "সমীর চন্দ্র সাহা",
-                "subject": "English",
-                "date_of_birth": "1980-09-12",
-                "phone": "+880-2-2345678",
-                "photo_url": "https://example.com/photos/mrs_akhter.jpg",
-                "highest_level_of_education": "Masters in English",
-                "area_of_interest": "Literature",
-                "experience": "16 years",
+                "tName": "সমীর চন্দ্র সাহা",
+                "tPost": "সহকারী শিক্ষক",
+                "subject": "গণিত",
+                "date_of_birth": "১৯৮০-০৯-১২",
+                "phone": "+০০০০০০০০০০০০",
+                "photo_url": "https://i.ibb.co.com/Wn5Vqfb/samir.png",
+                "highest_level_of_education": "ব্যাচেলর অব আর্টস (পাস)",
+                "area_of_interest": "গাণিতিক যুক্তি",
+                "experience": "১৬ বছর",
                 "category": "popular"
             },
             {
-                "_id": "T004",
-                "date_of_joining": "2016-09-15",
-                "name": "আয়েশা আক্তার",
-                "subject": "Mathematics",
-                "date_of_birth": "1975-03-30",
-                "phone": "+880-2-3456789",
-                "photo_url": "https://example.com/photos/mr_chowdhury.jpg",
-                "highest_level_of_education": "Masters in Mathematics",
-                "area_of_interest": "Algebra",
-                "experience": "22 years",
+                "_id": "T001",
+                "date_of_joining": "২০১৯-০৪-১৫",
+                "tName": "আব্দুস সালাম",
+                "tPost": "সহকারী শিক্ষক",
+                "subject": "লোক প্রশাসন",
+                "date_of_birth": "১৯৮৬-০২-০১",
+                "phone": "+৮৮০-২-৬৭৮৯০১২",
+                "photo_url": "https://i.ibb.co.com/rHbvLV5/abdusbl.jpg",
+                "highest_level_of_education": "মাস্টার্স ইন সোশ্যাল সায়েন্স",
+                "area_of_interest": "প্রোগ্রামিং",
+                "experience": " ১২ বছর",
                 "category": "popular"
             },
+            
+            {
+                "_id": "T002",
+                "date_of_joining": "২০১৮-০৩-১০",
+                "tName": "নুরজাহান আক্তার",
+                "tPost": "সহকারী শিক্ষক",
+                "subject": "বাংলা",
+                "date_of_birth": "১৯৯০-০৭-২৫",
+                "phone": "+৮৮০-২-৫৬৭৮৯০১",
+                "photo_url": "https://i.ibb.co.com/Lk4FnNN/monni.png",
+                "highest_level_of_education": "মাস্টার্স ইন আর্টস",
+                "area_of_interest": "কবিতা",
+                "experience": "৮ বছর",
+                "category": "popular"
+            },
+            
             {
                 "_id": "T005",
                 "date_of_joining": "2017-01-20",
-                "name": "রহিমা ইসলাম",
+                "tName": "রহিমা ইসলাম",
+                "tPost": "সহকারী শিক্ষক",
                 "subject": "Science",
                 "date_of_birth": "1985-01-18",
                 "phone": "+880-2-4567890",
-                "photo_url": "https://example.com/photos/mrs_hossain.jpg",
+                "photo_url": "https://i.ibb.co.com/pww2CWP/rahima.png",
                 "highest_level_of_education": "Masters in Science",
                 "area_of_interest": "Physics",
                 "category": "popular",
-                "experience": "8 years"
+                "experience": "৮ বছর"
             },
             {
                 "_id": "T006",
                 "date_of_joining": "2018-03-10",
-                "name": "নাদিয়া রহমান মিলি",
+                "tName": "নাদিয়া রহমান মিলি",
+                "tPost": "সহকারী শিক্ষক",
                 "subject": "Bengali",
                 "date_of_birth": "1990-07-25",
                 "phone": "+880-2-5678901",
-                "photo_url": "https://example.com/photos/ms_rahman.jpg",
+                "photo_url": "https://i.ibb.co.com/Hd7SkFF/nadia.png",
                 "highest_level_of_education": "Masters in Bengali",
                 "area_of_interest": "Poetry",
                 "category": "popular",
-                "experience": "5 years"
+                "experience": "5 বছর"
             },
             {
                 "_id": "A001",
                 "roll_number": "A006",
                 "name": "Mr. Nasir",
+                "tPost": "সহকারী শিক্ষক",
                 "subject": "Classroom Assistant",
                 "date_of_birth": "1992-05-18",
                 "phone": "+880-2-7890124",
@@ -668,6 +688,284 @@
                 "date_of_birth": "1989-07-20",
                 "phone": "+880-2-3333300",
                 "photo_url": "https://example.com/photos/mr_islam_committee.jpg"
-            }
-        ]
+            },
+
+
+
+
+
+
+
         
+            {
+              "name": "Donate",
+              "description": "Support school development and student welfare by making a donation.",
+              "price": 1000,
+              "currency": "BDT",
+              "isOptional": true,
+              "paymentMode": ["Cash", "Bank Transfer", "Online Payment"],
+              "remarks": "Donations are voluntary and highly appreciated."
+            },
+            {
+              "name": "Donate",
+              "description": "Contribute to the scholarship fund for underprivileged students.",
+              "price": 2000,
+              "currency": "BDT",
+              "isOptional": true,
+              "paymentMode": ["Cash", "Online Payment"],
+              "remarks": "Your generosity helps students in need."
+            },
+            {
+              "name": "Donate",
+              "description": "Assist in building a new science laboratory for students.",
+              "price": 5000,
+              "currency": "BDT",
+              "isOptional": true,
+              "paymentMode": ["Cash", "Bank Transfer"],
+              "remarks": "Every contribution makes a difference."
+            },
+            {
+              "name": "Donate",
+              "description": "Support extracurricular activities by contributing to the activities fund.",
+              "price": 1500,
+              "currency": "BDT",
+              "isOptional": true,
+              "paymentMode": ["Online Payment"],
+              "remarks": "Encourage students' all-around development."
+            },
+            {
+              "name": "Donate",
+              "description": "Help maintain school facilities and infrastructure.",
+              "price": 3000,
+              "currency": "BDT",
+              "isOptional": true,
+              "paymentMode": ["Cash", "Bank Transfer", "Online Payment"],
+              "remarks": "Your support ensures a better learning environment."
+            },
+            {
+              "name": "Donate",
+              "description": "Fund the purchase of digital learning equipment.",
+              "price": 4000,
+              "currency": "BDT",
+              "isOptional": true,
+              "paymentMode": ["Bank Transfer", "Online Payment"],
+              "remarks": "Empowering students with technology."
+            },
+            {
+              "name": "Logo",
+              "description": "Purchase the official school logo badge for uniforms.",
+              "price": 50,
+              "currency": "BDT",
+              "isOptional": false,
+              "paymentMode": ["Cash", "Online Payment"],
+              "remarks": "Each student must wear the school logo on their uniform."
+            },
+            {
+              "name": "Logo",
+              "description": "Buy an embroidered school logo for winter jackets.",
+              "price": 70,
+              "currency": "BDT",
+              "isOptional": true,
+              "paymentMode": ["Cash", "Online Payment"],
+              "remarks": "Perfect for colder seasons."
+            },
+            {
+              "name": "Logo",
+              "description": "Purchase a custom-designed school crest for bags.",
+              "price": 30,
+              "currency": "BDT",
+              "isOptional": false,
+              "paymentMode": ["Cash", "Bank Transfer"],
+              "remarks": "Required for all students."
+            },
+            {
+              "name": "Logo",
+              "description": "Buy the metal pin version of the school logo.",
+              "price": 100,
+              "currency": "BDT",
+              "isOptional": true,
+              "paymentMode": ["Cash", "Online Payment"],
+              "remarks": "A premium option for students."
+            },
+            {
+              "name": "Logo",
+              "description": "Get a logo sticker for notebooks and personal belongings.",
+              "price": 20,
+              "currency": "BDT",
+              "isOptional": true,
+              "paymentMode": ["Cash"],
+              "remarks": "Encourages school spirit."
+            },
+            {
+              "name": "Logo",
+              "description": "Order a premium cloth patch of the school logo.",
+              "price": 120,
+              "currency": "BDT",
+              "isOptional": true,
+              "paymentMode": ["Cash", "Online Payment"],
+              "remarks": "Ideal for high-quality uniforms."
+            },
+            {
+              "name": "Scout Fee",
+              "description": "Pay the annual fee for participation in scout activities.",
+              "price": 300,
+              "currency": "BDT",
+              "isOptional": true,
+              "paymentMode": ["Cash", "Online Payment"],
+              "remarks": "Participation in scouts helps build leadership and teamwork skills."
+            },
+            {
+              "name": "Scout Fee",
+              "description": "Support the cost of scout camping trips.",
+              "price": 500,
+              "currency": "BDT",
+              "isOptional": true,
+              "paymentMode": ["Cash", "Bank Transfer"],
+              "remarks": "Covers travel and accommodation expenses."
+            },
+            {
+              "name": "Scout Fee",
+              "description": "Contribute to scout uniform expenses.",
+              "price": 250,
+              "currency": "BDT",
+              "isOptional": true,
+              "paymentMode": ["Cash", "Online Payment"],
+              "remarks": "Uniforms symbolize unity and discipline."
+            },
+            {
+              "name": "Scout Fee",
+              "description": "Fund skill-building workshops for scouts.",
+              "price": 400,
+              "currency": "BDT",
+              "isOptional": true,
+              "paymentMode": ["Online Payment"],
+              "remarks": "Workshops focus on survival and teamwork skills."
+            },
+            {
+              "name": "Scout Fee",
+              "description": "Contribute to the scout fund for badge-making activities.",
+              "price": 100,
+              "currency": "BDT",
+              "isOptional": true,
+              "paymentMode": ["Cash", "Online Payment"],
+              "remarks": "Earn badges through achievements."
+            },
+            {
+              "name": "Scout Fee",
+              "description": "Pay for participation in regional scouting events.",
+              "price": 600,
+              "currency": "BDT",
+              "isOptional": true,
+              "paymentMode": ["Cash", "Bank Transfer"],
+              "remarks": "Opportunity to connect with other scouts."
+            },
+                {
+                  "name": "Tour Fee",
+                  "description": "Cover the cost of the annual school tour.",
+                  "price": 1500,
+                  "currency": "BDT",
+                  "isOptional": true,
+                  "paymentMode": ["Cash", "Bank Transfer", "Online Payment"],
+                  "remarks": "The fee includes transportation, meals, and entry tickets."
+                },
+                {
+                  "name": "Tour Fee",
+                  "description": "Cover the cost of the annual school tour to the historical sites.",
+                  "price": 1800,
+                  "currency": "BDT",
+                  "isOptional": true,
+                  "paymentMode": ["Cash", "Bank Transfer", "Online Payment"],
+                  "remarks": "This fee includes accommodation, meals, and travel expenses."
+                },
+                {
+                  "name": "Tour Fee",
+                  "description": "Support the educational school tour experience.",
+                  "price": 1200,
+                  "currency": "BDT",
+                  "isOptional": true,
+                  "paymentMode": ["Cash", "Bank Transfer", "Online Payment"],
+                  "remarks": "The fee covers bus transport, meals, and entry tickets for museum visits."
+                },
+                {
+                  "name": "Tour Fee",
+                  "description": "Annual school tour to a theme park or recreational center.",
+                  "price": 1000,
+                  "currency": "BDT",
+                  "isOptional": true,
+                  "paymentMode": ["Cash", "Bank Transfer", "Online Payment"],
+                  "remarks": "The fee includes transportation and entry tickets."
+                },
+                {
+                  "name": "Tour Fee",
+                  "description": "Cost for attending the year-end school field trip to a nature reserve.",
+                  "price": 2000,
+                  "currency": "BDT",
+                  "isOptional": true,
+                  "paymentMode": ["Cash", "Bank Transfer", "Online Payment"],
+                  "remarks": "The fee covers travel, lunch, and park entry tickets."
+                },
+                {
+                  "name": "Tour Fee",
+                  "description": "Contribution to the school’s historical and cultural tour.",
+                  "price": 2500,
+                  "currency": "BDT",
+                  "isOptional": true,
+                  "paymentMode": ["Cash", "Bank Transfer", "Online Payment"],
+                  "remarks": "Includes travel, accommodation, meals, and sightseeing expenses."
+                },
+                {
+                  "name": "Party Fee",
+                  "description": "Contribute to the annual school party expenses.",
+                  "price": 500,
+                  "currency": "BDT",
+                  "isOptional": true,
+                  "paymentMode": ["Cash", "Online Payment"],
+                  "remarks": "The party fee covers venue, decorations, and refreshments."
+                },
+                {
+                  "name": "Party Fee",
+                  "description": "Support for the end-of-year school celebration party.",
+                  "price": 600,
+                  "currency": "BDT",
+                  "isOptional": true,
+                  "paymentMode": ["Cash", "Online Payment"],
+                  "remarks": "Covers expenses for food, entertainment, and decorations."
+                },
+                {
+                  "name": "Party Fee",
+                  "description": "Annual school party for students and staff.",
+                  "price": 700,
+                  "currency": "BDT",
+                  "isOptional": true,
+                  "paymentMode": ["Cash", "Online Payment"],
+                  "remarks": "Covers the cost of venue rental, decorations, and catering."
+                },
+                {
+                  "name": "Party Fee",
+                  "description": "Contribution to the class-specific party fund.",
+                  "price": 300,
+                  "currency": "BDT",
+                  "isOptional": true,
+                  "paymentMode": ["Cash", "Online Payment"],
+                  "remarks": "For snacks, refreshments, and decorations for class events."
+                },
+                {
+                  "name": "Party Fee",
+                  "description": "Contribute to the holiday-themed school party.",
+                  "price": 800,
+                  "currency": "BDT",
+                  "isOptional": true,
+                  "paymentMode": ["Cash", "Online Payment"],
+                  "remarks": "Covers the expenses for holiday-themed decorations, food, and entertainment."
+                },
+                {
+                  "name": "Party Fee",
+                  "description": "End-of-year celebratory party fee for the school.",
+                  "price": 1000,
+                  "currency": "BDT",
+                  "isOptional": true,
+                  "paymentMode": ["Cash", "Online Payment"],
+                  "remarks": "The fee covers party decorations, food, and music performances."
+                }
+          ]
+          

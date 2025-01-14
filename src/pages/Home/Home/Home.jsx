@@ -1,10 +1,10 @@
 import React from 'react'
 import Banner from '../Banner/Banner'
 import Category from '../Category'
-import PopularMenu from '../PopularMenu'
 import Featured from '../Featured/Featured'
 import Testimonials from '../Testimonials'
 import { Helmet } from 'react-helmet-async'
+import AdmissionAndFees from '../AdmissionAndFees'
 
 const Home = () => {
   return (
@@ -14,8 +14,7 @@ const Home = () => {
         </Helmet>
       <Banner></Banner>
       <Category></Category>
-      <PopularMenu></PopularMenu>
-      <Featured></Featured>
+      <AdmissionAndFees></AdmissionAndFees>
       <Testimonials></Testimonials>
     </div>
 

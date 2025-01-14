@@ -12,29 +12,29 @@ import slide6 from '../../assets/home/boyfoot.jpeg'
 import SectionTitle from '../../components/SectionTitle';
 const Category = () => {
     return (
-        <secton className="my-8">
+        <secton className="my-8 font-noto-sans-bengali text-sky-400">
             <SectionTitle
             heading={"বৈচিত্রময় কার্যক্রম"} subHeading={"সহ-শিক্ষামূলক উদ্যোগ"}></SectionTitle>
             <Swiper
                 slidesPerView={4}
                 spaceBetween={30}
-                centeredSlides={true}
+                // centeredSlides={true}
                 pagination={{
-                    clickable: true,
+                clickable: true,
                 }}
                 modules={[Pagination]}
                 className="mySwiper mb-24"
                 
             >
-                <div className="text-xl  ">
+                <div className="text-xl">
                     <SwiperSlide className=''>
                         <img className='h-[300px] w-[280px] border-red-00' src={slide1} alt="" />
                         <h3 className='my-4 text-center -mt-10 uppercase text-white'>ক্ষুদে ডাক্তার</h3>
                     </SwiperSlide>
-                    <SwiperSlide> <img src={slide2} alt="" />
-                        <h3 className=' text-center -mt-16 uppercase text-white'>চিত্রাংকন প্রতিযোগিতা</h3></SwiperSlide>
-                    <SwiperSlide><img src={slide3} alt="" />
-                        <h3 className=' text-center -mt-16 uppercase text-white'> বঙ্গমাতা ফুটবল প্রতিযোগিতা</h3></SwiperSlide>
+                    <SwiperSlide> <img src={slide2} className='h-[300px] w-[280px]' alt="" />
+                        <h3 className=' text-center -mt-10 uppercase text-white'>চিত্রাংকন প্রতিযোগিতা</h3></SwiperSlide>
+                    <SwiperSlide><img src={slide3} className='h-[300px] w-[280px]' alt="" />
+                        <h3 className=' text-center -mt-10 uppercase text-white'>প্রাথমিক বিদ্যালয় গোল্ডকাপ</h3></SwiperSlide>
                     <SwiperSlide> <img className='h-[300px] w-[280px]' src={slide4} alt="" />
                         <h3 className=' text-center -mt-10 uppercase text-white'>জাতীয় দিবসে দুআ</h3>
                     </SwiperSlide>

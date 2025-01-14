@@ -1,0 +1,51 @@
+import { useState } from "react";
+import shopImg from "../../../assets/Other/flat-back-school-sale-horizontal-banner-template-with-supplies_23-2149480702.jpg"
+import Cover from "../../../pages/Shared/Cover"
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
+import useFee from "../../../hooks/useFee";
+import OrderTab from "../../../pages/Order/OrderTab/OrderTab";
+
+const Shop = () => {
+    const [tabIndex, setTabIndex] = useState(0);
+  const [fee] = useFee();
+
+  const donate = fee.filter(item => item.name === "donate");
+  const logo = fee.filter(item => item.name === "logo");
+  const scoutFee = fee.filter(item => item.name === "scoutFee");
+  const partyFee = fee.filter(item => item.name === "partyFee");
+  const tourFee = fee.filter(item => item.name === "tourFee");
+  return (
+    <div>
+        <div className="mt-24">
+            <Cover  img={shopImg} title={"কেনাকাটা করুন"} ></Cover>
+            <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)} className='justify-center items-center ml-20 mt-10  '>
+  <TabList className="flex justify-center items-center gap-4 text-purple-400">
+    <Tab>অনুদান</Tab>
+    <Tab>লোগো</Tab>
+    <Tab>স্কাউট চাঁদা</Tab>
+    <Tab>শিক্ষা সফর</Tab>
+    <Tab>ক্লাস পার্টি</Tab>
+  </TabList>
+  <TabPanel>
+    <OrderTab items={donate}></OrderTab>
+  </TabPanel>
+  <TabPanel>
+    <OrderTab items={logo}></OrderTab>
+  </TabPanel>
+  <TabPanel>
+    <OrderTab items={scoutFee}></OrderTab>
+  </TabPanel>
+  <TabPanel>
+    <OrderTab items={partyFee}></OrderTab>
+  </TabPanel>
+  <TabPanel>
+    <OrderTab items={tourFee}></OrderTab>
+  </TabPanel>
+</Tabs>
+        </div>
+    </div>
+  )
+}
+
+export default Shop

@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'noto-sans-bengali': ['Noto Sans Bengali', 'serif'],
+      },
+    },
   },
   plugins: [
     require('daisyui'),

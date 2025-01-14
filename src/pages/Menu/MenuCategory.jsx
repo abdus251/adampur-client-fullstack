@@ -3,7 +3,7 @@ import Cover from '../Shared/Cover'
 import menuImg from '../../assets/home/motherCon.jpeg'
 import { Link } from 'react-router-dom'
 
-const MenuCategory = ({ items, title, img }) => {
+export const MenuCategory = ({ items, title, img }) => {
   return (
     <div className="pt-2">
       {title && <Cover img={img} title={title}></Cover>}
@@ -15,11 +15,11 @@ const MenuCategory = ({ items, title, img }) => {
           ></MenuItem>)
         }
       </div>
-<Link to={`/order/${title}`}>
+<Link to={`/shop/${title}`}>
 <button className="btn btn-outline border-0 border-b-4">বিস্তারিত দেখুন</button>
 </Link>
     </div>
   )
 }
 
-export default MenuCategory
+export default MenuCategory;
