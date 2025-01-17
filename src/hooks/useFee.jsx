@@ -4,7 +4,7 @@ const useFee = () => {
   const [fee, setfee] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("http://localhost:5000/fee")
+    fetch("http://sudo delete web service mongo-car-doctor-server/fee")
       .then((res) => res.json())
       .then((data) => {
         setfee(data);

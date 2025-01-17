@@ -50,7 +50,7 @@ export const router = createBrowserRouter([
       {
         path: "applicationForm",
         element: <ApplicationForm />,
-        // loader: () => fetch('http://localhost:5000/student')
+        // loader: () => fetch('http://sudo delete web service mongo-car-doctor-server/student')
       },
       {
         path: "prePrimary",
@@ -165,7 +165,7 @@ export const router = createBrowserRouter([
           </AdminRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/menu/${params.id}`),
+          fetch(`http://sudo delete web service mongo-car-doctor-server/menu/${params.id}`),
       },
       {
         path: "users",
@@ -178,7 +178,7 @@ export const router = createBrowserRouter([
       {
         path: "addStudents",
         element: <AddStudents></AddStudents>,
-        loader: () => fetch("http://localhost:5000/student"),
+        loader: () => fetch("http://sudo delete web service mongo-car-doctor-server/student"),
       },
     ],
   },

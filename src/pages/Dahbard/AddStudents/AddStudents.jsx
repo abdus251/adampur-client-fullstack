@@ -11,7 +11,7 @@ const AddStudents = () => {
 
   useEffect(() => {
     // Fetch student data from the API
-    axios.get("http://localhost:5000/student")
+    axios.get("http://sudo delete web service mongo-car-doctor-server/student")
       .then((res) => {
         console.log(res.data); // Check if data is fetched correctly
         setStudents(res.data); // Set data to state

@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const axiosPublic = axios.create({
-    baseURL: 'http://localhost:5000'
+    baseURL: 'http://sudo delete web service mongo-car-doctor-server'
 })
 
 const useAxiosPublic = () => {

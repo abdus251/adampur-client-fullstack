@@ -18,7 +18,7 @@ const AddStudent = () => {
         const newStudent = { name, no, fName, nid, mName, mNid, mNumber, photo, admit, previous}
         // console.log(newStudent);
     // send data to server
-    fetch('http://localhost:5000/student', {
+    fetch('http://sudo delete web service mongo-car-doctor-server/student', {
         method: 'POST',
         headers: {
             'content-type': 'application/json'
