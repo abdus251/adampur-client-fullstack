@@ -4,7 +4,7 @@ const useFee = () => {
   const [fee, setfee] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("http://sudo delete web service mongo-car-doctor-server/fee")
+    fetch("http://https://adampur-server-fullstack-4.onrender.com/fee")
       .then((res) => res.json())
       .then((data) => {
         setfee(data);

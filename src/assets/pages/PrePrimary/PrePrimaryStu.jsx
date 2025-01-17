@@ -16,7 +16,7 @@ const PrePrimaryStu = ({ item }) => {
       confirmButtonText: "হ্যাঁ, মুছে ফেলুন!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://sudo delete web service mongo-car-doctor-server/menu/${_id}`, {
+        fetch(`http://https://adampur-server-fullstack-4.onrender.com/menu/${_id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())

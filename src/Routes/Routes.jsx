@@ -50,7 +50,7 @@ export const router = createBrowserRouter([
       {
         path: "applicationForm",
         element: <ApplicationForm />,
-        // loader: () => fetch('http://sudo delete web service mongo-car-doctor-server/student')
+        // loader: () => fetch('http://https://adampur-server-fullstack-4.onrender.com/student')
       },
       {
         path: "prePrimary",
@@ -95,14 +95,6 @@ export const router = createBrowserRouter([
       {
         path: "signup",
         element: <Signup />,
-      },
-      {
-        path: "secret",
-        element: (
-          <PrivateRoute>
-            <Secret></Secret>
-          </PrivateRoute>
-        ),
       },
     ],
   },
@@ -165,7 +157,7 @@ export const router = createBrowserRouter([
           </AdminRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://sudo delete web service mongo-car-doctor-server/menu/${params.id}`),
+          fetch(`http://https://adampur-server-fullstack-4.onrender.com/menu/${params.id}`),
       },
       {
         path: "users",
@@ -178,7 +170,7 @@ export const router = createBrowserRouter([
       {
         path: "addStudents",
         element: <AddStudents></AddStudents>,
-        loader: () => fetch("http://sudo delete web service mongo-car-doctor-server/student"),
+        loader: () => fetch("http://https://adampur-server-fullstack-4.onrender.com/student"),
       },
     ],
   },

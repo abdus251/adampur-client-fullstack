@@ -4,7 +4,7 @@ import useAuth from "./useAuth";
 
 // Create an Axios instance with a base URL
 export const axiosSecure = axios.create({
-  baseURL: "http://sudo delete web service mongo-car-doctor-server",
+  baseURL: "http://https://adampur-server-fullstack-4.onrender.com",
 });
 
 const useAxiosSecure = () => {

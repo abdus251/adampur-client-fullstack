@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const axiosPublic = axios.create({
-    baseURL: 'http://sudo delete web service mongo-car-doctor-server'
+    baseURL: 'http://https://adampur-server-fullstack-4.onrender.com'
 })
 
 const useAxiosPublic = () => {

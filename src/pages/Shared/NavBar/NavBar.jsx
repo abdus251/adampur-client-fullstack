@@ -30,7 +30,7 @@ const NavBar = () => {
       <li className="font-noto-sans-bengali ml-5">
         <Link to="/applicationForm">আবেদন ফরম</Link>
       </li>
-      {
+      {/* {
         user && isAdmin && <li className="font-noto-sans-bengali ml-5">
         <Link to="/secret">Secret</Link>
       </li>
@@ -39,15 +39,15 @@ const NavBar = () => {
         user && !isAdmin && <li className="font-noto-sans-bengali ml-5">
         <Link to="/dashboard/adminHome">Secret</Link>
       </li>
-      }
+      } */}
       {user && isAdmin && (
         <li className="font-noto-sans-bengali">
-          <Link to="/dashboard/userHome">Dashboard</Link>
+          <Link to="/dashboard/userHome">ড্যাশবোর্ড</Link>
         </li>
       )}
       {user && !isAdmin && (
         <li className="font-noto-sans-bengali">
-          <Link to="/dashboard/userHome">Dashboard</Link>
+          <Link to="/dashboard/userHome">ড্যাশবোর্ড</Link>
         </li>
       )}
 
@@ -120,9 +120,19 @@ const NavBar = () => {
       {/* Logo Section */}
       <div className="flex items-center justify-center my-3 ">
         <a className="flex gap-5 justify-center items-center">
-          <img className="h-20 w-20" src={logo} alt="Adompur School Logo" />
+          <img className="h-24 w-24" src={logo} alt="Adompur School Logo" />
           <span className="text-2xl text-sky-400 font-bold font-noto-sans-bengali">
-            আদমপুর <br /> সরকারি প্রাথমিক বিদ্যালয়, <br /> বন্দর, নারায়ণগঞ্জ
+           <span className="text-orange-400">আ</span>দমপুর <br /> 
+           <span className="text-orange-400">স</span>
+           রকারি 
+           <span className="text-orange-400">  প্রা</span>
+           থমিক 
+           <span className="text-orange-400"> বি</span>
+          দ্যালয়, <br /> 
+          <span className="text-orange-400"> ব</span>
+          ন্দর, 
+          <span className="text-orange-400"> না</span>
+          রায়ণগঞ্জ
           </span>
         </a>
       </div>

@@ -18,7 +18,7 @@ const AddStudent = () => {
         const newStudent = { name, no, fName, nid, mName, mNid, mNumber, photo, admit, previous}
         // console.log(newStudent);
     // send data to server
-    fetch('http://sudo delete web service mongo-car-doctor-server/student', {
+    fetch('http://https://adampur-server-fullstack-4.onrender.com/student', {
         method: 'POST',
         headers: {
             'content-type': 'application/json'
