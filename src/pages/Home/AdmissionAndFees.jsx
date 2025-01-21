@@ -1,8 +1,8 @@
 import React from "react";
+import { AiOutlineMail } from "react-icons/ai";
 import {
   FaFacebookF,
   FaInstagram,
-  FaLinkedin,
   FaLinkedinIn,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -58,14 +58,14 @@ const AdmissionAndFees = () => {
         <p className="mt-5">
           আদমপুর সরকারি প্রাথমিক বিদ্যালয়, <br /> বন্দর, নারায়ণগঞ্জ, বাংলাদেশ
           <br />
-          মোবাইল: + ১৯১৩০৯৮৮৪২ (অফিস সময়ে)
+          মোবাইল: (+৮৮০) ১৯১৩০৯৮৮৪২ (অফিস সময়ে)
           <br />
-          অফিস ইমেইল: admin@nordenschool.com
+          অফিস ইমেইল: adampurgps6@gmail.com
         </p>
         <div className="flex gap-5 my-10 justify-center">
         <Link><FaFacebookF /></Link>
         <Link><FaInstagram /></Link>
-        <Link><FaLinkedinIn /></Link>
+        <Link><AiOutlineMail /></Link>
         </div>
         <section className="mt-20">
           {/* form */}
@@ -118,9 +118,20 @@ const AdmissionAndFees = () => {
       </div>
       
   {/* MAP */}
-  <div style={{width: '100%'}}>
-        <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=%E0%A6%86%E0%A6%A6%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%B0,%20%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0,+(%E0%A6%86%E0%A6%A6%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%B0%20%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF%20%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A5%E0%A6%AE%E0%A6%BF%E0%A6%95%20%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps trackers</a></iframe>
-    </div>  
+  <div style={{ width: '100%' }}>
+  <iframe
+    width="100%"
+    height="600"
+    frameBorder="0"
+    scrolling="no"
+    marginHeight="0"
+    marginWidth="0"
+    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=%E0%A6%86%E0%A6%A6%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%B0,%20%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0,+(%E0%A6%86%E0%A6%A6%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%B0%20%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF%20%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A5%E0%A6%AE%E0%A6%BF%E0%A6%95%20%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+  >
+    <a href="https://www.gps.ie/">gps trackers</a>
+  </iframe>
+</div>
+ 
     </>
   );
 };

@@ -30,6 +30,7 @@ import PaymentHistory from "../pages/Dahbard/PaymentHistory/PaymentHistory";
 import AdminHome from "../pages/Dahbard/AdminHome/AdminHome";
 
 import UserHome from "../pages/Dahbard/UserHome/UserHome"
+import AddReview from "../pages/Dahbard/AddReview/AddReview";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -50,7 +51,7 @@ export const router = createBrowserRouter([
       {
         path: "applicationForm",
         element: <ApplicationForm />,
-        // loader: () => fetch('http://https://adampur-server-fullstack-4.onrender.com/student')
+        loader: () => fetch('https://adampur-server-fullstack-3.onrender.com')
       },
       {
         path: "prePrimary",
@@ -116,6 +117,10 @@ export const router = createBrowserRouter([
         element: <UserHome></UserHome>,
       },
       {
+        path: "review",
+        element: <AddReview></AddReview>,
+      },
+      {
         path: "payment",
         element: <Payment></Payment>,
       },
@@ -157,7 +162,7 @@ export const router = createBrowserRouter([
           </AdminRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://https://adampur-server-fullstack-4.onrender.com/menu/${params.id}`),
+          fetch(`https://adampur-server-fullstack-3.onrender.com/menu/${params.id}`),
       },
       {
         path: "users",
@@ -170,7 +175,7 @@ export const router = createBrowserRouter([
       {
         path: "addStudents",
         element: <AddStudents></AddStudents>,
-        loader: () => fetch("http://https://adampur-server-fullstack-4.onrender.com/student"),
+        loader: () => fetch("https://adampur-server-fullstack-3.onrender.com/student"),
       },
     ],
   },

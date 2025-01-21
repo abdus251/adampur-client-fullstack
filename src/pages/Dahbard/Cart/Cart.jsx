@@ -38,9 +38,9 @@ const Cart = () => {
 
   return (
     <div>
-      <div className="flex justify-evenly">
-        <h2 className="text-2xl">Items: {cart.length}</h2>
-        <h2 className="text-2xl">Total Price: ৳ {totalPrice}</h2>
+      <div className="flex justify-evenly items-center mb-10">
+        <h2 className="text-xl text-sky-400">বিবিধ খাত: {cart.length}</h2>
+        <h2 className="text-xl  text-sky-400"> মোট অর্থ: <span className="text-3xl">৳</span> {totalPrice}</h2>
       {cart.length ? <Link to="/dashboard/payment">
        <button className="btn btn-primary">Pay</button>
        </Link>
@@ -57,11 +57,11 @@ const Cart = () => {
           <table className="table">
             <thead>
               <tr>
-                <th>#</th>
-                <th>Image</th>
-                <th>Name</th>
-                <th>Price</th>
-                <th>Action</th>
+                <th>ক্র.নং.</th>
+                <th>ছবি</th>
+                <th>নাম</th>
+                <th>টাকা</th>
+                <th>ডিলিট</th>
               </tr>
             </thead>
             <tbody>

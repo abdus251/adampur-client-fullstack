@@ -1,5 +1,6 @@
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { AiOutlineMail } from "react-icons/ai";
 
 const Contact = () => {
   return (
@@ -18,8 +19,8 @@ const Contact = () => {
           <br />
           <br />
           ঠিকানা: আদমপুর, বন্দর, নারায়ণগঞ্জ, বাংলাদেশ <br />
-          ইমেইল: admin@nordenschool.com <br />
-          ফোন নম্বর: +০১৯১৩০৯৮৮৪২
+          ইমেইল: adampurgps6@gmail.com <br />
+          ফোন নম্বর: (+৮৮০)১৯১৩০৯৮৮৪২
          </div>
           <div className="flex gap-5 my-10 justify-center mt-20">
             <Link>
@@ -29,7 +30,7 @@ const Contact = () => {
               <FaInstagram />
             </Link>
             <Link>
-              <FaLinkedinIn />
+            <AiOutlineMail />
             </Link>
           </div>
         </div>
@@ -80,18 +81,26 @@ const Contact = () => {
                   ></textarea>
                 </fieldset>
               </div>
-              <button className=" mt-8 sm:ml-5 bg-black text-white py-3 rounded-none w-full font-bold mb-20">
+             <div className="ml-4">
+             <button className=" mt-8 sm:ml-5 bg-black text-white py-3 rounded-none lg:w-[390px] w-[610px] font-bold mb-20">
                 Submit
               </button>
+             </div>
             </form>
           </section>
         </div>
       </div>
-
       {/* MAP */}
-      <div style={{width: '100%'}}>
-        <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=%E0%A6%86%E0%A6%A6%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%B0,%20%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0,+(%E0%A6%86%E0%A6%A6%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%B0%20%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF%20%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A5%E0%A6%AE%E0%A6%BF%E0%A6%95%20%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps trackers</a></iframe>
-    </div>  
+      <div className="relative w-full pb-[56.25%]">
+  <iframe
+    title="Responsive Google Map"
+    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=%E0%A6%86%E0%A6%A6%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%B0,%20%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0,+(%E0%A6%86%E0%A6%A6%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%B0%20%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF%20%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A5%E0%A6%AE%E0%A6%BF%E0%A6%95%20%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+    className="absolute top-0 left-0 w-full h-full border-none"
+    allowFullScreen
+    loading="lazy"
+  ></iframe>
+</div>
+
     </>
   );
 };

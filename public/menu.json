@@ -171,94 +171,6 @@
                 "category": "classFive"
             },
             {
-                "_id": "12",
-                "roll_number": "12",
-                "name": "Akther Uddin",
-                "grade": "classFive",
-                "age": 10,
-                "date_of_birth": "2014-12-10",
-                "hobbies": ["Reading Books", "Photography"],
-                "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "classFive"
-            },
-            {
-                "_id": "121",
-                "roll_number": "13",
-                "name": "Kamal Uddin",
-                "grade": "classFive",
-                "age": 10,
-                "date_of_birth": "2014-12-10",
-                "hobbies": ["Reading Books", "Photography"],
-                "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "classFive"
-            },
-            {
-                "_id": "122",
-                "roll_number": "14",
-                "name": "Amal Uddin",
-                "grade": "classFive",
-                "age": 10,
-                "date_of_birth": "2014-12-10",
-                "hobbies": ["Reading Books", "Photography"],
-                "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "classFive"
-            },
-            {
-                "_id": "12",
-                "roll_number": "12",
-                "name": "Tomal Uddin",
-                "grade": "classFive",
-                "age": 10,
-                "date_of_birth": "2014-12-10",
-                "hobbies": ["Reading Books", "Photography"],
-                "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "classFive"
-            },
-            {
-                "_id": "12",
-                "roll_number": "12",
-                "name": "Jamal Uddin",
-                "grade": "classFive",
-                "age": 10,
-                "date_of_birth": "2014-12-10",
-                "hobbies": ["Reading Books", "Photography"],
-                "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "classFive"
-            },
-            {
-                "_id": "12",
-                "roll_number": "12",
-                "name": "Jamal Uddin",
-                "grade": "classFive",
-                "age": 10,
-                "date_of_birth": "2014-12-10",
-                "hobbies": ["Reading Books", "Photography"],
-                "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "classFive"
-            },
-            {
-                "_id": "125",
-                "roll_number": "125",
-                "name": "Yamal Uddin",
-                "grade": "classFive",
-                "age": 10,
-                "date_of_birth": "2014-12-10",
-                "hobbies": ["Reading Books", "Photography"],
-                "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "classFive"
-            },
-            {
-                "_id": "126",
-                "roll_number": "126",
-                "name": "Zamal Uddin",
-                "grade": "classFive",
-                "age": 10,
-                "date_of_birth": "2014-12-10",
-                "hobbies": ["Reading Books", "Photography"],
-                "photo_url": "https://example.com/photos/jamal_uddin.jpg",
-                "category": "classFive"
-            },
-            {
                 "_id": "13",
                 "roll_number": "1",
                 "name": "শফিকুল ইসলাম",
@@ -333,17 +245,6 @@
                 "date_of_birth": "2015-01-22",
                 "hobbies": ["ফুটবল খেলা", "সাইক্লিং"],
                 "photo_url": "https://example.com/photos/imran_hossain.jpg",
-                "category": "classThree"
-            },
-            {
-                "_id": "১৯",
-                "roll_number": "৮",
-                "name": "মারুফ হাসান",
-                "grade": "classThree",
-                "age": "৯",
-                "date_of_birth": "১৪/০৬/২০১৫",
-                "hobbies": ["আঁকা", "পড়া"],
-                "photo_url": "https://example.com/photos/maruf_hasan.jpg",
                 "category": "classThree"
             },
             {
@@ -554,418 +455,64 @@
                 "experience": "5 বছর"
             },
             {
-                "_id": "A001",
-                "roll_number": "A006",
-                "name": "Mr. Nasir",
-                "tPost": "সহকারী শিক্ষক",
-                "subject": "Classroom Assistant",
-                "date_of_birth": "1992-05-18",
-                "phone": "+880-2-7890124",
-                "photo_url": "https://example.com/photos/mr_nasir.jpg"
-            },
-         {
-            "_id": "HT001",
-            "roll_number": "HT001",
-            "name": "Dr. Farhana",
-            "subject": "Head teacher",
-            "date_of_birth": "1970-01-12",
-            "phone": "+880-2-8901235",
-            "photo_url": "https://example.com/photos/dr_farhana.jpg"
-        },
-      {
                 "_id": "C001",
                 "member_id": "CM001",
-                "name": "Mr. Rahman",
+                "name": "মিঃ রাহমান",
                 "role": "Chairperson",
+                "category": "committee",
                 "date_of_birth": "1965-02-14",
                 "phone": "+880-2-1111111",
                 "photo_url": "https://example.com/photos/mr_rahman.jpg"
-            },
-            {
+              },
+              {
                 "_id": "C002",
                 "member_id": "CM002",
-                "name": "Mrs. Sultana",
+                "name": "মিসেস সুলতানা",
                 "role": "Vice Chairperson",
+                "category": "committee",
                 "date_of_birth": "1970-07-22",
                 "phone": "+880-2-2222222",
                 "photo_url": "https://example.com/photos/mrs_sultana.jpg"
-            },
-            {
+              },
+              {
                 "_id": "C003",
                 "member_id": "CM003",
-                "name": "Mr. Chowdhury",
+                "name": "মিঃ চৌধুরী",
                 "role": "Secretary",
+                "category": "committee",
                 "date_of_birth": "1980-03-15",
                 "phone": "+880-2-3333333",
                 "photo_url": "https://example.com/photos/mr_chowdhury_committee.jpg"
-            },
-            {
+              },
+              {
                 "_id": "C004",
                 "member_id": "CM004",
-                "name": "Ms. Hasan",
+                "name": "মিস হোসেন",
                 "role": "Treasurer",
+                "category": "committee",
                 "date_of_birth": "1985-11-30",
                 "phone": "+880-2-4444444",
                 "photo_url": "https://example.com/photos/ms_hasan.jpg"
-            },
-            {
+              },
+              {
                 "_id": "C005",
                 "member_id": "CM005",
-                "name": "Mr. Ahmed",
+                "name": "মিঃ আহমেদ",
                 "role": "Member",
+                "category": "committee",
                 "date_of_birth": "1978-09-05",
                 "phone": "+880-2-5555555",
                 "photo_url": "https://example.com/photos/mr_ahmed_committee.jpg"
-            },
-            {
+              },
+              {
                 "_id": "C006",
                 "member_id": "CM006",
-                "name": "Ms. Begum",
+                "name": "মিসেস বেগম",
                 "role": "Member",
+                "category": "committee",
                 "date_of_birth": "1990-02-14",
                 "phone": "+880-2-6666666",
                 "photo_url": "https://example.com/photos/ms_begum_committee.jpg"
-            },
-            {
-                "_id": "C007",
-                "member_id": "CM007",
-                "name": "Mr. Karim",
-                "role": "Member",
-                "date_of_birth": "1975-08-20",
-                "phone": "+880-2-7777777",
-                "photo_url": "https://example.com/photos/mr_karim_committee.jpg"
-            },
-            {
-                "_id": "C008",
-                "member_id": "CM008",
-                "name": "Mrs. Ali",
-                "role": "Member",
-                "date_of_birth": "1983-05-17",
-                "phone": "+880-2-8888888",
-                "photo_url": "https://example.com/photos/mrs_ali.jpg"
-            },
-            {
-                "_id": "C009",
-                "member_id": "CM009",
-                "name": "Mr. Hossain",
-                "role": "Member",
-                "date_of_birth": "1988-11-30",
-                "phone": "+880-2-9999999",
-                "photo_url": "https://example.com/photos/mr_hossain.jpg"
-            },
-            {
-                "_id": "C010",
-                "member_id": "CM010",
-                "name": "Ms. Rahman",
-                "role": "Member",
-                "date_of_birth": "1992-04-12",
-                "phone": "+880-2-0000000",
-                "photo_url": "https://example.com/photos/ms_rahman_committee.jpg"
-            },
-            {
-                "_id": "C011",
-                "member_id": "CM011",
-                "name": "Mr. Chowdhury",
-                "role": "Member",
-                "date_of_birth": "1976-06-25",
-                "phone": "+880-2-1111000",
-                "photo_url": "https://example.com/photos/mr_chowdhury_committee.jpg"
-            },
-            {
-                "_id": "C012",
-                "member_id": "CM012",
-                "name": "Ms. Akter",
-                "role": "Member",
-                "date_of_birth": "1984-01-15",
-                "phone": "+880-2-2222200",
-                "photo_url": "https://example.com/photos/ms_akter.jpg"
-            },
-            {
-                "_id": "C013",
-                "member_id": "CM013",
-                "name": "Mr. Islam",
-                "role": "Member",
-                "date_of_birth": "1989-07-20",
-                "phone": "+880-2-3333300",
-                "photo_url": "https://example.com/photos/mr_islam_committee.jpg"
-            },
-
-
-
-
-
-
-
-        
-            {
-              "name": "Donate",
-              "description": "Support school development and student welfare by making a donation.",
-              "price": 1000,
-              "currency": "BDT",
-              "isOptional": true,
-              "paymentMode": ["Cash", "Bank Transfer", "Online Payment"],
-              "remarks": "Donations are voluntary and highly appreciated."
-            },
-            {
-              "name": "Donate",
-              "description": "Contribute to the scholarship fund for underprivileged students.",
-              "price": 2000,
-              "currency": "BDT",
-              "isOptional": true,
-              "paymentMode": ["Cash", "Online Payment"],
-              "remarks": "Your generosity helps students in need."
-            },
-            {
-              "name": "Donate",
-              "description": "Assist in building a new science laboratory for students.",
-              "price": 5000,
-              "currency": "BDT",
-              "isOptional": true,
-              "paymentMode": ["Cash", "Bank Transfer"],
-              "remarks": "Every contribution makes a difference."
-            },
-            {
-              "name": "Donate",
-              "description": "Support extracurricular activities by contributing to the activities fund.",
-              "price": 1500,
-              "currency": "BDT",
-              "isOptional": true,
-              "paymentMode": ["Online Payment"],
-              "remarks": "Encourage students' all-around development."
-            },
-            {
-              "name": "Donate",
-              "description": "Help maintain school facilities and infrastructure.",
-              "price": 3000,
-              "currency": "BDT",
-              "isOptional": true,
-              "paymentMode": ["Cash", "Bank Transfer", "Online Payment"],
-              "remarks": "Your support ensures a better learning environment."
-            },
-            {
-              "name": "Donate",
-              "description": "Fund the purchase of digital learning equipment.",
-              "price": 4000,
-              "currency": "BDT",
-              "isOptional": true,
-              "paymentMode": ["Bank Transfer", "Online Payment"],
-              "remarks": "Empowering students with technology."
-            },
-            {
-              "name": "Logo",
-              "description": "Purchase the official school logo badge for uniforms.",
-              "price": 50,
-              "currency": "BDT",
-              "isOptional": false,
-              "paymentMode": ["Cash", "Online Payment"],
-              "remarks": "Each student must wear the school logo on their uniform."
-            },
-            {
-              "name": "Logo",
-              "description": "Buy an embroidered school logo for winter jackets.",
-              "price": 70,
-              "currency": "BDT",
-              "isOptional": true,
-              "paymentMode": ["Cash", "Online Payment"],
-              "remarks": "Perfect for colder seasons."
-            },
-            {
-              "name": "Logo",
-              "description": "Purchase a custom-designed school crest for bags.",
-              "price": 30,
-              "currency": "BDT",
-              "isOptional": false,
-              "paymentMode": ["Cash", "Bank Transfer"],
-              "remarks": "Required for all students."
-            },
-            {
-              "name": "Logo",
-              "description": "Buy the metal pin version of the school logo.",
-              "price": 100,
-              "currency": "BDT",
-              "isOptional": true,
-              "paymentMode": ["Cash", "Online Payment"],
-              "remarks": "A premium option for students."
-            },
-            {
-              "name": "Logo",
-              "description": "Get a logo sticker for notebooks and personal belongings.",
-              "price": 20,
-              "currency": "BDT",
-              "isOptional": true,
-              "paymentMode": ["Cash"],
-              "remarks": "Encourages school spirit."
-            },
-            {
-              "name": "Logo",
-              "description": "Order a premium cloth patch of the school logo.",
-              "price": 120,
-              "currency": "BDT",
-              "isOptional": true,
-              "paymentMode": ["Cash", "Online Payment"],
-              "remarks": "Ideal for high-quality uniforms."
-            },
-            {
-              "name": "Scout Fee",
-              "description": "Pay the annual fee for participation in scout activities.",
-              "price": 300,
-              "currency": "BDT",
-              "isOptional": true,
-              "paymentMode": ["Cash", "Online Payment"],
-              "remarks": "Participation in scouts helps build leadership and teamwork skills."
-            },
-            {
-              "name": "Scout Fee",
-              "description": "Support the cost of scout camping trips.",
-              "price": 500,
-              "currency": "BDT",
-              "isOptional": true,
-              "paymentMode": ["Cash", "Bank Transfer"],
-              "remarks": "Covers travel and accommodation expenses."
-            },
-            {
-              "name": "Scout Fee",
-              "description": "Contribute to scout uniform expenses.",
-              "price": 250,
-              "currency": "BDT",
-              "isOptional": true,
-              "paymentMode": ["Cash", "Online Payment"],
-              "remarks": "Uniforms symbolize unity and discipline."
-            },
-            {
-              "name": "Scout Fee",
-              "description": "Fund skill-building workshops for scouts.",
-              "price": 400,
-              "currency": "BDT",
-              "isOptional": true,
-              "paymentMode": ["Online Payment"],
-              "remarks": "Workshops focus on survival and teamwork skills."
-            },
-            {
-              "name": "Scout Fee",
-              "description": "Contribute to the scout fund for badge-making activities.",
-              "price": 100,
-              "currency": "BDT",
-              "isOptional": true,
-              "paymentMode": ["Cash", "Online Payment"],
-              "remarks": "Earn badges through achievements."
-            },
-            {
-              "name": "Scout Fee",
-              "description": "Pay for participation in regional scouting events.",
-              "price": 600,
-              "currency": "BDT",
-              "isOptional": true,
-              "paymentMode": ["Cash", "Bank Transfer"],
-              "remarks": "Opportunity to connect with other scouts."
-            },
-                {
-                  "name": "Tour Fee",
-                  "description": "Cover the cost of the annual school tour.",
-                  "price": 1500,
-                  "currency": "BDT",
-                  "isOptional": true,
-                  "paymentMode": ["Cash", "Bank Transfer", "Online Payment"],
-                  "remarks": "The fee includes transportation, meals, and entry tickets."
-                },
-                {
-                  "name": "Tour Fee",
-                  "description": "Cover the cost of the annual school tour to the historical sites.",
-                  "price": 1800,
-                  "currency": "BDT",
-                  "isOptional": true,
-                  "paymentMode": ["Cash", "Bank Transfer", "Online Payment"],
-                  "remarks": "This fee includes accommodation, meals, and travel expenses."
-                },
-                {
-                  "name": "Tour Fee",
-                  "description": "Support the educational school tour experience.",
-                  "price": 1200,
-                  "currency": "BDT",
-                  "isOptional": true,
-                  "paymentMode": ["Cash", "Bank Transfer", "Online Payment"],
-                  "remarks": "The fee covers bus transport, meals, and entry tickets for museum visits."
-                },
-                {
-                  "name": "Tour Fee",
-                  "description": "Annual school tour to a theme park or recreational center.",
-                  "price": 1000,
-                  "currency": "BDT",
-                  "isOptional": true,
-                  "paymentMode": ["Cash", "Bank Transfer", "Online Payment"],
-                  "remarks": "The fee includes transportation and entry tickets."
-                },
-                {
-                  "name": "Tour Fee",
-                  "description": "Cost for attending the year-end school field trip to a nature reserve.",
-                  "price": 2000,
-                  "currency": "BDT",
-                  "isOptional": true,
-                  "paymentMode": ["Cash", "Bank Transfer", "Online Payment"],
-                  "remarks": "The fee covers travel, lunch, and park entry tickets."
-                },
-                {
-                  "name": "Tour Fee",
-                  "description": "Contribution to the school’s historical and cultural tour.",
-                  "price": 2500,
-                  "currency": "BDT",
-                  "isOptional": true,
-                  "paymentMode": ["Cash", "Bank Transfer", "Online Payment"],
-                  "remarks": "Includes travel, accommodation, meals, and sightseeing expenses."
-                },
-                {
-                  "name": "Party Fee",
-                  "description": "Contribute to the annual school party expenses.",
-                  "price": 500,
-                  "currency": "BDT",
-                  "isOptional": true,
-                  "paymentMode": ["Cash", "Online Payment"],
-                  "remarks": "The party fee covers venue, decorations, and refreshments."
-                },
-                {
-                  "name": "Party Fee",
-                  "description": "Support for the end-of-year school celebration party.",
-                  "price": 600,
-                  "currency": "BDT",
-                  "isOptional": true,
-                  "paymentMode": ["Cash", "Online Payment"],
-                  "remarks": "Covers expenses for food, entertainment, and decorations."
-                },
-                {
-                  "name": "Party Fee",
-                  "description": "Annual school party for students and staff.",
-                  "price": 700,
-                  "currency": "BDT",
-                  "isOptional": true,
-                  "paymentMode": ["Cash", "Online Payment"],
-                  "remarks": "Covers the cost of venue rental, decorations, and catering."
-                },
-                {
-                  "name": "Party Fee",
-                  "description": "Contribution to the class-specific party fund.",
-                  "price": 300,
-                  "currency": "BDT",
-                  "isOptional": true,
-                  "paymentMode": ["Cash", "Online Payment"],
-                  "remarks": "For snacks, refreshments, and decorations for class events."
-                },
-                {
-                  "name": "Party Fee",
-                  "description": "Contribute to the holiday-themed school party.",
-                  "price": 800,
-                  "currency": "BDT",
-                  "isOptional": true,
-                  "paymentMode": ["Cash", "Online Payment"],
-                  "remarks": "Covers the expenses for holiday-themed decorations, food, and entertainment."
-                },
-                {
-                  "name": "Party Fee",
-                  "description": "End-of-year celebratory party fee for the school.",
-                  "price": 1000,
-                  "currency": "BDT",
-                  "isOptional": true,
-                  "paymentMode": ["Cash", "Online Payment"],
-                  "remarks": "The fee covers party decorations, food, and music performances."
-                }
+              }
           ]
           

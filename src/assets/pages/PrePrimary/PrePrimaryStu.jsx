@@ -16,12 +16,12 @@ const PrePrimaryStu = ({ item }) => {
       confirmButtonText: "হ্যাঁ, মুছে ফেলুন!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://https://adampur-server-fullstack-4.onrender.com/menu/${_id}`, {
+        fetch(`https://adampur-server-fullstack-3.onrender.com/menu/${_id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())
           .then((data) => {
-            console.log(data);
+            // console.log(data);
             if (data.deletedCount > 0) {
               Swal.fire({
                 title: "মুছে ফেলা হয়েছে!",

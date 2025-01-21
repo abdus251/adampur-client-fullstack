@@ -11,7 +11,7 @@ const AddStudents = () => {
 
   useEffect(() => {
     // Fetch student data from the API
-    axios.get("http://https://adampur-server-fullstack-4.onrender.com/student")
+    axios.get("https://adampur-server-fullstack-3.onrender.com/student")
       .then((res) => {
         console.log(res.data); // Check if data is fetched correctly
         setStudents(res.data); // Set data to state

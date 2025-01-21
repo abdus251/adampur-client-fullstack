@@ -18,7 +18,7 @@ const AddStudent = () => {
         const newStudent = { name, no, fName, nid, mName, mNid, mNumber, photo, admit, previous}
         // console.log(newStudent);
     // send data to server
-    fetch('http://https://adampur-server-fullstack-4.onrender.com/student', {
+    fetch('https://adampur-server-fullstack-3.onrender.com/student', {
         method: 'POST',
         headers: {
             'content-type': 'application/json'
@@ -28,7 +28,7 @@ const AddStudent = () => {
 
     .then(res => res.json())
     .then(data => {
-        console.log(data);
+        // console.log(data);
     })
     }
   return (

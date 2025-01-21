@@ -1,7 +1,12 @@
-import { FaAd, FaBook, FaCalendar, FaEnvelope, FaHome, FaList, FaShoppingCart,  FaUsers, FaUtensils } from "react-icons/fa";
+import { FaAd, FaCalendar, FaEnvelope, FaHome, FaList, FaShoppingCart,  FaUsers } from "react-icons/fa";
 import { NavLink, Outlet } from "react-router-dom";
 import useCart from "../hooks/useCart";
 import useAdmin from "../hooks/useAdmin";
+import { IoIosPersonAdd } from "react-icons/io";
+import { GrUserAdmin } from "react-icons/gr";
+import { LiaSchoolSolid } from "react-icons/lia";
+import { RiHomeGearLine } from "react-icons/ri";
+import { TbCoinTaka } from "react-icons/tb";
 
 const Dashboard = () => {
 const [cart] = useCart();
@@ -20,68 +25,59 @@ const [isAdmin, isLoading] = useAdmin();
             isAdmin ? <>
             <li>
             <NavLink to="/dashboard/adminHome">
-              <FaHome></FaHome>
-              Admin Home
+            <RiHomeGearLine />
+              এডমিন হোম
             </NavLink>
-          </li>
-          <li>
-            <NavLink to="/dashboard/addItems">
-            <FaUtensils></FaUtensils>
-              Add Items</NavLink>
-          </li>
-          <li>
-            <NavLink to="/dashboard/manageItems">
-             <FaList></FaList>
-              Manage Items</NavLink>
-          </li>
-          <li>
-            <NavLink to="/dashboard/bookings">
-             <FaBook></FaBook>
-             Manage Bookings</NavLink>
-          </li>
-          <li>
-            <NavLink to="/dashboard/users">
-             <FaUsers></FaUsers>
-              All Users</NavLink>
           </li>
           <li>
             <NavLink to="/dashboard/addStudents">
               <FaList></FaList>
-              Add Students</NavLink>
+              ভর্তিচ্ছু শিক্ষার্থী</NavLink>
           </li>
+          <li>
+            <NavLink to="/dashboard/addItems">
+            <IoIosPersonAdd />
+              শিক্ষার্থী যুক্ত করুন</NavLink>
+          </li>
+          <li>
+            <NavLink to="/dashboard/manageItems">
+            <GrUserAdmin />
+              শিক্ষার্থী ব্যবস্থাপনা</NavLink>
+          </li>
+          <li>
+            <NavLink to="/dashboard/users">
+             <FaUsers></FaUsers>
+              সব ইউজার</NavLink>
+          </li>
+          
             </>
             :
             <>
             <li>
             <NavLink to="/dashboard/userHome">
               <FaHome></FaHome>
-              User Home
+              ইউজার হোম
             </NavLink>
-          </li>
-          <li>
-            <NavLink to="/dashboard/history">
-              <FaCalendar></FaCalendar>
-              Not History</NavLink>
           </li>
           <li>
             <NavLink to="/dashboard/cart">
               <FaShoppingCart></FaShoppingCart>
-              My Cart ({cart.length})</NavLink>
+              আমার কার্ট ({cart.length})</NavLink>
           </li>
           <li>
             <NavLink to="/dashboard/review">
               <FaAd></FaAd>
-              Add a Review</NavLink>
+              রিভিউ এন্ড রেটিং</NavLink>
           </li>
           <li>
             <NavLink to="/dashboard/paymentHistory">
-              <FaList></FaList>
-              Payment Real History</NavLink>
+            <TbCoinTaka />
+              অর্থ প্রদানের তথ্য</NavLink>
           </li>
           <li>
             <NavLink to="/dashboard/addStudents">
               <FaList></FaList>
-              Add Students</NavLink>
+              ভর্তিচ্ছু শিক্ষার্থী</NavLink>
           </li>
             </>
           }
@@ -90,19 +86,19 @@ const [isAdmin, isLoading] = useAdmin();
           <li>
             <NavLink to="/">
               <FaHome></FaHome>
-              Home
+              হোম
             </NavLink>
           </li>
           <li>
             <NavLink to="/primary">
-              <FaHome></FaHome>
-              Primary
+            <LiaSchoolSolid />
+              প্রাথমিক
             </NavLink>
           </li>
           <li>
-            <NavLink to="/dashboard/contact">
+            <NavLink to="/contact">
             <FaEnvelope></FaEnvelope>
-              Contact
+             যোগাযোগ
             </NavLink>
           </li>
 

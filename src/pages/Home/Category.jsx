@@ -12,7 +12,7 @@ import slide6 from '../../assets/home/boyfoot.jpeg'
 import SectionTitle from '../../components/SectionTitle';
 const Category = () => {
     return (
-        <secton className="my-8 font-noto-sans-bengali text-sky-400">
+        <section className="my-8 font-noto-sans-bengali text-sky-400">
             <SectionTitle
             heading={"বৈচিত্রময় কার্যক্রম"} subHeading={"সহ-শিক্ষামূলক উদ্যোগ"}></SectionTitle>
             <Swiper
@@ -46,7 +46,7 @@ const Category = () => {
                     </SwiperSlide>
                 </div>
             </Swiper>
-        </secton>
+        </section>
     )
 }
 

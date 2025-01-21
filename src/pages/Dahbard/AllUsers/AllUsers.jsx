@@ -62,8 +62,8 @@ const AllUsers = () => {
   return (
     <div>
       <div className="flex justify-evenly my-4">
-        <h2 className="text-3xl">AllUsers</h2>
-        <h2 className="text-3xl">Total Users: {users.length}</h2>
+        <h2 className="text-3xl text-sky-400">সকল ইউজার</h2>
+       
       </div>
       {/* table */}
       <div className="overflow-x-auto">
@@ -71,11 +71,11 @@ const AllUsers = () => {
           {/* head */}
           <thead>
             <tr>
-              <th>#</th>
-              <th>Name</th>
-              <th>Email</th>
-              <th>Role</th>
-              <th>Action</th>
+              <th>ক্র.নং.</th>
+              <th>নাম</th>
+              <th>ইমেইল</th>
+              <th>রোল</th>
+              <th>মুছে ফেলুন</th>
             </tr>
           </thead>
           <tbody>

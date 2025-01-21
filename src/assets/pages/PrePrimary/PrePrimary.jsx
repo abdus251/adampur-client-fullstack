@@ -1,17 +1,4 @@
 import React, { useEffect, useState } from "react";
-import pre1 from "../../../assets/prePhoto/pre1.jpg";
-import pre2 from "../../../assets/prePhoto/pre2.jpg";
-import pre4 from "../../../assets/prePhoto/pre4.jpg";
-import pre5 from "../../../assets/prePhoto/pre5.jpg";
-import pre6 from "../../../assets/prePhoto/pre6.jpg";
-// import One from "../One/One";
-import PrePrimaryStu from "./PrePrimaryStu";
-import Two from "../Two/Two";
-import Three from "../Three/Three";
-import Four from "./Four/Four";
-import Five from "../Five/Five";
-import useMenu from "../../../hooks/useMenu";
-import AddStudent from "../../../pages/AddStudent/AddStudent";
 import { FaCircle } from "react-icons/fa";
 import img from "../../../assets/banner/kid-letter.jpg"
 import { Link } from "react-router-dom";
@@ -211,34 +198,12 @@ const PrePrimary = () => {
             
             প্রাক-প্রাথমিক শেণিতে ভর্তির আবেদনকাল 
             নভেম্বর মাসে শুরু হয়ে ফেব্রুয়ারির শেষ দিন পর্যন্ত চলমান থাকে। আপনার আদুরে সোণামণিকে এই আদর্শ শিক্ষা প্রতিষ্ঠানে ভর্তির জন্য, অনুগ্রহ করে এই <button>
-                <Link to='/applicationForm' className="text-sky-400">আবেদন ফর্মটি</Link>
+                <Link to='/applicationForm' className="text-sky-400"> আবেদন ফর্মটি</Link>
                 </button> পূরণ করুন।
             </p>
           </div>
         </div>
       </div>
-      {/* <div className="grid grid-cols-3">
-                <img src={pre1} alt="" />
-                <img src={pre2} alt="" />
-                {/* <img className='h-[375px] w-[500px]' src={pre3} alt="" /> */}
-      {/* <img src={pre4} alt="" />
-                <img src={pre5} alt="" />
-                <img src={pre6} alt="" />
-            </div>  */}
-      {/* <div className="grid grid-cols-3">
-                {
-                    prePrimary.map(first => <PrePrimaryStu
-                        key={first._id}
-                        first={first}
-                    ></PrePrimaryStu>)
-                }
-            </div> */}
-      {/* <AddStudent></AddStudent>
-            <One></One>
-            <Two></Two>
-            <Three></Three>
-            <Four></Four>
-            <Five></Five> */}
     </div>
   );
 };

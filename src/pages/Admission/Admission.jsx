@@ -2,6 +2,7 @@ import docc1 from "../../assets/mini-doctor/docc1.jpg";
 import eyeTest from "../../assets/mini-doctor/eye.jpg";
 import tree from "../../assets/Other/treePlant.jpeg";
 import child from "../../assets/Other/2child.jpeg";
+import { Link } from "react-router-dom";
 
 const Admission = () => {
   return (
@@ -69,13 +70,14 @@ const Admission = () => {
               {" "}
               স্কুলে আবেদন করার প্রক্রিয়া: <br />
 
-১. নিবন্ধন ফর্ম পূরণ করুন। আপনি একটি নিশ্চিতকরণ বার্তা পাবেন যেখানে উল্লেখ থাকবে যে আপনি স্তর মূল্যায়নের জন্য একটি স্থান পেয়েছেন। মূল্যায়নের তারিখ পরে জানানো হবে। <br />
+১. শিক্ষার্থীর জন্ম নিবন্ধন (অনলাইনকৃত)।  <br />
 
-২. স্তর মূল্যায়ন সম্পন্ন করুন। <br />
+২. পিতা-মাতার জাতীয় পরিচয়পত্রের ফটোকপি। <br />
 
-৩. নিবন্ধন ফি প্রদান করুন। <br />
+৩. সদ্যতোলা শিক্ষার্থীর ২ কপি পাসপোর্ট সাইজের এবং ২ কপি স্ট্যাম্প সাইজের ছবি । <br />
 
-৪. স্কুল চুক্তিতে স্বাক্ষর করুন।
+৪. সর্বশেষ পরীক্ষার নম্বরপত্র ও টিসি।<br />
+৫. স্তর নির্ধারণ পরীক্ষায় অংশগ্রহণ।
             </p>
           </div>
           <div>
@@ -98,7 +100,9 @@ const Admission = () => {
             আবেদন ফরম
             </h1>
             <p className="text-justify pl-16 underline">
-            আবেদন ফরম পূরণ করতে এখানে ক্লিক করুন!
+               <button>
+                              <Link to='/applicationForm' className="text-sky-400">আবেদন ফর্মটি</Link>
+                              </button> পূরণ করতে এখানে ক্লিক করুন!
             </p>
           </div>
         </div>
