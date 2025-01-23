@@ -29,11 +29,7 @@ const PopularMenu = () => {
 
 
     return (
-        <section className='mb-12 font-noto-sans-bengali'>
-            <SectionTitle
-                heading='দক্ষ ও আন্তরিক শিক্ষকমণ্ডলী'
-                subHeading='কার্যকর শিক্ষা পরিচালনা'
-            ></SectionTitle>
+        <section className='mb-6 font-noto-sans-bengali'>
             
             <div className="grid md:grid-cols-3 gap-10 sm:pl-5">
                 {

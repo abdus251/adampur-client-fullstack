@@ -3,15 +3,17 @@ import eyeTest from "../../assets/mini-doctor/eye.jpg";
 import tree from "../../assets/Other/treePlant.jpeg";
 import child from "../../assets/Other/2child.jpeg";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Admission = () => {
+  const { t } = useTranslation('global');
   return (
     <>
       <div className="font-noto-sans-bengali">
         {/* admission */}
         <div className="text-center px-6 md:px-16 lg:px-48 leading-loose mt-40 items-center justify-center">
-  <h1 className="text-3xl md:text-3xl lg:text-3xl text-sky-400 mb-16">ভর্তি ও নিবন্ধন</h1>
-  <p className="text-justify">
+  <h1 className="text-3xl md:text-3xl lg:text-3xl text-sky-400 mb-16">{t('headers.message')}ভর্তি ও নিবন্ধন</h1>
+  <p className="text-justify">{t('home.body')}
     আদমপুর সরকারি প্রাথমিক বিদ্যালয়ের আনন্দের সঙ্গে আগামী শিক্ষাবর্ষের জন্য ভর্তি কার্যক্রম শুরু করেছে। নিচে ভর্তি প্রক্রিয়া, প্রয়োজনীয় কাগজপত্র, এবং শিক্ষাগত যোগ্যতার বিষয়ে তথ্য দেওয়া হয়েছে। আরও জানার জন্য আমাদের সাথে যোগাযোগ করতে দ্বিধা করবেন না।
   </p>
 </div>

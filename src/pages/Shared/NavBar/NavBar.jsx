@@ -6,6 +6,7 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 import useCart from "../../../hooks/useCart";
 import useAdmin from "../../../hooks/useAdmin";
 
+
 const NavBar = () => {
   const { user, logOut } = useContext(AuthContext);
   const [isAdmin] = useAdmin();
@@ -16,105 +17,96 @@ const NavBar = () => {
       .then(() => {})
       .catch((error) => console.log(error));
   };
-// const { isAdmin } = useContext(AuthContext);
 
   const navOptions = (
-    <div className="flex items-center justify-between w-full">
-      <li className="font-noto-sans-bengali">
+    <div className="flex flex-col lg:flex-row items-start lg:items-center w-full lg:justify-between">
+      {/* Navigation Links */}
+      <li className="font-noto-sans-bengali my-2 lg:my-0">
         <Link to="/">হোম</Link>
       </li>
-
-      <li className="font-noto-sans-bengali ml-5">
+  
+      <li className="font-noto-sans-bengali my-2 lg:my-0 lg:ml-5">
         <Link to="/about">আমাদের সম্পর্কে</Link>
       </li>
-      <li className="font-noto-sans-bengali ml-5">
+  
+      <li className="font-noto-sans-bengali my-2 lg:my-0 lg:ml-5">
         <Link to="/applicationForm">আবেদন ফরম</Link>
       </li>
-      {/* {
-        user && isAdmin && <li className="font-noto-sans-bengali ml-5">
-        <Link to="/secret">Secret</Link>
-      </li>
-      }
-      {
-        user && !isAdmin && <li className="font-noto-sans-bengali ml-5">
-        <Link to="/dashboard/adminHome">Secret</Link>
-      </li>
-      } */}
+  
       {user && isAdmin && (
-        <li className="font-noto-sans-bengali">
+        <li className="font-noto-sans-bengali my-2 lg:my-0">
           <Link to="/dashboard/userHome">ড্যাশবোর্ড</Link>
         </li>
       )}
       {user && !isAdmin && (
-        <li className="font-noto-sans-bengali">
+        <li className="font-noto-sans-bengali my-2 lg:my-0">
           <Link to="/dashboard/userHome">ড্যাশবোর্ড</Link>
         </li>
       )}
-
+  
+      {/* Cart Button */}
       <Link to="/dashboard/cart">
-        <button className="btn">
+        <button className="btn my-2 lg:my-0">
           <MdOutlineShoppingCart />
           {cart?.length > 0 && (
             <div className="badge badge-secondary">+{cart.length}</div>
           )}
         </button>
       </Link>
-
-      <li className="font-noto-sans-bengali ml-5">
+  
+      <li className="font-noto-sans-bengali my-2 lg:my-0 lg:ml-5">
         <Link to="/prePrimary">প্রাক-প্রাথমিক</Link>
       </li>
-      <li className="font-noto-sans-bengali ml-5">
+      <li className="font-noto-sans-bengali my-2 lg:my-0 lg:ml-5">
         <Link to="/primary">প্রাথমিক</Link>
       </li>
-      <li className="font-noto-sans-bengali ml-5">
+      <li className="font-noto-sans-bengali my-2 lg:my-0 lg:ml-5">
         <Link to="/staff">জনবল</Link>
       </li>
-      <li className="font-noto-sans-bengali ml-5">
+      <li className="font-noto-sans-bengali my-2 lg:my-0 lg:ml-5">
         <Link to="/contact">যোগাযোগ</Link>
       </li>
-      <li className="font-noto-sans-bengali ml-5">
+      <li className="font-noto-sans-bengali my-2 lg:my-0 lg:ml-5">
         <Link to="/shop">সততা স্টোর</Link>
       </li>
-      <div className="navbar-center hidden lg:flex items-center justify-center">
-    <ul className="menu menu-horizontal px-1 ">
-      <li>
+  
+      {/* More Dropdown */}
+      <div className="navbar-center lg:hidden flex flex-col items-start my-2">
         <details>
-          <summary className="font-noto-sans-bengali"> আরো</summary>
-          <ul className="p-2 ">
-            <li> <Link to="/academic" className="py-2 hover:bg-gray-100 font-noto-sans-bengali">
-          একাডেমিক
-        </Link></li>
-        <li>
-        <Link to="/admission" className="py-2 hover:bg-gray-100 font-noto-sans-bengali">
-          ভর্তি
-        </Link>
-      </li>
-      <li>
-        <Link to="/mission" className="py-2 hover:bg-gray-100 font-noto-sans-bengali">
-          মিশন ও ভিশন
-        </Link>
-      </li>
+          <summary className="font-noto-sans-bengali">আরো</summary>
+          <ul className="p-2">
+            <li>
+              <Link to="/academic" className="py-2 hover:bg-gray-100 font-noto-sans-bengali">
+                একাডেমিক
+              </Link>
+            </li>
+            <li>
+              <Link to="/admission" className="py-2 hover:bg-gray-100 font-noto-sans-bengali">
+                ভর্তি
+              </Link>
+            </li>
+            <li>
+              <Link to="/mission" className="py-2 hover:bg-gray-100 font-noto-sans-bengali">
+                মিশন ও ভিশন
+              </Link>
+            </li>
           </ul>
         </details>
-      </li>
-    </ul>
-  </div>
-      <li className="items-center justify-center">
+      </div>
+  
+      {/* Login/Logout */}
+      <li className="items-center justify-center my-2 lg:my-0">
         {user ? (
-          <>
-           
-              <button onClick={handleLogOut} className="btn btn-ghost font-noto-sans-bengali">
-                লগআউট
-              </button>
-           
-          </>
+          <button onClick={handleLogOut} className="btn btn-ghost font-noto-sans-bengali">
+            লগআউট
+          </button>
         ) : (
-          <Link to="/login" className="font-noto-sans-bengali ml-5">লগইন</Link>
+          <Link to="/login" className="font-noto-sans-bengali">লগইন</Link>
         )}
       </li>
     </div>
   );
-
+  
   return (
     <>
       {/* Logo Section */}
