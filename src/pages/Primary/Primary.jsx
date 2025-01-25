@@ -15,15 +15,15 @@ const Primary = ({}) => {
 
   return (
     <>
-    <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-20 '>
-      <div className='w-full mt-5  '>
+    <div className='grid sm:grid-cols-1  md:grid-cols-2 gap-20 '>
+      <div className='w-full mt-5 '>
 <img src={art} alt="" className="mt-20 sm:pl-10"></img>
       </div>
-      <div className='w-full mt-52 font-noto-sans-bengali'>
-        <h1 className="text-5xl text-sky-400 mb-10">
+      <div className='w-full mt-52 font-noto-sans-bengali ml-5'>
+        <h1 className="text-5xl text-sky-400 mb-10 ‍">
       প্রাথমিক বিদ্যালয় <br />(গ্রেড ১-৫)</h1>
-      <p className="mr-20 leading-loose">
-এখানে আমরা আমাদের স্কুলে প্রথম থেকে পঞ্চম শ্রেণি বা গ্রেড ১-৫ এর শিক্ষার্থীদের অভিজ্ঞতার একটি সংক্ষিপ্ত বিবরণ প্রদান করবো। আমরা শিশু মনের যত্ন নেওয়া, মৌলিক দক্ষতা গড়ে তোলা এবং শিক্ষার প্রতি ভালোবাসা সৃষ্টি করার উপর গুরুত্বারোপ করি।
+      <p className="mr-20 leading-loose text-justify">
+এখানে, আমরা আমাদের স্কুলের প্রথম থেকে পঞ্চম শ্রেণি বা গ্রেড ১-৫ এর শিক্ষার্থীদের অভিজ্ঞতার একটি সংক্ষিপ্ত বিবরণ প্রদান করবো। আমরা শিশু মনের যত্ন নেওয়া, মৌলিক দক্ষতা গড়ে তোলা এবং শিক্ষার প্রতি ভালোবাসা সৃষ্টি করার উপর গুরুত্বারোপ করি।
 </p>
       </div>
     </div>
@@ -119,10 +119,9 @@ const Primary = ({}) => {
 <h3 className="text-lg font-semibold mt-5 flex gap-2 items-center underline justify-center">
 যোগাযোগ করুন:</h3>
 
-
 <p className="pl-10 items-center">
 স্কুলে ভর্তির জন্য আবেদন সারাবছর খোলা থাকে।
-আপনার আগ্রহ প্রকাশ করতে এবং আপনার যোগাযোগের তথ্য প্রদান করতে, অনুগ্রহ করে এই আবেদন ফর্মটি পূরণ করুন অথবা একটি ইমেইল পাঠান admin@nordenschool.com-এ।
+আপনার আগ্রহ প্রকাশ করতে এবং আপনার যোগাযোগের তথ্য প্রদান করতে, অনুগ্রহ করে এই আবেদন ফর্মটি পূরণ করুন অথবা একটি ইমেইল পাঠান adampurgps6.com
 </p>
 </div>
       </div>
@@ -149,8 +148,6 @@ const Primary = ({}) => {
     </p>
   </div>
 </div>
-
-    
     </>
   )
 }

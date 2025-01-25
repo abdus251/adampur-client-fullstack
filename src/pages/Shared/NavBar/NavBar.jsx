@@ -5,6 +5,7 @@ import { AuthContext } from "../../../providers/AuthProvider";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import useCart from "../../../hooks/useCart";
 import useAdmin from "../../../hooks/useAdmin";
+import { motion } from "framer-motion";
 
 
 const NavBar = () => {
@@ -19,115 +20,82 @@ const NavBar = () => {
   };
 
   const navOptions = (
-    <div className="flex flex-col lg:flex-row items-start lg:items-center w-full lg:justify-between">
-      {/* Navigation Links */}
-      <li className="font-noto-sans-bengali my-2 lg:my-0">
-        <Link to="/">হোম</Link>
-      </li>
-  
-      <li className="font-noto-sans-bengali my-2 lg:my-0 lg:ml-5">
-        <Link to="/about">আমাদের সম্পর্কে</Link>
-      </li>
-  
-      <li className="font-noto-sans-bengali my-2 lg:my-0 lg:ml-5">
-        <Link to="/applicationForm">আবেদন ফরম</Link>
-      </li>
-  
-      {user && isAdmin && (
-        <li className="font-noto-sans-bengali my-2 lg:my-0">
-          <Link to="/dashboard/userHome">ড্যাশবোর্ড</Link>
-        </li>
-      )}
-      {user && !isAdmin && (
-        <li className="font-noto-sans-bengali my-2 lg:my-0">
-          <Link to="/dashboard/userHome">ড্যাশবোর্ড</Link>
-        </li>
-      )}
-  
+    <nav className="w-full flex flex-col lg:flex-row lg:items-center lg:justify-between overflow-auto">
+    {/* Navigation Links */}
+    <ul className="flex flex-wrap items-start lg:flex-row">
+      <li className="font-noto-sans-bengali my-2"><Link to="/">হোম</Link></li>
+      <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/about">আমাদের সম্পর্কে</Link></li>
+      <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/applicationForm">ভর্তি ফরম</Link></li>
       {/* Cart Button */}
-      <Link to="/dashboard/cart">
-        <button className="btn my-2 lg:my-0">
-          <MdOutlineShoppingCart />
-          {cart?.length > 0 && (
-            <div className="badge badge-secondary">+{cart.length}</div>
-          )}
-        </button>
-      </Link>
-  
-      <li className="font-noto-sans-bengali my-2 lg:my-0 lg:ml-5">
-        <Link to="/prePrimary">প্রাক-প্রাথমিক</Link>
-      </li>
-      <li className="font-noto-sans-bengali my-2 lg:my-0 lg:ml-5">
-        <Link to="/primary">প্রাথমিক</Link>
-      </li>
-      <li className="font-noto-sans-bengali my-2 lg:my-0 lg:ml-5">
-        <Link to="/staff">জনবল</Link>
-      </li>
-      <li className="font-noto-sans-bengali my-2 lg:my-0 lg:ml-5">
-        <Link to="/contact">যোগাযোগ</Link>
-      </li>
-      <li className="font-noto-sans-bengali my-2 lg:my-0 lg:ml-5">
-        <Link to="/shop">সততা স্টোর</Link>
-      </li>
-  
-      {/* More Dropdown */}
-      <div className="navbar-center lg:hidden flex flex-col items-start my-2">
+    <Link to="/dashboard/cart" className="my-2 lg:my-0">
+      <button className="btn flex items-center">
+        <MdOutlineShoppingCart />
+        {cart?.length > 0 && <span className="badge badge-secondary ml-2">+{cart.length}</span>}
+      </button>
+    </Link>
+      <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/prePrimary">প্রাক-প্রাথমিক</Link></li>
+      <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/primary">প্রাথমিক</Link></li>
+      <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/staff">জনবল</Link></li>
+      <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/contact">যোগাযোগ</Link></li>
+      <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/shop">সততা স্টোর</Link></li>
+      <li className="font-noto-sans-bengali my-2 lg:ml-5 relative">
         <details>
-          <summary className="font-noto-sans-bengali">আরো</summary>
-          <ul className="p-2">
-            <li>
-              <Link to="/academic" className="py-2 hover:bg-gray-100 font-noto-sans-bengali">
-                একাডেমিক
-              </Link>
-            </li>
-            <li>
-              <Link to="/admission" className="py-2 hover:bg-gray-100 font-noto-sans-bengali">
-                ভর্তি
-              </Link>
-            </li>
-            <li>
-              <Link to="/mission" className="py-2 hover:bg-gray-100 font-noto-sans-bengali">
-                মিশন ও ভিশন
-              </Link>
-            </li>
+          <summary className="cursor-pointer">আরো</summary>
+          <ul className="absolute bg-white shadow-md p-2">
+            <li><Link to="/academic">একাডেমিক</Link></li>
+            <li><Link to="/admission">ভর্তি</Link></li>
+            <li><Link to="/mission">মিশন ও ভিশন</Link></li>
           </ul>
         </details>
-      </div>
-  
-      {/* Login/Logout */}
-      <li className="items-center justify-center my-2 lg:my-0">
-        {user ? (
-          <button onClick={handleLogOut} className="btn btn-ghost font-noto-sans-bengali">
-            লগআউট
-          </button>
-        ) : (
-          <Link to="/login" className="font-noto-sans-bengali">লগইন</Link>
-        )}
       </li>
+    </ul>
+  
+    {/* Login/Logout */}
+    <div className="my-2 lg:my-0">
+      {user ? (
+        <button onClick={handleLogOut} className="btn btn-ghost font-noto-sans-bengali">লগআউট</button>
+      ) : (
+        <Link to="/login" className="font-noto-sans-bengali">লগইন</Link>
+      )}
     </div>
+  </nav>
   );
+  const introChildren = {
+    hidden: { opacity: 0, y: -200 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5} },
+  };
   
   return (
     <>
       {/* Logo Section */}
-      <div className="flex items-center justify-center my-3 ">
-        <a className="flex gap-5 justify-center items-center">
+      <div className="flex items-center justify-center my-3">
+      <a className="flex gap-5 justify-center items-center">
+        <div>
           <img className="h-24 w-24" src={logo} alt="Adompur School Logo" />
+        </div>
+        <motion.div
+          className=""
+          variants={introChildren}
+          initial="hidden"
+          animate="visible"
+        >
           <span className="text-2xl text-sky-400 font-bold font-noto-sans-bengali">
-           <span className="text-orange-400">আ</span>দমপুর <br /> 
-           <span className="text-orange-400">স</span>
-           রকারি 
-           <span className="text-orange-400">  প্রা</span>
-           থমিক 
-           <span className="text-orange-400"> বি</span>
-          দ্যালয়, <br /> 
-          <span className="text-orange-400"> ব</span>
-          ন্দর, 
-          <span className="text-orange-400"> না</span>
-          রায়ণগঞ্জ
+            <span className="text-orange-400">আ</span>দমপুর <br />
+            <span className="text-orange-400">স</span>
+            রকারি 
+            <span className="text-orange-400">  প্রা</span>
+            থমিক 
+            <span className="text-orange-400"> বি</span>
+            দ্যালয়, <br />
+            <span className="text-orange-400"> ব</span>
+            ন্দর, 
+            <span className="text-orange-400"> না</span>
+            রায়ণগঞ্জ
           </span>
-        </a>
-      </div>
+        </motion.div>
+      </a>
+    </div>
+    
 {/* navbar */}
       <div className="navbar fixed z-10 bg-opacity-30 bg-sky-400 max-w-screen-xl">
         <div className="navbar-start">

@@ -13,66 +13,7 @@ const AddItems = () => {
   const { register, handleSubmit, reset } = useForm();
   const axiosPublic = useAxiosPublic();
   const axiosSecure = useAxiosSecure();
-
-  // const onSubmit = async (data) => {
-  //   console.log("Form Data:", data);
-    
-  //   // Image upload to imagebb
-  //   const imageFile = { image: data.image[0] }
-   
-
-  //   try {
-  //     const res = await axiosPublic.post(image_hosting_api, imageFile, {
-  //       headers: { 'Content-Type': 'multipart/form-data' },
-  //     });
-  //     console.log(res.data);
-
-  //     if (res.data && res.data.success) {
-  //       const menuItem = {
-  //         name: data.name,
-  //         name: data.roll,
-  //         name: data.date,
-  //         name: data.age,
-  //         category: data.category,
-  //         price: parseFloat(data.price), 
-  //         description: data.description, 
-  //         image: res.data.data.display_url         
-  //       };
-      
-  //       // Further API call to save menuItem to the database
-  //       const menuRes = await axiosSecure.post('/menu', menuItem);
-  //       console.log(menuRes.data)
-  //       if (menuRes.data.insertedId) {
-  //         // show success popup
-  //         reset();
-  //         Swal.fire({
-  //           position: "top-end",
-  //           icon: "success",
-  //           title: `${data.name} has been added successfully.`,
-  //           showConfirmButton: false,
-  //           timer: 1500,
-  //         });
-  //         reset()
-  //         Swal.fire({
-  //           position: "top-end",
-  //           icon: "success",
-  //           title: `${data.name} is added to the menu.`,
-  //           showConfirmButton: false,
-  //           timer: 1500,
-  //         });
-  //       }
-  //     } else {
-  //       throw new Error("Image upload failed");
-  //     }
-  //   } catch (error) {
-  //     console.error("Error:", error);
-  //     Swal.fire({
-  //       icon: "error",
-  //       title: "Operation Failed",
-  //       text: "Please try again.",
-  //     });
-  //   }
-  // };
+  
   const onSubmit = async (data) => {
     try {
       const formData = new FormData();

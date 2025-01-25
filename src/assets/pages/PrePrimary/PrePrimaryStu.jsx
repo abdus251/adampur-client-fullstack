@@ -36,7 +36,7 @@ const PrePrimaryStu = ({ item }) => {
 
   return (
     <>
-      <div className="gap-5 border-2 pl-4 bg-blue-100 flex p-4">
+      <div className="gap-5 border pl-4 text-sm bg-sky-200 flex p-4">
         <div>
           নাম: {name} <br />
           শ্রেণি: {grade} <br />
@@ -48,7 +48,7 @@ const PrePrimaryStu = ({ item }) => {
         <div>
           <img className="h-[200px] w-[200px]" src={photo_url} alt="" />
         </div>
-        <div className="card-actions justify-start">
+        {/* <div className="card-actions justify-start">
           <div className="btn-group btn-group-vertical space-y-4 grid">
             <button className="btn">View</button>
             <button className="btn">Edit</button>
@@ -56,7 +56,7 @@ const PrePrimaryStu = ({ item }) => {
               X
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

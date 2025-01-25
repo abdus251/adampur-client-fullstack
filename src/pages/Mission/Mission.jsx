@@ -3,9 +3,9 @@ import React from 'react'
 const Mission = () => {
   return (
     <>
-    <div className='font-noto-sans-bengali mt-24'>
+    <div className='font-noto-sans-bengali'>
       <div className='h-screen'>
-        <img src="https://img.freepik.com/free-photo/boy-scouts-spending-time-nature_23-2149572837.jpg?t=st=1734627338~exp=1734630938~hmac=b204e3baa315505c6914203253f167c4e2a66a3d9d639686ff9c823efc25710f&w=740" alt="" className='w-full h-50%' />
+        <img src="https://img.freepik.com/free-photo/boy-scouts-spending-time-nature_23-2149572837.jpg?t=st=1734627338~exp=1734630938~hmac=b204e3baa315505c6914203253f167c4e2a66a3d9d639686ff9c823efc25710f&w=740" alt="" className='w-full h-50% mt-24' />
       </div>
 
       <div className="text-center px-6 md:px-16 lg:px-48 leading-loose  items-center justify-center mt-[450px]">

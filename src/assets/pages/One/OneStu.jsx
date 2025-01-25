@@ -9,7 +9,7 @@ const OneStu = ({item}) => {
 
 
   return (
-    <div className='gap-5 border-2 pl-4 bg-orange-200 flex p-4'>
+    <div className='gap-5 border pl-4 text-sm bg-slate-100 flex p-4'>
     <div className=''>
     নাম: {name} <br />
       শ্রেণি: {grade} <br />

@@ -9,7 +9,7 @@ const PrePrimary = () => {
 
   return (
     <div className="pt-20 font-noto-sans-bengali sm:px-10">
-      <h1 className="text-3xl text-center text-sky-400">
+      <h1 className="text-3xl text-center text-sky-400 mt-10">
         {" "}
         প্রাক-প্রাথমিক শ্রেণি <br />{" "}
       </h1>

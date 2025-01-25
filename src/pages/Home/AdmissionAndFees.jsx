@@ -2,8 +2,7 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import {
   FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
+  FaInstagram
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -43,7 +42,7 @@ const AdmissionAndFees = () => {
       </div>
 
       <div className="font-noto-sans-bengali">
-        <p className="my-20 px-28 italic text-sky-400 text-xl">
+        <p className="my-20 px-12 italic text-sky-400 text-xl">
           আমরা শিক্ষার্থীদের ক্ষমতায়ন করি যাতে তারা জীবনভর শেখার জন্য
           প্রয়োজনীয় জ্ঞান এবং দক্ষতা অর্জন, প্রদর্শন, ব্যাখ্যা এবং মূল্যায়ন
           করতে পারে। এর মাধ্যমে তারা বৈশ্বিক সম্প্রদায়ে অংশগ্রহণ এবং অবদান
@@ -118,20 +117,20 @@ const AdmissionAndFees = () => {
       </div>
       
   {/* MAP */}
-  <div style={{ width: '100%' }}>
-  <iframe
-    width="100%"
-    height="600"
-    frameBorder="0"
-    scrolling="no"
-    marginHeight="0"
-    marginWidth="0"
-    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=%E0%A6%86%E0%A6%A6%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%B0,%20%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0,+(%E0%A6%86%E0%A6%A6%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%B0%20%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF%20%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A5%E0%A6%AE%E0%A6%BF%E0%A6%95%20%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-  >
-    <a href="https://www.gps.ie/">gps trackers</a>
-  </iframe>
-</div>
- 
+  <div className="w-full p-4">
+      <div className="relative overflow-hidden rounded-lg" style={{ paddingTop: "56.25%" }}>
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=%E0%A6%86%E0%A6%A6%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%B0,%20%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0,+(%E0%A6%86%E0%A6%A6%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%B0%20%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF%20%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A5%E0%A6%AE%E0%A6%BF%E0%A6%95%20%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          frameBorder="0"
+          scrolling="no"
+          marginHeight="0"
+          marginWidth="0"
+          title="Adampur Map"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
     </>
   );
 };

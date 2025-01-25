@@ -10,7 +10,7 @@ const Staff = () => {
     <>
       <div className="font-noto-sans-bengali mt-40">
         <div className="text-center ">
-          <h1 className="text-3xl ">বিদ্যালয়ের স্টাফ</h1>
+          <h1 className="text-3xl text-orange-400 ">বিদ্যালয়ের স্টাফ</h1>
           <h3 className="text-xl my-4"> আমরা কারা</h3>
         </div>
 
@@ -21,10 +21,10 @@ const Staff = () => {
               {/* img goes here */}
               <img src={ayesha} alt="" className="w-full " />
             </div>
-            <div className="border border-black mx-auto  p-5 w-1/2 text-justify px-10 mt-10 ">
+            <div className="border border-black mx-auto px-2  ‍ w-1/2 text-justify sm-px-2 mt-10 ">
               {/* Content goes here */}
-              <h1 className="text-3xl text-center mt-20"> আয়েশা আক্তার</h1>
-              <h4 className="text-xl text-center py-8">প্রধান শিক্ষক </h4>
+              <h1 className="text-3xl  text-center mt-20 text-orange-400"> আয়েশা আক্তার</h1>
+              <h4 className="text-xl text-center py-8">প্রধান শিক্ষক (ভারপ্রাপ্ত) </h4>
               <p className="leading-loose">
                 সরকারি প্রাথমিক বিদ্যালয়ে শিক্ষকতা করার ক্ষেত্রে বিশ বছরেরও বেশি
                 অভিজ্ঞতা রয়েছে আয়েশা আক্তারের। তিনি আন্তর্জাতিক ভাষা ইংরেজি
@@ -47,9 +47,9 @@ const Staff = () => {
 
           {/* samir */}
           <div className="grid sm:grid-cols-1 md:flex lg:flex">
-            <div className="border border-black mx-auto  p-5 w-1/2 text-justify px-10 ">
+            <div className="border border-black mx-auto px-2  p-5 w-1/2 text-justify ">
               {/* Content goes here */}
-              <h1 className="text-3xl text-center mt-20">সমীর চন্দ্র সাহা</h1>
+              <h1 className="text-3xl text-orange-400 text-center mt-20">সমীর চন্দ্র সাহা</h1>
               <h4 className="text-xl text-center py-8"> সহকারী শিক্ষক </h4>
               <p className="leading-loose">
                 সমীর চন্দ্র সাহা একজন খ্যাতিমান গণিত শিক্ষক। বিজ্ঞান শিক্ষায়ও
@@ -63,20 +63,20 @@ const Staff = () => {
                 তার একনিষ্ঠ প্রতিশ্রুতির মাধ্যমে সমৃদ্ধ করেন।
               </p>
             </div>
-            <div className="border border-black mx-auto  p-5 w-1/2">
+            <div className="border border-black mx-auto px-2  p-5 w-1/2">
               {/* img goes here */}
               <img src={samir} alt="" className="w-full " />
             </div>
           </div>
           {/* আব্দুস সালাম */}
           <div className="grid sm:grid-cols-1 md:flex lg:flex">
-            <div className="border border-black mx-auto  p-5 w-1/2">
+            <div className="border border-black mx-auto px-2  p-5 w-1/2">
               {/* img goes here */}
               <img src={salam} alt="" className="w-full " />
             </div>
-            <div className="border border-black mx-auto  p-5 w-1/2 text-justify px-10 ">
+            <div className="border border-black mx-auto px-2  p-5 w-1/2 text-justify px-10 ">
               {/* Content goes here */}
-              <h1 className="text-3xl text-center"> আব্দুস সালাম</h1>
+              <h1 className="text-3xl text-orange-400 text-center"> আব্দুস সালাম</h1>
               <h4 className="text-xl text-center py-8">সহকারী শিক্ষক </h4>
               <p className="leading-loose">
                 {" "}
@@ -105,9 +105,9 @@ const Staff = () => {
 
           {/* মুন্নী */}
           <div className="grid sm:grid-cols-1 md:flex lg:flex">
-            <div className="border border-black mx-auto  p-5 w-1/2 text-justify px-10 ">
+            <div className="border border-black mx-auto px-2  p-5 w-1/2 text-justify px-10 ">
               {/* Content goes here */}
-              <h1 className="text-3xl text-center mt-20"> নুরজাহান আক্তার</h1>
+              <h1 className="text-3xl text-orange-400 text-center mt-20"> নুরজাহান আক্তার</h1>
               <h4 className="text-xl text-center py-8"> সহকারী শিক্ষক </h4>
               <p className="leading-loose">
                 সরকারি প্রাথমিক বিদ্যালয়ে শিক্ষকতা করার ক্ষেত্রে প্রায় দশ বছরের
@@ -134,20 +134,20 @@ const Staff = () => {
                 কাজগুলোও সূচারুরূপে সম্পন্ন করে থাকে তিনি।
               </p>
             </div>
-            <div className="border border-black mx-auto  p-5 w-1/2">
+            <div className="border border-black mx-auto px-2  p-5 w-1/2">
               {/* img goes here */}
               <img src={norj} alt="" className="w-full mt-40 " />
             </div>
           </div>
           {/* রহিমা */}
           <div className="grid sm:grid-cols-1 md:flex lg:flex">
-            <div className="border border-black mx-auto  p-5 w-1/2">
+            <div className="border border-black mx-auto px-2  p-5 w-1/2">
               {/* img goes here */}
               <img src={rahima} alt="" className="w-full " />
             </div>
-            <div className="border border-black mx-auto  p-5 w-1/2 text-justify px-10 ">
+            <div className="border border-black mx-auto px-2  p-5 w-1/2 text-justify px-10 ">
               {/* Content goes here */}
-              <h1 className="text-3xl text-center mt-20"> রহিমা ইসলাম</h1>
+              <h1 className="text-3xl text-orange-400 text-center mt-20"> রহিমা ইসলাম</h1>
               <h4 className="text-xl text-center py-8">সহকারী শিক্ষক </h4>
               <p className="leading-loose">
                 রহিমা ইসলাম একজন প্রাথমিক বিদ্যালয়ের শিক্ষিকা, যিনি জাতীয়
@@ -167,9 +167,9 @@ const Staff = () => {
 
           {/* নাদিয়া */}
           <div className="grid sm:grid-cols-1 md:flex lg:flex">
-            <div className="border border-black mx-auto  p-5 w-1/2 text-justify px-10 ">
+            <div className="border border-black mx-auto  p-5 w-1/2 text-justify px-5 ">
               {/* Content goes here */}
-              <h1 className="text-3xl text-center mt-20"> নাদিয়া রহমান মিলি</h1>
+              <h1 className="text-3xl text-orange-400 text-center mt-20"> নাদিয়া রহমান মিলি</h1>
               <h4 className="text-xl text-center py-8"> সহকারী শিক্ষক </h4>
               <p className="leading-loose">
                 {" "}

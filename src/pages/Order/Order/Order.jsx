@@ -3,27 +3,54 @@ import "react-tabs/style/react-tabs.css";
 import { Helmet } from "react-helmet-async";
 import logo from "../../../../public/Adompur logo.jpg";
 import DownloadFiles from "../DownloadFiles/DownloadFiles";
+import { motion } from "framer-motion";
+
+const intro = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      duration: 0.5,
+      staggerChildren: 0.25,
+      delayChildren: 1,
+    },
+  },
+};
+
+const introChildren = {
+  hidden: { opacity: 0, y: -200 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5} },
+};
+
 
 
 const Order = () => {
   return (
-    <div>
+    <motion.div variants={intro} initial="hidden" animate="visible">
       <Helmet>
         <title>আদমপুর | আমাদের বিদ্যালয়</title>
       </Helmet>
 
       <div className="text-center">
-        <h3 className="text-2xl mt-40 font-noto-sans-bengali font-semibold">
+        <motion.h3
+          className="text-2xl mt-40 font-noto-sans-bengali font-semibold"
+          variants={introChildren}
+        >
           আমাদের <br />
           সম্পর্কে{" "}
-        </h3>
-        <small className="font-noto-sans-bengali">
+        </motion.h3>
+        <motion.small
+          className="font-noto-sans-bengali"
+          variants={introChildren}
+        >
           পরিবর্তনের জন্য অবদান রাখা
-        </small>
-        <img
+        </motion.small>
+       <div>
+       <img
           src={orderCoverImg}
           className="rounded-full w-96 h-96 mx-auto items-center justify-center my-2"
         />
+       </div>
         <div className="-mt-60 -ml-80 flex gap-2 justify-center items-center">
           <img
             className="h-28 w-28 ml-60 mt rounded-full"
@@ -39,13 +66,13 @@ const Order = () => {
       </div>
       <div className="mt-32 px-20 text-justify leading-loose font-noto-sans-bengali">
         <section>
-          আদমপুর সরকারি প্রাথমিক বিদ্যালয়, যা মূলত ১৯৬৯ সালে প্রতিষ্ঠিত হয়,
+          আদমপুর সরকারি প্রাথমিক বিদ্যালয়, যা ১৯৬৯ সালে প্রতিষ্ঠিত হয়,
           একটি স্বনামধন্য সরকারি শিক্ষা প্রতিষ্ঠান। এটি গণপ্রজাতন্ত্রী বাংলাদেশ
           সরকারের প্রাথমিক ও গণশিক্ষা মন্ত্রণালয়ের অধীনে প্রাথমিক শিক্ষা বিভাগের
           সহযোগিতায় জেলা প্রাথমিক শিক্ষা অফিসার কর্তৃক পরিচালিত হয় এবং এর
           শিক্ষা কার্যক্রম সরাসরি তত্ত্বাবধান করে উপজেলা প্রাথমিক শিক্ষা অফিস,
-          বন্দর। এখানে বাংলা শিক্ষার প্রধান ভাষা হিসেবে ব্যবহৃত হয়, পাশাপাশি
-          ইংরেজি ভাষাও গুরুত্ব দিয়ে শিক্ষা প্রদান করা হয়। স্কুলটি
+          বন্দর। এখানে, শিক্ষার প্রধান ভাষা হিসেবে বাংলা ব্যবহৃত হয়, পাশাপাশি
+          ইংরেজি ভাষাও গুরুত্ব দিয়ে শেখানো হয়। স্কুলটি
           প্রাক-প্রাথমিক থেকে পঞ্চম শ্রেণি পর্যন্ত প্রাথমিক শিক্ষা প্রদান করে
           এবং বর্তমানে এসব শ্রেণির শিক্ষার্থীদের ভর্তি নিচ্ছে।
           <br />
@@ -81,7 +108,7 @@ const Order = () => {
       </div>
       {/* <ImageGallery /> */}
       <DownloadFiles />
-    </div>
+    </motion.div>
   );
 };
 

@@ -10,8 +10,9 @@ const Contact = () => {
           <h1 className="text-2xl text-center text-sky-400 my-10 ">
             যোগাযোগ করুন
           </h1>
-         <div className="leading-loose">
-         আদমপুর সরকারি প্রাথমিক বিদ্যালয় সর্বদা <br /> তার দরজা খোলা রাখে।
+         <div className="leading-loose pl-2">
+         আদমপুর সরকারি প্রাথমিক বিদ্যালয় <br />
+         সর্বদা  তার দরজা খোলা রাখে।
           আমাদের একাডেমিক কার্যক্রম, ইভেন্ট, শিক্ষার্থী, <br />
           কর্মচারী বা অন্য যেকোনো বিষয়ে প্রশ্ন থাকলে নির্দ্বিধায় যোগাযোগ করুন।{" "}
           <br />
@@ -37,7 +38,7 @@ const Contact = () => {
         <div className="mt-60 gap-20 w-2/3 ">
           <section className=" ">
             {/* form */}
-            <form className="">
+            <form className="ml-5">
               {/* name */}
               <div className="gap-5 sm:pl-10">
                 <fieldset className="form-control w-full">
@@ -81,11 +82,11 @@ const Contact = () => {
                   ></textarea>
                 </fieldset>
               </div>
-             <div className="ml-4">
-             <button className=" mt-8 sm:ml-5 bg-black text-white py-3 rounded-none lg:w-[390px] w-[610px] font-bold mb-20">
-                Submit
-              </button>
-             </div>
+              <div className=" lg:ml-5">
+  <button className="mt-8 sm:ml-5 bg-black text-white py-2 sm:py-3 rounded-none sm:w-[100px] lg:w-[360px] w-full font-bold mb-20">
+    Submit
+  </button>
+</div>
             </form>
           </section>
         </div>
