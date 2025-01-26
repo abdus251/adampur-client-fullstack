@@ -20,9 +20,9 @@ const FoodCard = ({ item }) => {
   const navigate = useNavigate();
   const location = useLocation();
   const axiosSecure = useAxiosSecur();
-  const [, refetch ]= useCart();
+  const [, refetch] = useCart();
 
-  const handleAddToCart = ()  => {
+  const handleAddToCart = () => {
     if (user && user.email) {
       const cartItem = {
         menuId: _id,
@@ -37,14 +37,14 @@ const FoodCard = ({ item }) => {
         .then((res) => {
           if (res.data.insertedId) {
             Swal.fire({
-                position: "top-end",
+              position: "top-end",
               icon: "success",
               title: `${name} আইটেমটি আপনার কার্টে যুক্ত হয়েছে! `,
               showConfirmButton: false,
-              timer: 1500
+              timer: 1500,
             });
             // refetch cart to update the cart items count
-            refetch()
+            refetch();
           }
         })
         .catch((error) => {
@@ -75,16 +75,21 @@ const FoodCard = ({ item }) => {
 
   return (
     <div>
-      <div className="card bg-base-100 w-10/12 shadow-xl justify-start rounded-none mt-10">
-        <figure>
-          <img src={photoUrl} alt={name} />
+      <div className="card bg-base-100 w-10/12 shadow-xl justify-start rounded-none mt-10 flex flex-col min-h-[400px]">
+        <figure className="h-60 w-full overflow-hidden">
+          <img
+            src={photoUrl}
+            alt={name}
+            className="h-full w-full object-cover"
+          />
         </figure>
-        <div className="ml-4 mr-4 pb-4 font-noto-sans-bengali mt-2">
+        <div className="ml-4 mr-4 pb-4 font-noto-sans-bengali mt-2 flex-grow">
           <h2 className="card-title">
             <span className="text-orange-400">ধরন:</span> অনুদান
           </h2>
           <p>
-            ‍<span className="text-orange-400">প্রদানের মাধ্যম:</span> {paymentMode}
+            ‍<span className="text-orange-400">প্রদানের মাধ্যম:</span>{" "}
+            {paymentMode}
           </p>
           <p>
             ‍<span className="text-orange-400">পরিমাণ:</span> {price} টাকা
@@ -98,7 +103,7 @@ const FoodCard = ({ item }) => {
           <p>
             ‍<span className="text-orange-400">ফলাফল:</span> {remarks}
           </p>
-          <div className="card-actions justify-center">
+          <div className="card-actions justify-center mt-auto">
             <button
               onClick={handleAddToCart}
               className="btn btn-outline bg-slate-100 border-0 border-b-4 border-orange-400"

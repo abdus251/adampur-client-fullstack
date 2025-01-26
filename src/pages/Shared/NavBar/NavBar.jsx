@@ -41,7 +41,7 @@ const NavBar = () => {
       <li className="font-noto-sans-bengali my-2 lg:ml-5 relative">
         <details>
           <summary className="cursor-pointer">আরো</summary>
-          <ul className="absolute bg-white shadow-md p-2">
+          <ul className=" p-2">
             <li><Link to="/academic">একাডেমিক</Link></li>
             <li><Link to="/admission">ভর্তি</Link></li>
             <li><Link to="/mission">মিশন ও ভিশন</Link></li>

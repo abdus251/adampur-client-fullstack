@@ -23,22 +23,28 @@ const Banner = () => {
         className="rounded-lg shadow-lg"
       >
         <div>
-          <img className="h-[550px] w-full object-cover " src={img1} alt="Building"/>
+          <img
+  className="h-[300px] sm:h-[350px] md:h-[400px] lg:h-[500px] w-full object-cover" src={img1} alt="Building"/>
         </div>
         <div>
-          <img className="h-[550px] w-full object-cover" src={img2} alt="Image 2" />
+          <img
+  className="h-[300px] sm:h-[350px] md:h-[400px] lg:h-[500px] w-full object-cover" src={img2} alt="Image 2" />
         </div>
         <div>
-          <img className="h-[550px] w-full object-cover" src={img3} alt="Image 3" />
+          <img
+  className="h-[300px] sm:h-[350px] md:h-[400px] lg:h-[500px] w-full object-cover" src={img3} alt="Image 3" />
         </div>
         <div>
-          <img className="h-[550px] w-full object-cover" src={img4} alt="Image 4" />
+          <img
+  className="h-[300px] sm:h-[350px] md:h-[400px] lg:h-[500px] w-full object-cover" src={img4} alt="Image 4" />
         </div>
         <div>
-          <img className="h-[550px] w-full object-cover" src={img5} alt="Image 5" />
+          <img
+  className="h-[300px] sm:h-[350px] md:h-[400px] lg:h-[500px] w-full object-cover" src={img5} alt="Image 5" />
         </div>
         <div>
-          <img className="h-[550px] w-full object-cover" src={img6} alt="Image 6" />
+          <img
+  className="h-[300px] sm:h-[350px] md:h-[400px] lg:h-[500px] w-full object-cover" src={img6} alt="Image 6" />
         </div>
       </Carousel>
     </div>
