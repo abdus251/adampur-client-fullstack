@@ -12,7 +12,7 @@ const AdmissionAndFees = () => {
       <div className="bg-sky-50 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10 text-center px-8 font-noto-sans-bengali">
         <div className="my-10 ">
           <h1 className="text-2xl text-sky-400">আমাদের সম্পর্কে</h1>
-          <p className="mt-10">
+          <p className="mt-5">
             আদমপুর সরকারি প্রাথমিক বিদ্যালয়, <br /> বন্দর, নারায়ণগঞ্জ একটি
             সরকারি প্রাথমিক বিদ্যালয়, যা ১৯৬৯ সালে শিক্ষার মহানব্রত নিয়ে চালু
             হয়। এটি বন্দরের আদমপুর এলাকায় অবস্থিত এবং এই বিদ্যালয়ে সহজেই
@@ -21,8 +21,8 @@ const AdmissionAndFees = () => {
         </div>
         <div className="my-10">
           <h1 className="text-2xl text-sky-400">ভর্তি এবং ফি</h1>
-          <p className="mt-10"></p>
-          <p className="mt-10">
+          <p className="mt-5"></p>
+          <p className="mt-5">
             আদমপুর সরকারি প্রাথমিক বিদ্যালয়ে শিক্ষাবর্ষ জানুয়ারি মাসে শুরু হয়।
             প্রাক-প্রাথমিক থেকে ৫ম শ্রেণি পর্যন্ত শিক্ষার্থীদের সারা বছরই ভর্তি
             করা হয়, যদি আসন খালি থাকে এবং শিক্ষার্থীরা ভর্তির যোগ্যতা ও
@@ -31,7 +31,7 @@ const AdmissionAndFees = () => {
         </div>
         <div className="my-10 ">
           <h1 className="text-2xl text-sky-400">মিশন</h1>
-          <p className="mt-10">
+          <p className="mt-5">
             আমাদের মিশন হল একটি আন্তর্জাতিক, অনুসন্ধানী এবং সহায়ক পরিবেশে
             উচ্চমানের শিক্ষা প্রদান করা। আমরা শিক্ষার্থীদের অনুপ্রাণিত করতে এবং
             তাদের প্রয়োজনীয় দক্ষতা প্রদান করতে লক্ষ্য রাখি, যাতে তারা

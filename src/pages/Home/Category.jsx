@@ -8,7 +8,7 @@ import slide2 from '../../assets/home/artCom.jpeg'
 import slide3 from '../../assets/home/girlsFoot.jpeg'
 import slide4 from '../../assets/home/doastu.jpeg'
 import slide5 from '../../assets/mini-doctor/garden5.jpg'
-import slide6 from '../../assets/home/boyfoot.jpeg'
+import slide6 from '../../assets/home/dengo.jpeg'
 import SectionTitle from '../../components/SectionTitle';
 const Category = () => {
     return (
@@ -40,7 +40,7 @@ const Category = () => {
         alt="ক্ষুদে ডাক্তার"
       />
     </div>
-    <h3 className="mt-4 text-center uppercase text-white">
+    <h3 className="mt-4 text-center uppercase text-orange-400">
       ক্ষুদে ডাক্তার
     </h3>
   </SwiperSlide>
@@ -53,7 +53,7 @@ const Category = () => {
         alt="চিত্রাংকন প্রতিযোগিতা"
       />
     </div>
-    <h3 className="mt-4 text-center uppercase text-white">
+    <h3 className="mt-4 text-center uppercase text-orange-400">
       চিত্রাংকন প্রতিযোগিতা
     </h3>
   </SwiperSlide>
@@ -66,7 +66,7 @@ const Category = () => {
         alt="প্রাথমিক বিদ্যালয় গোল্ডকাপ"
       />
     </div>
-    <h3 className="mt-4 text-center uppercase text-white">
+    <h3 className="mt-4 text-center uppercase text-orange-400">
       প্রাথমিক বিদ্যালয় গোল্ডকাপ
     </h3>
   </SwiperSlide>
@@ -79,7 +79,7 @@ const Category = () => {
         alt="জাতীয় দিবসে দুআ"
       />
     </div>
-    <h3 className="mt-4 text-center uppercase text-white">
+    <h3 className="mt-4 text-center uppercase text-orange-400">
       জাতীয় দিবসে দুআ
     </h3>
   </SwiperSlide>
@@ -92,7 +92,7 @@ const Category = () => {
         alt="বৃক্ষ রোপণ"
       />
     </div>
-    <h3 className="mt-4 text-center uppercase text-white">
+    <h3 className="mt-4 text-center uppercase text-orange-400">
       বৃক্ষ রোপণ
     </h3>
   </SwiperSlide>
@@ -105,8 +105,8 @@ const Category = () => {
         alt="ফুটবল প্রতিযোগিতা"
       />
     </div>
-    <h3 className="mt-4 text-center uppercase text-white">
-      ফুটবল প্রতিযোগিতা
+    <h3 className="mt-4 text-center uppercase text-orange-400">
+      ডেঙ্গু প্রতিরোধে সচেতনতা সৃষ্টি
     </h3>
   </SwiperSlide>
 </Swiper>
