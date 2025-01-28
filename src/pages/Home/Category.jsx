@@ -32,84 +32,29 @@ const Category = () => {
   }}
   className="mySwiper mb-24"
 >
-  <SwiperSlide>
-    <div className="h-[300px] w-[280px] overflow-hidden  bg-gray-800">
-      <img
-        className="w-full h-full object-cover"
-        src={slide1}
-        alt="ক্ষুদে ডাক্তার"
-      />
-    </div>
-    <h3 className="mt-4 text-center uppercase text-orange-400">
-      ক্ষুদে ডাক্তার
-    </h3>
-  </SwiperSlide>
-
-  <SwiperSlide>
-    <div className="h-[300px] w-[280px] overflow-hidden  bg-gray-800">
-      <img
-        className="w-full h-full object-cover"
-        src={slide2}
-        alt="চিত্রাংকন প্রতিযোগিতা"
-      />
-    </div>
-    <h3 className="mt-4 text-center uppercase text-orange-400">
-      চিত্রাংকন প্রতিযোগিতা
-    </h3>
-  </SwiperSlide>
-
-  <SwiperSlide>
-    <div className="h-[300px] w-[280px] overflow-hidden  bg-gray-800">
-      <img
-        className="w-full h-full object-cover"
-        src={slide3}
-        alt="প্রাথমিক বিদ্যালয় গোল্ডকাপ"
-      />
-    </div>
-    <h3 className="mt-4 text-center uppercase text-orange-400">
-      প্রাথমিক বিদ্যালয় গোল্ডকাপ
-    </h3>
-  </SwiperSlide>
-
-  <SwiperSlide>
-    <div className="h-[300px] w-[280px] overflow-hidden  bg-gray-800">
-      <img
-        className="w-full h-full object-cover"
-        src={slide4}
-        alt="জাতীয় দিবসে দুআ"
-      />
-    </div>
-    <h3 className="mt-4 text-center uppercase text-orange-400">
-      জাতীয় দিবসে দুআ
-    </h3>
-  </SwiperSlide>
-
-  <SwiperSlide>
-    <div className="h-[300px] w-[280px] overflow-hidden  bg-gray-800">
-      <img
-        className="w-full h-full object-cover"
-        src={slide5}
-        alt="বৃক্ষ রোপণ"
-      />
-    </div>
-    <h3 className="mt-4 text-center uppercase text-orange-400">
-      বৃক্ষ রোপণ
-    </h3>
-  </SwiperSlide>
-
-  <SwiperSlide>
-    <div className="h-[300px] w-[280px] overflow-hidden  bg-gray-800">
-      <img
-        className="w-full h-full object-cover"
-        src={slide6}
-        alt="ফুটবল প্রতিযোগিতা"
-      />
-    </div>
-    <h3 className="mt-4 text-center uppercase text-orange-400">
-      ডেঙ্গু প্রতিরোধে সচেতনতা সৃষ্টি
-    </h3>
-  </SwiperSlide>
+  {[
+    { src: slide1, alt: "ক্ষুদে ডাক্তার", text: "ক্ষুদে ডাক্তার" },
+    { src: slide2, alt: "চিত্রাংকন প্রতিযোগিতা", text: "চিত্রাংকন প্রতিযোগিতা" },
+    { src: slide3, alt: "প্রাথমিক বিদ্যালয় গোল্ডকাপ", text: "প্রাথমিক বিদ্যালয় গোল্ডকাপ" },
+    { src: slide4, alt: "জাতীয় দিবসে দুআ", text: "জাতীয় দিবসে দুআ" },
+    { src: slide5, alt: "বৃক্ষ রোপণ", text: "বৃক্ষ রোপণ" },
+    { src: slide6, alt: "ফুটবল প্রতিযোগিতা", text: "ডেঙ্গু প্রতিরোধে সচেতনতা সৃষ্টি" },
+  ].map((slide, index) => (
+    <SwiperSlide key={index}>
+      <div className="relative h-[300px] w-[280px] overflow-hidden bg-gray-800">
+        <img
+          className="w-full h-full object-cover"
+          src={slide.src}
+          alt={slide.alt}
+        />
+        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+          <h3 className="text-center text-orange-400 uppercase">{slide.text}</h3>
+        </div>
+      </div>
+    </SwiperSlide>
+  ))}
 </Swiper>
+
 
 
         </section>
