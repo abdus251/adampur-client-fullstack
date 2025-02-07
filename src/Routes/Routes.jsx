@@ -32,7 +32,7 @@ import AdminHome from "../pages/Dahbard/AdminHome/AdminHome";
 import UserHome from "../pages/Dahbard/UserHome/UserHome"
 import AddReview from "../pages/Dahbard/AddReview/AddReview";
 import NotFound from "../pages/NotFound";
-import AddPupil from "../pages/AddPupil/AddPupil"
+
 
 export const router = createBrowserRouter([
   {
@@ -157,14 +157,6 @@ export const router = createBrowserRouter([
           </AdminRoute>
         ),
       },
-      // {
-      //   path: "addPupil",
-      //   element: (
-      //     <AdminRoute>
-      //       <AddPupil></AddPupil>
-      //     </AdminRoute>
-      //   ),
-      // },
       {
         path: "manageItems",
         element: (
