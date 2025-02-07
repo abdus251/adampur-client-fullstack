@@ -9,18 +9,18 @@ import { Link } from "react-router-dom";
 const AdmissionAndFees = () => {
   return (
     <>
-      <div className="bg-sky-50 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10 text-center px-8 font-noto-sans-bengali">
+      <div className="bg-sky-50 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10 px-8 font-noto-sans-bengali text-justify">
         <div className="my-10 ">
           <h1 className="text-2xl text-sky-400">আমাদের সম্পর্কে</h1>
           <p className="mt-5">
-            আদমপুর সরকারি প্রাথমিক বিদ্যালয়, <br /> বন্দর, নারায়ণগঞ্জ একটি
+            আদমপুর সরকারি প্রাথমিক বিদ্যালয়,বন্দর, নারায়ণগঞ্জ একটি
             সরকারি প্রাথমিক বিদ্যালয়, যা ১৯৬৯ সালে শিক্ষার মহানব্রত নিয়ে চালু
             হয়। এটি বন্দরের আদমপুর এলাকায় অবস্থিত এবং এই বিদ্যালয়ে সহজেই
-            জনপরিবহনের মাধ্যমে পৌঁছানো যায়।
+            জনপরিবহনের মাধ্যমে পৌঁছানো যায়। অত্যন্ত দক্ষ এবং উচ্চশিক্ষিত শিক্ষকগণের নিবীড় তত্ত্বাবধানে এখানে পঠন-পাঠন কার্যক্রম পরিচালিত হয়।
           </p>
         </div>
         <div className="my-10">
-          <h1 className="text-2xl text-sky-400">ভর্তি এবং ফি</h1>
+          <h1 className="text-2xl text-sky-400">ভর্তি এবং শিক্ষাবর্ষ </h1>
           <p className="mt-5"></p>
           <p className="mt-5">
             আদমপুর সরকারি প্রাথমিক বিদ্যালয়ে শিক্ষাবর্ষ জানুয়ারি মাসে শুরু হয়।

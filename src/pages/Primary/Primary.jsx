@@ -127,7 +127,7 @@ const Primary = ({}) => {
       </div>
 
 <PopularMenu></PopularMenu>
-<OneStu></OneStu>
+{/* <OneStu></OneStu> */}
 <Featured></Featured>
 
 <div className="my-20 bg-base-300 p-4 sm:p-6 md:p-10 font-noto-sans-bengali">

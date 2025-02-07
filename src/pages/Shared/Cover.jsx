@@ -1,5 +1,5 @@
 import { Parallax } from 'react-parallax';
-const Cover = ({ img, title }) => {
+const Cover = ({ img, title, subTitle }) => {
     return (
 
         <Parallax
@@ -13,7 +13,7 @@ const Cover = ({ img, title }) => {
                 <div className="hero-content text-neutral-content text-center">
                     <div className="max-w-md">
                         <h1 className="mb-5 text-5xl font-bold">{title}</h1>
-                        <p className="mb-5"> এই প্রতিষ্ঠানে অনুদান পাঠাতে চাইলে এই ওয়েবসাইটের মাধ্যমে জমা দেওয়া যাবে। স্কুল ড্রেসের জন্য লোগো কিংবা স্কাউট লোগো এখান থেকে ক্রয় করা যাবে। এছাড়াও স্কাউট চাঁদা কিংবা শিক্ষা সফরের জন্য নির্ধারিত অর্থ প্রদান করা যেতে পারে।
+                        <p className="mb-5 text-3xl text-orange-400"> {subTitle}
                         </p>
                     </div>
                 </div>

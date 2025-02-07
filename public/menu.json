@@ -6,405 +6,399 @@
             "email": "info@dhakainternationalschool.edu.bd"  
         },
         {
-            "_id": "1",
             "roll_number": "১",
             "name": "রাফি আহমেদ",
             "grade": "প্রাক-প্রাথমিক",
             "age": "৫",
             "date_of_birth": "২০১৯-০৩-১৫",
             "hobbies": ["অঙ্কন", "খেলনা দিয়ে খেলা"],
-            "photo_url": "https://img.freepik.com/free-photo/portrait-young-boy-student-attending-school_23-2150911447.jpg?uid=R98122162&ga=GA1.1.1193485818.1725585533&semt=ais_hybrid",
+            "image": "https://img.freepik.com/free-photo/portrait-young-boy-student-attending-school_23-2150911447.jpg?uid=R98122162&ga=GA1.1.1193485818.1725585533&semt=ais_hybrid",
             "category": "prePrimary"
         },
         {
-            "_id": "2",
             "roll_number": "২",
             "name": "আয়শা খান",
             "grade": "প্রাক-প্রাথমিক",
             "age": "৫",
             "date_of_birth": "২০১৯-০৫-২২",
             "hobbies": ["পাঠ করা", "নাচ"],
-            "photo_url": "https://img.freepik.com/free-photo/little-girl-lying-floor-drawing_23-2147797865.jpg?uid=R98122162&ga=GA1.1.1193485818.1725585533&semt=ais_hybrid",
+            "image": "https://img.freepik.com/free-photo/little-girl-lying-floor-drawing_23-2147797865.jpg?uid=R98122162&ga=GA1.1.1193485818.1725585533&semt=ais_hybrid",
             "category": "prePrimary"
         },
         {
-            "_id": "3",
             "roll_number": "৩",
             "name": "হাসান করিম",
             "grade": "প্রথম শ্রেণি",
             "age": "৬",
             "date_of_birth": "২০১৮-০৮-১০",
             "hobbies": ["ফুটবল খেলা", "সাইকেল চালানো"],
-            "photo_url": "https://example.com/photos/hasan_karim.jpg",
+            "image": "https://example.com/photos/hasan_karim.jpg",
             "category": "classOne"
         },
         {
-            "_id": "4",
             "roll_number": "৪",
             "name": "মারিয়া ইসলাম",
             "grade": "প্রথম শ্রেণি",
             "age": "৬",
             "date_of_birth": "২০১৮-১১-০৫",
             "hobbies": ["চিত্রাঙ্কন", "সাঁতার কাটা"],
-            "photo_url": "https://example.com/photos/maria_islam.jpg",
+            "image": "https://example.com/photos/maria_islam.jpg",
             "category": "classOne"
         },
         {
-            "_id": "5",
             "roll_number": "৫",
             "name": "জারা রহমান",
             "grade": "দ্বিতীয় শ্রেণি",
             "age": "৭",
             "date_of_birth": "২০১৭-০৭-১৯",
             "hobbies": ["গান গাওয়া", "বাগান করা"],
-            "photo_url": "https://example.com/photos/zara_rahman.jpg",
+            "image": "https://example.com/photos/zara_rahman.jpg",
             "category": "classTwo"
         },
         {
-            "_id": "6",
             "roll_number": "৬",
             "name": "ওমর ফারুক",
             "grade": "দ্বিতীয় শ্রেণি",
             "age": "৭",
             "date_of_birth": "২০১৭-০৯-১২",
             "hobbies": ["ভিডিও গেম খেলা", "অঙ্কন"],
-            "photo_url": "https://example.com/photos/omar_faruk.jpg",
+            "image": "https://example.com/photos/omar_faruk.jpg",
             "category": "classTwo"
         },
             {
-                "_id": "3",
+
                 "roll_number": "3",
                 "name": "Hasan Karim",
                 "grade": "classOne",
                 "age": 6,
                 "date_of_birth": "2018-08-10",
                 "hobbies": ["Playing Football", "Cycling"],
-                "photo_url": "https://example.com/photos/hasan_karim.jpg",
+                "image": "https://example.com/photos/hasan_karim.jpg",
                 "category": "classOne"
             },
             {
-                "_id": "4",
+
                 "roll_number": "4",
                 "name": "Maria Islam",
                 "grade": "classOne",
                 "age": 6,
                 "date_of_birth": "2018-11-05",
                 "hobbies": ["Painting", "Swimming"],
-                "photo_url": "https://example.com/photos/maria_islam.jpg",
+                "image": "https://example.com/photos/maria_islam.jpg",
                 "category": "classOne"
             },
             {
-                "_id": "5",
+
                 "roll_number": "5",
                 "name": "Zara Rahman",
                 "grade": "classTwo",
                 "age": 7,
                 "date_of_birth": "2017-07-19",
                 "hobbies": ["Singing", "Gardening"],
-                "photo_url": "https://example.com/photos/zara_rahman.jpg",
+                "image": "https://example.com/photos/zara_rahman.jpg",
                 "category": "classTwo"
             },
             {
-                "_id": "6",
+
                 "roll_number": "6",
                 "name": "Omar Faruk",
                 "grade": "classTwo",
                 "age": 7,
                 "date_of_birth": "2017-09-12",
                 "hobbies": ["Playing Video Games", "Drawing"],
-                "photo_url": "https://example.com/photos/omar_faruk.jpg",
+                "image": "https://example.com/photos/omar_faruk.jpg",
                 "category": "classTwo"
             },
             {
-                "_id": "7",
+
                 "roll_number": "7",
                 "name": "Tania Akter",
                 "grade": "classThree",
                 "age": 8,
                 "date_of_birth": "2016-04-20",
                 "hobbies": ["Dancing", "Cycling"],
-                "photo_url": "https://example.com/photos/tania_akter.jpg",
+                "image": "https://example.com/photos/tania_akter.jpg",
                 "category": "classThree"
             },
             {
-                "_id": "8",
+
                 "roll_number": "8",
                 "name": "Rashedul Hasan",
                 "grade": "classThree",
                 "age": 8,
                 "date_of_birth": "2016-10-10",
                 "hobbies": ["Reading", "Football"],
-                "photo_url": "https://example.com/photos/rashedul_hasan.jpg",
+                "image": "https://example.com/photos/rashedul_hasan.jpg",
                 "category": "classThree"
             },
             {
-                "_id": "9",
+
                 "roll_number": "9",
                 "name": "Ayesha Begum",
                 "grade": "classFour",
                 "age": 9,
                 "date_of_birth": "2015-02-15",
                 "hobbies": ["Reading Books", "Painting"],
-                "photo_url": "https://example.com/photos/ayesha_begum.jpg",
+                "image": "https://example.com/photos/ayesha_begum.jpg",
                 "category": "classFour"
             },
             {
-                "_id": "10",
+
                 "roll_number": "10",
                 "name": "Moshiur Rahman",
                 "grade": "classFour",
                 "age": 9,
                 "date_of_birth": "2015-06-20",
                 "hobbies": ["Playing Cricket", "Watching Movies"],
-                "photo_url": "https://example.com/photos/moshiur_rahman.jpg",
+                "image": "https://example.com/photos/moshiur_rahman.jpg",
                 "category": "classFour"
             },
             {
-                "_id": "11",
+
                 "roll_number": "১১",
                 "name": "সিনহা আক্তার",
                 "grade": "classFive",
                 "age": "০১",
                 "date_of_birth": "২২-০৩-২০২৪",
                 "hobbies": ["গান করা", "বাগান করা"],
-                "photo_url": "https://example.com/photos/rina_sultana.jpg",
+                "image": "https://example.com/photos/rina_sultana.jpg",
                 "category": "classFive"
             },
             {
-                "_id": "13",
+
                 "roll_number": "1",
                 "name": "শফিকুল ইসলাম",
                 "grade": "classOne",
                 "age": 6,
                 "date_of_birth": "2018-05-14",
                 "hobbies": ["আঁকা", "পড়া"],
-                "photo_url": "https://example.com/photos/shafikul_islam.jpg",
+                "image": "https://example.com/photos/shafikul_islam.jpg",
                 "category": "classOne"
             },
             {
-                "_id": "14",
+
                 "roll_number": "2",
                 "name": "সামিয়া রহমান",
                 "grade": "classOne",
                 "age": 6,
                 "date_of_birth": "2018-03-22",
                 "hobbies": ["গান করা", "নাচ করা"],
-                "photo_url": "https://example.com/photos/samia_rahman.jpg",
+                "image": "https://example.com/photos/samia_rahman.jpg",
                 "category": "classOne"
             },
             {
-                "_id": "14",
+
                 "roll_number": "3",
                 "name": "ফারহান আহমেদ",
                 "grade": "classTwo",
                 "age": 7,
                 "date_of_birth": "2017-09-30",
                 "hobbies": ["সাইক্লিং", "ক্রিকেট খেলা"],
-                "photo_url": "https://example.com/photos/farhan_ahmed.jpg",
+                "image": "https://example.com/photos/farhan_ahmed.jpg",
                 "category": "classTwo"
             },
             {
-                "_id": "15",
+
                 "roll_number": "4",
                 "name": "মাহমুদা সুলতানা",
                 "grade": "classTwo",
                 "age": 7,
                 "date_of_birth": "2017-11-11",
                 "hobbies": ["আঁকা", "সাঁতার কাটা"],
-                "photo_url": "https://example.com/photos/mahmuda_sultana.jpg",
+                "image": "https://example.com/photos/mahmuda_sultana.jpg",
                 "category": "classTwo"
             },
             {
-                "_id": "16",
+
                 "roll_number": "5",
                 "name": "আরিফুল হক",
                 "grade": "classThree",
                 "age": 8,
                 "date_of_birth": "2016-07-15",
                 "hobbies": ["ফুটবল খেলা", "সাইক্লিং"],
-                "photo_url": "https://example.com/photos/ariful_haque.jpg",
+                "image": "https://example.com/photos/ariful_haque.jpg",
                 "category": "classThree"
             },
             {
-                "_id": "17",
+
                 "roll_number": "6",
                 "name": "রেহানা পারভীন",
                 "grade": "classThree",
                 "age": 8,
                 "date_of_birth": "2016-04-10",
                 "hobbies": ["গান করা", "গার্ডেনিং"],
-                "photo_url": "https://example.com/photos/rehana_parvin.jpg",
+                "image": "https://example.com/photos/rehana_parvin.jpg",
                 "category": "classThree"
             },
             {
-                "_id": "18",
+
                 "roll_number": "7",
                 "name": "ইমরান হোসেন",
                 "grade": "classThree",
                 "age": 9,
                 "date_of_birth": "2015-01-22",
                 "hobbies": ["ফুটবল খেলা", "সাইক্লিং"],
-                "photo_url": "https://example.com/photos/imran_hossain.jpg",
+                "image": "https://example.com/photos/imran_hossain.jpg",
                 "category": "classThree"
             },
             {
-                "_id": "20",
+
                 "roll_number": "9",
                 "name": "সাবিনা আক্তার",
                 "grade": "classFive",
                 "age": 10,
                 "date_of_birth": "2014-03-28",
                 "hobbies": ["গান করা", "সাঁতার কাটা"],
-                "photo_url": "https://example.com/photos/sabina_akter.jpg",
+                "image": "https://example.com/photos/sabina_akter.jpg",
                 "category": "classFive"
             },
             {
-                "_id": "21",
+
                 "roll_number": "10",
                 "name": "রাকিব হাসান",
                 "grade": "classFive",
                 "age": 10,
                 "date_of_birth": "2014-09-19",
                 "hobbies": ["ক্রিকেট খেলা", "সাইক্লিং"],
-                "photo_url": "https://example.com/photos/rakib_hasan.jpg",
+                "image": "https://example.com/photos/rakib_hasan.jpg",
                 "category": "classFive"
             },
             {
-                "_id": "22",
+
                 "roll_number": "11",
                 "name": "নাদিয়া সুলতানা",
                 "grade": "classTwo",
                 "age": 11,
                 "date_of_birth": "2013-07-11",
                 "hobbies": ["আঁকা", "পড়া"],
-                "photo_url": "https://example.com/photos/nadia_sultana.jpg",
+                "image": "https://example.com/photos/nadia_sultana.jpg",
                 "category": "classTwo"
             },
             {
-                "_id": "23",
+
                 "roll_number": "12",
                 "name": "রাকিবুল ইসলাম",
                 "grade": "classTwo",
                 "age": 11,
                 "date_of_birth": "2013-12-18",
                 "hobbies": ["গান করা", "গার্ডেনিং"],
-                "photo_url": "https://example.com/photos/rakibul_islam.jpg",
+                "image": "https://example.com/photos/rakibul_islam.jpg",
                 "category": "classTwo"
             },
             {
-                "_id": "24",
+
                 "roll_number": "13",
                 "name": "তানিয়া আক্তার",
                 "grade": "prePrimary",
                 "age": 12,
                 "date_of_birth": "2012-11-20",
                 "hobbies": ["গান করা", "নাচ করা"],
-                "photo_url": "https://img.freepik.com/free-photo/schoolgirl-gesturing-two-fingers_23-2147659220.jpg?uid=R98122162&ga=GA1.1.1193485818.1725585533&semt=ais_hybrid",
+                "image": "https://img.freepik.com/free-photo/schoolgirl-gesturing-two-fingers_23-2147659220.jpg?uid=R98122162&ga=GA1.1.1193485818.1725585533&semt=ais_hybrid",
                 "category": "prePrimary"
             },
             {
-                "_id": "28",
+
                 "roll_number": "17",
                 "name": "আফসানা বেগম",
                 "grade": "classTwo",
                 "age": 14,
                 "date_of_birth": "2010-08-16",
                 "hobbies": ["গান করা", "গার্ডেনিং"],
-                "photo_url": "https://example.com/photos/afsana_begum.jpg",
+                "image": "https://example.com/photos/afsana_begum.jpg",
                 "category": "classTwo"
             },
             {
-                "_id": "29",
+
                 "roll_number": "18",
                 "name": "রাকিবুল হাসান",
                 "grade": "classTwo",
                 "age": 14,
                 "date_of_birth": "2010-12-25",
                 "hobbies": ["ক্রিকেট খেলা", "সাইক্লিং"],
-                "photo_url": "https://example.com/photos/rakibul_hasan.jpg",
+                "image": "https://example.com/photos/rakibul_hasan.jpg",
                 "category": "classTwo"
             },  
             {
-                "_id": "300",
+
                 "roll_number": "30",
                 "name": "Mashiur Rahman",
                 "grade": "classFour",
                 "age": 9,
                 "date_of_birth": "2015-06-20",
                 "hobbies": ["Playing Cricket", "Watching Movies"],
-                "photo_url": "https://example.com/photos/moshiur_rahman.jpg",
+                "image": "https://example.com/photos/moshiur_rahman.jpg",
                 "category": "classFour"
             },
             {
-                "_id": "301",
+
                 "roll_number": "30",
                 "name": "Mr. Nasir",
                 "grade": "classFour",
                 "age": 9,
                 "date_of_birth": "2015-06-20",
                 "hobbies": ["Playing Cricket", "Watching Movies"],
-                "photo_url": "https://example.com/photos/moshiur_rahman.jpg",
+                "image": "https://example.com/photos/moshiur_rahman.jpg",
                 "category": "classFour"
             },
             {
-                "_id": "302",
+
                 "roll_number": "30",
                 "name": "Bashiur Rahman",
                 "grade": "classFour",
                 "age": 9,
                 "date_of_birth": "2015-06-20",
                 "hobbies": ["Playing Football", "Watching Movies"],
-                "photo_url": "https://example.com/photos/moshiur_rahman.jpg",
+                "image": "https://example.com/photos/moshiur_rahman.jpg",
                 "category": "classFour"
             },
             {
-                "_id": "302",
+
                 "roll_number": "30",
                 "name": "Bashiur Rahman",
                 "grade": "classFour",
                 "age": 9,
                 "date_of_birth": "2015-06-20",
                 "hobbies": ["Playing Football", "Watching Movies"],
-                "photo_url": "https://example.com/photos/moshiur_rahman.jpg",
+                "image": "https://example.com/photos/moshiur_rahman.jpg",
                 "category": "classFour"
             },
             {
-                "_id": "T004",
+
                 "date_of_joining": "2016-09-15",
                 "tName": "আয়েশা আক্তার",
                 "tPost": "প্রধান শিক্ষক (ভারপ্রাপ্ত)",
                 "subject": "ইংরেজি",
                 "date_of_birth": "1975-03-30",
                 "phone": "+880-2-3456789",
-                "photo_url": "https://i.ibb.co.com/m8Z2jC8/ayesha.png",
+                "image": "https://i.ibb.co.com/m8Z2jC8/ayesha.png",
                 "highest_level_of_education": "Masters in English",
                 "area_of_interest": "বাগান করা, ভ্রমণ করা",
                 "experience": "২২ বছর",
                 "category": "popular"
             },
             {
-                "_id": "T003",
+
                 "date_of_joining": "2015-08-01",
                 "tName": "সমীর চন্দ্র সাহা",
                 "tPost": "সহকারী শিক্ষক",
                 "subject": "গণিত",
                 "date_of_birth": "১৯৮০-০৯-১২",
                 "phone": "+০০০০০০০০০০০০",
-                "photo_url": "https://i.ibb.co.com/Wn5Vqfb/samir.png",
+                "image": "https://i.ibb.co.com/Wn5Vqfb/samir.png",
                 "highest_level_of_education": "ব্যাচেলর অব আর্টস (পাস)",
                 "area_of_interest": "গাণিতিক যুক্তি",
                 "experience": "১৬ বছর",
                 "category": "popular"
             },
             {
-                "_id": "T001",
+
                 "date_of_joining": "২০১৯-০৪-১৫",
                 "tName": "আব্দুস সালাম",
                 "tPost": "সহকারী শিক্ষক",
                 "subject": "লোক প্রশাসন",
                 "date_of_birth": "১৯৮৬-০২-০১",
                 "phone": "+৮৮০-২-৬৭৮৯০১২",
-                "photo_url": "https://i.ibb.co.com/rHbvLV5/abdusbl.jpg",
+                "image": "https://i.ibb.co.com/rHbvLV5/abdusbl.jpg",
                 "highest_level_of_education": "মাস্টার্স ইন সোশ্যাল সায়েন্স",
                 "area_of_interest": "প্রোগ্রামিং",
                 "experience": " ১২ বছর",
@@ -412,14 +406,14 @@
             },
             
             {
-                "_id": "T002",
+
                 "date_of_joining": "২০১৮-০৩-১০",
                 "tName": "নুরজাহান আক্তার",
                 "tPost": "সহকারী শিক্ষক",
                 "subject": "বাংলা",
                 "date_of_birth": "১৯৯০-০৭-২৫",
                 "phone": "+৮৮০-২-৫৬৭৮৯০১",
-                "photo_url": "https://i.ibb.co.com/Lk4FnNN/monni.png",
+                "image": "https://i.ibb.co.com/Lk4FnNN/monni.png",
                 "highest_level_of_education": "মাস্টার্স ইন আর্টস",
                 "area_of_interest": "কবিতা",
                 "experience": "৮ বছর",
@@ -427,92 +421,80 @@
             },
             
             {
-                "_id": "T005",
+
                 "date_of_joining": "2017-01-20",
                 "tName": "রহিমা ইসলাম",
                 "tPost": "সহকারী শিক্ষক",
                 "subject": "Science",
                 "date_of_birth": "1985-01-18",
                 "phone": "+880-2-4567890",
-                "photo_url": "https://i.ibb.co.com/pww2CWP/rahima.png",
+                "image": "https://i.ibb.co.com/pww2CWP/rahima.png",
                 "highest_level_of_education": "Masters in Science",
                 "area_of_interest": "Physics",
                 "category": "popular",
                 "experience": "৮ বছর"
             },
             {
-                "_id": "T006",
+
                 "date_of_joining": "2018-03-10",
                 "tName": "নাদিয়া রহমান মিলি",
                 "tPost": "সহকারী শিক্ষক",
                 "subject": "Bengali",
                 "date_of_birth": "1990-07-25",
                 "phone": "+880-2-5678901",
-                "photo_url": "https://i.ibb.co.com/Hd7SkFF/nadia.png",
+                "image": "https://i.ibb.co.com/Hd7SkFF/nadia.png",
                 "highest_level_of_education": "Masters in Bengali",
                 "area_of_interest": "Poetry",
                 "category": "popular",
                 "experience": "5 বছর"
             },
             {
-                "_id": "C001",
-                "member_id": "CM001",
                 "name": "মিঃ রাহমান",
                 "role": "Chairperson",
                 "category": "committee",
                 "date_of_birth": "1965-02-14",
                 "phone": "+880-2-1111111",
-                "photo_url": "https://example.com/photos/mr_rahman.jpg"
+                "image": "https://example.com/photos/mr_rahman.jpg"
               },
               {
-                "_id": "C002",
-                "member_id": "CM002",
                 "name": "মিসেস সুলতানা",
                 "role": "Vice Chairperson",
                 "category": "committee",
                 "date_of_birth": "1970-07-22",
                 "phone": "+880-2-2222222",
-                "photo_url": "https://example.com/photos/mrs_sultana.jpg"
+                "image": "https://example.com/photos/mrs_sultana.jpg"
               },
               {
-                "_id": "C003",
-                "member_id": "CM003",
                 "name": "মিঃ চৌধুরী",
                 "role": "Secretary",
                 "category": "committee",
                 "date_of_birth": "1980-03-15",
                 "phone": "+880-2-3333333",
-                "photo_url": "https://example.com/photos/mr_chowdhury_committee.jpg"
+                "image": "https://example.com/photos/mr_chowdhury_committee.jpg"
               },
               {
-                "_id": "C004",
-                "member_id": "CM004",
                 "name": "মিস হোসেন",
                 "role": "Treasurer",
                 "category": "committee",
                 "date_of_birth": "1985-11-30",
                 "phone": "+880-2-4444444",
-                "photo_url": "https://example.com/photos/ms_hasan.jpg"
+                "image": "https://example.com/photos/ms_hasan.jpg"
               },
               {
-                "_id": "C005",
-                "member_id": "CM005",
                 "name": "মিঃ আহমেদ",
                 "role": "Member",
                 "category": "committee",
                 "date_of_birth": "1978-09-05",
                 "phone": "+880-2-5555555",
-                "photo_url": "https://example.com/photos/mr_ahmed_committee.jpg"
+                "image": "https://example.com/photos/mr_ahmed_committee.jpg"
               },
               {
-                "_id": "C006",
-                "member_id": "CM006",
                 "name": "মিসেস বেগম",
                 "role": "Member",
                 "category": "committee",
                 "date_of_birth": "1990-02-14",
                 "phone": "+880-2-6666666",
-                "photo_url": "https://example.com/photos/ms_begum_committee.jpg"
+                "image": "https://example.com/photos/ms_begum_committee.jpg"
               }
           ]
           

@@ -9,18 +9,18 @@ const OneStu = ({item}) => {
 
 
   return (
-    <div className='gap-5 border pl-4 text-sm bg-slate-100 flex p-4'>
-    <div className=''>
+    <div >
+    {/* <div className=''>
     নাম: {name} <br />
       শ্রেণি: {grade} <br />
       রোল: {roll_number} <br />
       জন্ম তারিখ: {date_of_birth} <br />
       বয়স: {age} <br />
-      শখ: {hobbies.join(', ')}
-    </div>
-    <div>
+      শখ: {Array.isArray(hobbies) ? hobbies.join(', ') : 'N?A'}
+    </div> */}
+    {/* <div>
       <img className='h-[200px] w-[200]' src={photo_url} alt="" />
-    </div> 
+    </div>  */}
   </div>
   )
 }

@@ -4,7 +4,7 @@ import useAuth from "./useAuth";
 
 // Create an Axios instance with a base URL
 export const axiosSecure = axios.create({
-  baseURL: "https://adampur-server-fullstack-3.onrender.com",
+  baseURL: "http://localhost:5000",
 });
 // "https://adampur-server-fullstack-4.onrender.com",
 
@@ -33,9 +33,7 @@ const useAxiosSecure = () => {
       return response;
     },
     async (error) => {
-      const status = error.response.status;
-      // console.log("status error in the interceptor", status);
-      // for 401 or 403 logout the user and move the user to the login page
+      const status = error.response?.status;
       if (status === 401 || status === 403) {
         await logOut();
         navigate("/login");

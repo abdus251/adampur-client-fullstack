@@ -35,10 +35,22 @@ const NavBar = () => {
     </Link>
       <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/prePrimary">প্রাক-প্রাথমিক</Link></li>
       <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/primary">প্রাথমিক</Link></li>
-      <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/staff">জনবল</Link></li>
-      <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/contact">যোগাযোগ</Link></li>
-      <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/shop">সততা স্টোর</Link></li>
+      {/* <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/staff">জনবল</Link></li> */}
+
       <li className="font-noto-sans-bengali my-2 lg:ml-5 relative">
+        <details>
+          <summary className="cursor-pointer">জনবল</summary>
+          <ul className=" p-2">
+            <li><Link to="/staff">শিক্ষক</Link></li>
+            <li><Link to="/student">শিক্ষার্থী</Link></li>
+            <li><Link to="/committe">কমিটি</Link></li>
+          </ul>
+        </details>
+      </li>
+
+      <li className="font-noto-sans-bengali my-2 lg:ml-10"><Link to="/contact">যোগাযোগ</Link></li>
+      <li className="font-noto-sans-bengali my-2 lg:ml-10"><Link to="/shop">সততা স্টোর</Link></li>
+      <li className="font-noto-sans-bengali my-2 lg:ml-10 relative">
         <details>
           <summary className="cursor-pointer">আরো</summary>
           <ul className=" p-2">
@@ -51,7 +63,7 @@ const NavBar = () => {
     </ul>
   
     {/* Login/Logout */}
-    <div className="my-2 lg:my-0">
+    <div className="my-2 lg:my-0 lg:ml-10">
       {user ? (
         <button onClick={handleLogOut} className="btn btn-ghost font-noto-sans-bengali">লগআউট</button>
       ) : (
@@ -68,7 +80,7 @@ const NavBar = () => {
   return (
     <>
       {/* Logo Section */}
-      <div className="flex items-center justify-center my-3">
+      <div className="flex items-center justify-center my-3 ">
       <a className="flex gap-5 justify-center items-center">
         <div>
           <img className="h-24 w-24" src={logo} alt="Adompur School Logo" />
@@ -97,7 +109,7 @@ const NavBar = () => {
     </div>
     
 {/* navbar */}
-      <div className="navbar fixed z-10 bg-opacity-30 bg-sky-400 max-w-screen-xl">
+      <div className="navbar relative z-10 bg-opacity-30 bg-sky-400 max-w-screen-xl text-orange-400">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

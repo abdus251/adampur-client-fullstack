@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -15,6 +15,7 @@ const Footer = () => {
                                 </div>
                         <small className='font-noto-sans-bengali'> কপিরাইট © {new Date().getFullYear()} - আদমপুর সরকারি প্রাথমিক বিদ্যালয়, <br /> বন্দর, নারায়ণগঞ্জ</small>
                     </div>
+
                 </div>
         </div>
     )

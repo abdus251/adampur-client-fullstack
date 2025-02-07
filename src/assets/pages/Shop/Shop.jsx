@@ -7,7 +7,7 @@ import useFee from "../../../hooks/useFee";
 import OrderTab from "../../../pages/Order/OrderTab/OrderTab";
 
 const Shop = () => {
-    const [tabIndex, setTabIndex] = useState(0);
+  const [tabIndex, setTabIndex] = useState(0);
   const [fee] = useFee();
 
   const donate = fee.filter(item => item.name === "donate");
@@ -15,37 +15,42 @@ const Shop = () => {
   const scoutFee = fee.filter(item => item.name === "scoutFee");
   const partyFee = fee.filter(item => item.name === "partyFee");
   const tourFee = fee.filter(item => item.name === "tourFee");
+
   return (
     <div>
-        <div className="mt-24">
-            <Cover  img={shopImg} title={"কেনাকাটা করুন"} ></Cover>
-            <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)} className='justify-center items-center ml-20 mt-10  '>
-  <TabList className="flex justify-center items-center gap-4 text-purple-400">
-    <Tab>অনুদান</Tab>
-    <Tab>লোগো</Tab>
-    <Tab>স্কাউট চাঁদা</Tab>
-    <Tab>শিক্ষা সফর</Tab>
-    <Tab>ক্লাস পার্টি</Tab>
-  </TabList>
-  <TabPanel>
-    <OrderTab items={donate}></OrderTab>
-  </TabPanel>
-  <TabPanel>
-    <OrderTab items={logo}></OrderTab>
-  </TabPanel>
-  <TabPanel>
-    <OrderTab items={scoutFee}></OrderTab>
-  </TabPanel>
-  <TabPanel>
-    <OrderTab items={partyFee}></OrderTab>
-  </TabPanel>
-  <TabPanel>
-    <OrderTab items={tourFee}></OrderTab>
-  </TabPanel>
-</Tabs>
-        </div>
-    </div>
-  )
-}
+      <div className="mt-24">
+        {/* Responsive Cover Image */}
+        <Cover img={shopImg} title={"কেনাকাটা করুন"} />
 
-export default Shop
+        {/* Tabs Section */}
+        <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)} className="mt-10">
+          <TabList className="flex flex-wrap justify-center gap-4 text-purple-400">
+            <Tab>অনুদান</Tab>
+            <Tab>লোগো</Tab>
+            <Tab>স্কাউট চাঁদা</Tab>
+            <Tab>শিক্ষা সফর</Tab>
+            <Tab>ক্লাস পার্টি</Tab>
+          </TabList>
+
+          <TabPanel>
+            <OrderTab items={donate} />
+          </TabPanel>
+          <TabPanel>
+            <OrderTab items={logo} />
+          </TabPanel>
+          <TabPanel>
+            <OrderTab items={scoutFee} />
+          </TabPanel>
+          <TabPanel>
+            <OrderTab items={partyFee} />
+          </TabPanel>
+          <TabPanel>
+            <OrderTab items={tourFee} />
+          </TabPanel>
+        </Tabs>
+      </div>
+    </div>
+  );
+};
+
+export default Shop;

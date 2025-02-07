@@ -31,7 +31,9 @@ import AdminHome from "../pages/Dahbard/AdminHome/AdminHome";
 
 import UserHome from "../pages/Dahbard/UserHome/UserHome"
 import AddReview from "../pages/Dahbard/AddReview/AddReview";
+import NotFound from "../pages/NotFound";
 import AddPupil from "../pages/AddPupil/AddPupil"
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -42,17 +44,21 @@ export const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
+        path: "*",
+        element: <NotFound></NotFound>
+      },
+      {
         path: "about",
         element: <Order></Order>,
       },
       {
-        path: "menu",
+        path: "student",
         element: <Menu></Menu>,
       },
       {
         path: "applicationForm",
         element: <ApplicationForm />,
-        loader: () => fetch('https://adampur-server-fullstack-3.onrender.com')
+        loader: () => fetch('http://localhost:5000')
       },
       {
         path: "prePrimary",
@@ -66,6 +72,10 @@ export const router = createBrowserRouter([
         path: "staff",
         element: <Staff></Staff>,
       },
+//       {
+// path: "student",
+// element: <StudentPage></StudentPage>
+//       },
       {
         path: "contact",
         element: <Contact />,
@@ -171,7 +181,7 @@ export const router = createBrowserRouter([
           </AdminRoute>
         ),
         loader: ({ params }) =>
-          fetch(`https://adampur-server-fullstack-3.onrender.com/menu/${params.id}`),
+          fetch(`http://localhost:5000/menu/${params.id}`),
       },
       {
         path: "users",
@@ -184,7 +194,7 @@ export const router = createBrowserRouter([
       {
         path: "addStudents",
         element: <AddStudents></AddStudents>,
-        loader: () => fetch("https://adampur-server-fullstack-3.onrender.com/student"),
+        loader: () => fetch("http://localhost:5000/student"),
       },
     ],
   },
