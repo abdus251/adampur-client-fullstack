@@ -38,9 +38,9 @@ const Staff = () => {
                 (ডিপিএডএড) ডিগ্রি। তিনি আন্তর্জাতিক ভাষা ইংরেজি এবং গণিতের মতো
                 গুরুত্বপূর্ণ বিষয়ে শিখন-শেখানোর পাশাপাশি ইসলাম ও নৈতিক শিক্ষা
                 বিষয়েও পাঠদান করে থাকেন। এছাড়াও প্রাক-প্রাথমিক শ্রেণির শিশুদের
-                হাতেখড়িও তার মাধ্যমে হয়। েএই শ্রেণিতে তিনি গণিতের প্রারম্ভিক
+                হাতেখড়িও তার মাধ্যমে হয়। এই শ্রেণিতে তিনি গণিতের প্রারম্ভিক
                 ধারণা ছোট-বড়, কাছে-দূরে, চিকন-মোটা, লম্বা-খাটো, কম-বেশি, সংখ্যা
-                পরিচিতি, যোগ ও বিয়োগের ধারণা এবং প্রাথমিক জ্যামিতি তিন কোণাকার,
+                পরিচিতি, যোগ ও বিয়োগের ধারণা এবং প্রাথমিক জ্যামিতি- তিন কোণাকার,
                 চারকোণাকার, বৃত্তাকার বিষয়ে পড়িয়ে থাকেন। প্রাক-প্রাথমিক শ্রেণির
                 পাঠ পরিচালনার জন্য তার রয়েছে বিশেষ প্রশিক্ষণ। কঠিন ও দুর্ভোধ্য
                 বিষয়গুলি সহজে শেখানোর নেশা তাকে সবর্দা তারিত করে। দুর্বল ও
@@ -50,37 +50,9 @@ const Staff = () => {
             </div>
           </div>
 
-          {/* samir */}
+          {/* ayesha apa */}
           <div className="grid sm:grid-cols-1 md:flex lg:flex">
-            <div className="border border-black mx-auto px-2  p-5 w-1/2 text-justify ">
-              {/* Content goes here */}
-              <h1 className="text-3xl text-orange-400 text-center mt-20">সমীর চন্দ্র সাহা</h1>
-              <h4 className="text-xl text-center py-8"> সহকারী শিক্ষক </h4>
-              <p className="leading-loose">
-                সমীর চন্দ্র সাহা একজন খ্যাতিমান গণিত শিক্ষক। বিজ্ঞান শিক্ষায়ও
-                তিনি সমৃদ্ধ পটভূমি নিয়ে কাজ করছেন। পাঠদানের ক্ষেত্রে ১৫ বছরেরও
-                বেশি সময়ের অভিজ্ঞতা এবং বিদ্যালয়ের হিন্দু শিক্ষার্থীদের নিজ ধর্ম
-                চর্চার ক্ষেত্রেও তার বিশেষ পাণ্ডিত্য রয়েছে। বিভিন্ন বয়স এবং
-                স্তরের শিক্ষার্থীদের হিন্দু ধর্ম শিক্ষা দেওয়ার ক্ষেত্রে তিনি
-                পারদর্শী। তার দক্ষতা পাঠ্যক্রম পরিকল্পনা পর্যন্ত বিস্তৃত। সমীর
-                চন্দ্র সাহা গভীর এবং বিশদভাবে তথ্য উপস্থাপন করতে দক্ষ, তিনি
-                সর্বদা উৎকর্ষ সাধনের চেষ্টা করেন এবং শিক্ষার্থীদের শিক্ষাজীবনকে
-                তার একনিষ্ঠ প্রতিশ্রুতির মাধ্যমে সমৃদ্ধ করেন।
-              </p>
-            </div>
-            <div className="border border-black mx-auto px-2  p-5 w-1/2">
-              {/* img goes here */}
-              <img src={samir} alt="" className="w-full " />
-            </div>
-          </div>
-           {/* ayesha apa */}
-         
-          <div className="grid sm:grid-cols-1 md:flex lg:flex">
-            <div className="border border-black mx-auto mt-10  w-1/2">
-              {/* img goes here */}
-              <img src={ayesha} alt="" className="w-full " />
-            </div>
-            <div className="border border-black mx-auto px-2  ‍ w-1/2 text-justify sm-px-2 mt-10 ">
+          <div className="border border-black mx-auto px-2  ‍ w-1/2 text-justify sm-px-2 ">
               {/* Content goes here */}
               <h1 className="text-3xl  text-center mt-20 text-orange-400"> আয়েশা আক্তার</h1>
               <h4 className="text-xl text-center py-8">সহকারী শিক্ষক </h4>
@@ -101,6 +73,39 @@ const Staff = () => {
                 গড়ে তোলা।
               </p>
             </div>
+
+            <div className="border border-black mx-auto  w-1/2">
+              {/* img goes here */}
+              <img src={ayesha} alt="" className="w-full " />
+            </div>
+            
+            
+          </div>
+         
+           {/* samir sir */}
+         
+           <div className="grid sm:grid-cols-1 md:flex lg:flex">
+           <div className="border border-black mx-auto px-2  p-5 w-1/2">
+              {/* img goes here */}
+              <img src={samir} alt="" className="w-full " />
+            </div>
+            <div className="border border-black mx-auto px-2  p-5 w-1/2 text-justify ">
+              {/* Content goes here */}
+              <h1 className="text-3xl text-orange-400 text-center mt-20">সমীর চন্দ্র সাহা</h1>
+              <h4 className="text-xl text-center py-8"> সহকারী শিক্ষক </h4>
+              <p className="leading-loose">
+                সমীর চন্দ্র সাহা একজন খ্যাতিমান গণিত শিক্ষক। বিজ্ঞান শিক্ষায়ও
+                তিনি সমৃদ্ধ পটভূমি নিয়ে কাজ করছেন। পাঠদানের ক্ষেত্রে ১৫ বছরেরও
+                বেশি সময়ের অভিজ্ঞতা এবং বিদ্যালয়ের হিন্দু শিক্ষার্থীদের নিজ ধর্ম
+                চর্চার ক্ষেত্রেও তার বিশেষ পাণ্ডিত্য রয়েছে। বিভিন্ন বয়স এবং
+                স্তরের শিক্ষার্থীদের হিন্দু ধর্ম শিক্ষা দেওয়ার ক্ষেত্রে তিনি
+                পারদর্শী। তার দক্ষতা পাঠ্যক্রম পরিকল্পনা পর্যন্ত বিস্তৃত। সমীর
+                চন্দ্র সাহা গভীর এবং বিশদভাবে তথ্য উপস্থাপন করতে দক্ষ, তিনি
+                সর্বদা উৎকর্ষ সাধনের চেষ্টা করেন এবং শিক্ষার্থীদের শিক্ষাজীবনকে
+                তার একনিষ্ঠ প্রতিশ্রুতির মাধ্যমে সমৃদ্ধ করেন।
+              </p>
+            </div>
+           
           </div>
 
           {/* মুন্নী */}

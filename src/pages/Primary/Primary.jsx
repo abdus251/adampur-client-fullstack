@@ -137,8 +137,8 @@ const Primary = ({}) => {
     </h1>
     <p className="pb-4 text-center text-sm sm:text-base lg:text-lg">
       স্কুলে ভর্তির জন্য আবেদন সারাবছর খোলা থাকে। <br />
-      আপনার আগ্রহ প্রকাশ করতে এবং আপনার যোগাযোগের তথ্য প্রদান করতে, অনুগ্রহ করে এই   
-       <button>
+      আপনার আগ্রহ প্রকাশ করতে এবং আপনার যোগাযোগের তথ্য প্রদান করতে, অনুগ্রহ করে এই    
+        <button>
         <Link to="/applicationForm" className="text-sky-400 underline"> 
           আবেদন ফর্মটি
         </Link>

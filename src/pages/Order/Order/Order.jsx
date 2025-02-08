@@ -40,10 +40,10 @@ const Order = () => {
           সম্পর্কে{" "}
         </motion.h3>
         <motion.small
-          className="font-noto-sans-bengali"
+          className="font-noto-sans-bengali text-lg text-orange-400"
           variants={introChildren}
         >
-          পরিবর্তনের জন্য অবদান রাখা
+          জাতি গঠনে নিরন্তর প্রচেষ্টা চালিয়ে যাওয়া
         </motion.small>
        <div>
        <img

@@ -173,7 +173,7 @@ export const router = createBrowserRouter([
           </AdminRoute>
         ),
         loader: ({ params }) =>
-          fetch(`https://adampur-server-fullstack-3.onrender.com/menu/${params.id}`),
+          fetch(`http://localhost:5000/menu/${params.id}`),
       },
       {
         path: "users",
@@ -186,7 +186,7 @@ export const router = createBrowserRouter([
       {
         path: "addStudents",
         element: <AddStudents></AddStudents>,
-        loader: () => fetch("https://adampur-server-fullstack-3.onrender.com/student"),
+        loader: () => fetch("http://localhost:5000/student"),
       },
     ],
   },

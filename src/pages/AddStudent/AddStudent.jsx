@@ -18,7 +18,7 @@ const AddStudent = () => {
       formData.append("photo", form.photo.files[0]); // Upload file
   
       try {
-        const response = await fetch("https://adampur-server-fullstack-3.onrender.com/student", {
+        const response = await fetch("http://localhost:5000/student", {
           method: "POST",
           body: formData, // Send formData directly
         });

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { useContext, useState } from "react";
-import logo from "../../../../public/Adompur logo.jpg";
 import { AuthContext } from "../../../providers/AuthProvider";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import useCart from "../../../hooks/useCart";
@@ -83,7 +82,8 @@ const NavBar = () => {
       <div className="flex items-center justify-center my-3 ">
       <a className="flex gap-5 justify-center items-center">
         <div>
-          <img className="h-24 w-24" src={logo} alt="Adompur School Logo" />
+          <img className="h-24 w-24" src="/Adompur logo.jpg" alt="Adompur Logo" />
+
         </div>
         <motion.div
           className=""
@@ -109,7 +109,7 @@ const NavBar = () => {
     </div>
     
 {/* navbar */}
-      <div className="navbar relative z-10 bg-opacity-30 bg-sky-400 max-w-screen-xl text-orange-400">
+      <div className="navbar relative z-10 bg-opacity-30 bg-sky-400 max-w-screen-xl">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

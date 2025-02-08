@@ -8,13 +8,15 @@ const MenuItem = ({ item }) => {
     <div className="mt-4 grid grid-cols-1">
   <div className="flex flex-col sm:flex-row  bg-base-100 border rounded-none shadow-md ">
     {/* Image Section */}
-    <figure className="sm:w-[40%] flex justify-center items-center">
-      <img
-        src={image}
-        alt="stuPic"
-        className="w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] object-cover rounded-none"
-      />
-    </figure>
+    <figure className="sm:w-[100%] flex">
+  <img
+    src={image}
+    alt="stuPic"
+    className="w-[150px] sm:w-[200px] md:w-[300px] lg:w-[400px] object-cover rounded-none"
+  />
+</figure>
+
+
 
     {/* Text Section */}
     <div className="card-body p-4 sm:p-6 w-full">

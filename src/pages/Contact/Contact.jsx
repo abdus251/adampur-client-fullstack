@@ -83,8 +83,8 @@ const Contact = () => {
                 </fieldset>
               </div>
               <div className=" lg:ml-5">
-  <button className="mt-8 sm:ml-5 bg-black text-white py-2 sm:py-3 rounded-none sm:w-[100px] lg:w-[360px] w-full font-bold mb-20">
-    Submit
+  <button className="mt-8 sm:ml-5 bg-black text-white py-2 sm:py-3 rounded-none sm:w-[100px] md:w-[520px] md:ml-10 lg:w-[360px] w-full font-bold mb-20">
+    জমা দিন
   </button>
 </div>
             </form>
