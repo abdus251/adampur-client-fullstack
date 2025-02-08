@@ -171,7 +171,7 @@ const Staff = () => {
               {/* Content goes here */}
               <h1 className="text-3xl text-orange-400 text-center mt-20"> নাদিয়া রহমান মিলি</h1>
               <h4 className="text-xl text-center py-8"> সহকারী শিক্ষক </h4>
-              <p className="leading-loose">
+              <span className="leading-loose">
                 {" "}
                 <p className="leading-loose">
                   নাদিয়া রহমান মিলি জাতীয় বিশ্ববিদ্যালয় থেকে মাস্টার্স সম্পন্ন
@@ -188,7 +188,7 @@ const Staff = () => {
                   মাতৃভাষা বাংলা, বাংলাদেশ ও বিশ্বপরিচয়, চারু ও কারুকলার মতো
                   গুরুত্বপূর্ণ বিষয়গুলি যত্নের সাথে পাঠদানে তার সুখ্যাতি রয়েছে।
                 </p>
-              </p>
+              </span>
             </div>
             <div className="border border-black mx-auto  p-5 w-1/2">
               {/* img goes here */}
