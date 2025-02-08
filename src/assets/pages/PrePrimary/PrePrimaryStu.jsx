@@ -1,5 +1,5 @@
 import Swal from "sweetalert2";
-import stu1 from "../../../assets/prePhoto/pre5.jpg";
+
 
 const PrePrimaryStu = ({ item }) => {
   const { _id, photo_url, name, roll_number, grade, date_of_birth, hobbies, age } = item;
@@ -48,15 +48,6 @@ const PrePrimaryStu = ({ item }) => {
         <div>
           <img className="h-[200px] w-[200px]" src={photo_url} alt="" />
         </div>
-        {/* <div className="card-actions justify-start">
-          <div className="btn-group btn-group-vertical space-y-4 grid">
-            <button className="btn">View</button>
-            <button className="btn">Edit</button>
-            <button onClick={() => handleDelete(_id)} className="btn btn-danger">
-              X
-            </button>
-          </div>
-        </div> */}
       </div>
     </>
   );

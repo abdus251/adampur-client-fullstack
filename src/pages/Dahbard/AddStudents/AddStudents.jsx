@@ -11,12 +11,13 @@ const AddStudents = () => {
 
   useEffect(() => {
     // Fetch student data from the API
-    axios.get("https://adampur-server-fullstack-3.onrender.comstudent")
-      .then((res) => {
-        console.log(res.data); // Check if data is fetched correctly
-        setStudents(res.data); // Set data to state
-      })
-      .catch((err) => console.error("Error fetching data:", err));
+    axios.get("https://adampur-server-fullstack-3.onrender.com/carts", {
+      params: { email: "abdus251@gmail.com" },
+      withCredentials: true, // IMPORTANT: Required if using cookies
+  })
+  .then(response => console.log(response.data))
+  .catch(error => console.error("Error:", error));
+  
   }, []);
 
   const handleDelete = (id) => {
