@@ -4,7 +4,7 @@ const useFee = () => {
   const [fee, setfee] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("https://adampur-server-fullstack-3.onrender.comfee")
+    fetch("http://localhost:5000fee")
       .then((res) => res.json())
       .then((data) => {
         setfee(data);
