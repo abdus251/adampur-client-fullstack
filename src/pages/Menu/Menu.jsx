@@ -70,11 +70,6 @@ const Menu = () => {
             <div className="mb-20">
             <MenuCategory items={classFive} title={"পঞ্চম শ্রেণি"} subTitle={"কৃমিনাশক ঔষধ সেবন করাচ্ছে ক্ষুদে ডাক্তারগণ।"} img={fiveImg}></MenuCategory>
             </div>
-            
-
-            {/* <div className="mb-20">
-            <MenuCategory items={donate} title={"classThree"} img={artImg}></MenuCategory>
-            </div> */}
         </div>
     );
 };

@@ -58,7 +58,7 @@ export const router = createBrowserRouter([
       {
         path: "applicationForm",
         element: <ApplicationForm />,
-        loader: () => fetch('http://localhost:5173')
+        loader: () => fetch('https://adampur-server-fullstack-3.onrender.com')
       },
       {
         path: "prePrimary",

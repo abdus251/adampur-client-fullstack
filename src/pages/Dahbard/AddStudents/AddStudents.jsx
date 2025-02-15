@@ -13,7 +13,7 @@ const AddStudents = () => {
 
   useEffect(() => {
     axios.get("https://adampur-server-fullstack-3.onrender.com/carts", {
-      params: { email: "abdus251@gmail.com" },
+      params: { email: "email" },
       withCredentials: true, 
     })
     .then(response => {
