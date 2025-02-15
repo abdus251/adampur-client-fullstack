@@ -4,19 +4,28 @@ import tree from "../../assets/Other/treePlant.jpeg";
 import child from "../../assets/Other/2child.jpeg";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
 
 const Admission = () => {
-  const { t } = useTranslation('global');
+  const { t } = useTranslation("global");
   return (
     <>
+      <Helmet>
+        <title>আদমপুর | ভর্তি</title>
+      </Helmet>
       <div className="font-noto-sans-bengali">
         {/* admission */}
         <div className="text-center px-10 md:px-16 lg:px-48 leading-loose mt-40 items-center justify-center">
-  <h1 className="text-3xl md:text-3xl lg:text-3xl text-sky-400 mb-16">ভর্তি ও নিবন্ধন</h1>
-  <p className="text-justify">
-    আদমপুর সরকারি প্রাথমিক বিদ্যালয়ের আনন্দের সঙ্গে আগামী শিক্ষাবর্ষের জন্য ভর্তি কার্যক্রম শুরু করেছে। নিচে ভর্তি প্রক্রিয়া, প্রয়োজনীয় কাগজপত্র, এবং শিক্ষাগত যোগ্যতার বিষয়ে তথ্য দেওয়া হয়েছে। আরও জানার জন্য আমাদের সাথে যোগাযোগ করতে দ্বিধা করবেন না।
-  </p>
-</div>
+          <h1 className="text-3xl md:text-3xl lg:text-3xl text-sky-400 mb-16">
+            ভর্তি ও নিবন্ধন
+          </h1>
+          <p className="text-justify">
+            আদমপুর সরকারি প্রাথমিক বিদ্যালয়ের আনন্দের সঙ্গে আগামী শিক্ষাবর্ষের
+            জন্য ভর্তি কার্যক্রম শুরু করেছে। নিচে ভর্তি প্রক্রিয়া, প্রয়োজনীয়
+            কাগজপত্র, এবং শিক্ষাগত যোগ্যতার বিষয়ে তথ্য দেওয়া হয়েছে। আরও জানার
+            জন্য আমাদের সাথে যোগাযোগ করতে দ্বিধা করবেন না।
+          </p>
+        </div>
 
         {/* academic */}
         <div className="grid grid-cols-1 md:grid-cols-2 mt-10  px-10">
@@ -36,20 +45,14 @@ const Admission = () => {
             </p>
           </div>
           <div>
-            <img
-              src={docc1}
-              className="w-full"
-            />
+            <img src={docc1} className="w-full" />
           </div>
         </div>
 
         {/* cost & subsidy */}
         <div className="grid grid-cols-1 md:grid-cols-2 px-16">
           <div>
-            <img
-              src={tree}
-              className="w-full"
-            />
+            <img src={tree} className="w-full" />
           </div>
           <div className="text-justify">
             <h1 className="text-3xl text-sky-400 mt-32 mb-8 text-center">
@@ -57,7 +60,14 @@ const Admission = () => {
             </h1>
 
             <p className="md:pl-5">
-              স্কুলের কোন ভর্তি ফি নেই। নেই কোন মাসিক বেতন কিংবা বার্ষিক ফি। বরং ভর্তি হওয়ার পরপরই দেওয়া হয়ে বিনামূল্যে একসেট পাঠ্যপুস্তক। এছাড়াও মাসিক ১৫০ টাকা হারে প্রতি তিন মাস অন্তর অন্তর সরকারি উপবৃত্তি পাবে। এছাড়াও সকল শিক্ষার্থী ৩ টি প্রান্তিক মূল্যায়নের জন্য প্রয়োজনীয় সংখ্যক খাতা বিনামূল্যে পাবে। বছরে একবার নূন্যতম একটি করে নোট খাতা স্কুল কর্তৃক তাদেরকে প্রদান করা হবে।  এছাড়াও বিনামূল্যে ছাত্র-ছাত্রীদের জন্য ক্রিকেট, ফুটবল, কেরোমবোর্ড, ব্যডমিন্টন খেলার সামগ্রী সরবরাহ করা হয়। <br /> <br />
+              স্কুলের কোন ভর্তি ফি নেই। নেই কোন মাসিক বেতন কিংবা বার্ষিক ফি। বরং
+              ভর্তি হওয়ার পরপরই দেওয়া হয়ে বিনামূল্যে একসেট পাঠ্যপুস্তক। এছাড়াও
+              মাসিক ১৫০ টাকা হারে প্রতি তিন মাস অন্তর অন্তর সরকারি উপবৃত্তি
+              পাবে। এছাড়াও সকল শিক্ষার্থী ৩ টি প্রান্তিক মূল্যায়নের জন্য
+              প্রয়োজনীয় সংখ্যক খাতা বিনামূল্যে পাবে। বছরে একবার নূন্যতম একটি করে
+              নোট খাতা স্কুল কর্তৃক তাদেরকে প্রদান করা হবে। এছাড়াও বিনামূল্যে
+              ছাত্র-ছাত্রীদের জন্য ক্রিকেট, ফুটবল, কেরোমবোর্ড, ব্যডমিন্টন খেলার
+              সামগ্রী সরবরাহ করা হয়। <br /> <br />
               আরও জানতে চান? <br /> আমাদের সাথে যোগাযোগ করতে দ্বিধা করবেন না।
             </p>
           </div>
@@ -66,44 +76,38 @@ const Admission = () => {
         <div className="grid grid-cols-1 md:grid-cols-2   px-16">
           <div>
             <h1 className="text-3xl text-sky-400 mt-32 mb-8 text-center">
-            ভর্তির প্রক্রিয়া
+              ভর্তির প্রক্রিয়া
             </h1>
             <p className="text-justify pr-6">
               {" "}
               স্কুলে আবেদন করার প্রক্রিয়া: <br />
-
-১. শিক্ষার্থীর জন্ম নিবন্ধন (অনলাইনকৃত)।  <br />
-
-২. পিতা-মাতার জাতীয় পরিচয়পত্রের ফটোকপি। <br />
-
-৩. সদ্যতোলা শিক্ষার্থীর ২ কপি পাসপোর্ট সাইজের এবং ২ কপি স্ট্যাম্প সাইজের ছবি। <br />
-
-৪. সর্বশেষ পরীক্ষার নম্বরপত্র ও টিসি।
+              ১. শিক্ষার্থীর জন্ম নিবন্ধন (অনলাইনকৃত)। <br />
+              ২. পিতা-মাতার জাতীয় পরিচয়পত্রের ফটোকপি। <br />
+              ৩. সদ্যতোলা শিক্ষার্থীর ২ কপি পাসপোর্ট সাইজের এবং ২ কপি স্ট্যাম্প
+              সাইজের ছবি। <br />
+              ৪. সর্বশেষ পরীক্ষার নম্বরপত্র ও টিসি।
             </p>
           </div>
           <div>
-            <img
-              src={child}
-              className="w-full"
-            />
+            <img src={child} className="w-full" />
           </div>
         </div>
         {/* application */}
         <div className="grid grid-cols-1 md:grid-cols-2   px-16">
           <div>
-            <img
-              src={eyeTest}
-              className="w-full"
-            />
+            <img src={eyeTest} className="w-full" />
           </div>
           <div>
             <h1 className="text-3xl text-sky-400 mt-48 mb-8 text-center">
-            আবেদন ফরম
+              আবেদন ফরম
             </h1>
             <p className="text-justify pl-10">
-               <button>
-                              <Link to='/applicationForm' className="text-sky-400">আবেদন ফর্মটি</Link>
-                              </button> পূরণ করতে এখানে ক্লিক করুন!
+              <button>
+                <Link to="/applicationForm" className="text-sky-400">
+                  আবেদন ফর্মটি
+                </Link>
+              </button>{" "}
+              পূরণ করতে এখানে ক্লিক করুন!
             </p>
           </div>
         </div>

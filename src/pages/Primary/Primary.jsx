@@ -7,6 +7,7 @@ import FoodCard from "../../components/FoodCard/FoodCard"
 import PopularMenu from "../../../src/pages/Home/PopularMenu";
 import Featured from "../../../src/pages/Home/Featured/Featured";
 import OneStu from "../../assets/pages/One/OneStu"
+import { Helmet } from "react-helmet-async"
 
 
 const Primary = ({}) => {
@@ -15,6 +16,9 @@ const Primary = ({}) => {
 
   return (
     <>
+    <Helmet>
+            <title>আদমপুর | প্রাথমিক</title>
+          </Helmet>
     <div className='grid sm:grid-cols-1  md:grid-cols-2 gap-20 '>
       <div className='w-full mt-5 '>
 <img src={art} alt="" className="mt-20 sm:pl-10"></img>

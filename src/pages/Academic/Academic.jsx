@@ -6,10 +6,14 @@ import img3 from '../../assets/Other/received_1063211654739475.jpeg';
 import img4 from '../../assets/Other/received_1083937709600649.jpeg';
 import img5 from '../../assets/Other/received_1629600244515117.jpeg';
 import img6 from '../../assets/Other/received_1699709477458574.jpeg';
+import { Helmet } from "react-helmet-async";
 
 const Academic = () => {
   return (
     <>
+    <Helmet>
+        <title>আদমপুর | একাডেমিক </title>
+      </Helmet>
     <div>
         <div className='text-center px-16 leading-loose mt-40 font-noto-sans-bengali '>
             <h1 className='text-3xl text-sky-400 '>শিক্ষাগত উৎকর্ষতা</h1>

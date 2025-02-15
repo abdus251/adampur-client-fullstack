@@ -3,12 +3,16 @@ import { FaCircle } from "react-icons/fa";
 import img from "../../../assets/banner/kid-letter.jpg"
 import { Link } from "react-router-dom";
 import kidImg from "../../../assets/banner/kids-home.jpg"
+import { Helmet } from "react-helmet-async";
 
 const PrePrimary = () => {
   
 
   return (
     <div className="pt-20 font-noto-sans-bengali px-10 text-justify">
+      <Helmet>
+              <title>আদমপুর | প্রাক-প্রাথমিক</title>
+            </Helmet>
       <h1 className="text-3xl text-center text-sky-400 mt-10">
         {" "}
         প্রাক-প্রাথমিক শ্রেণি <br />{" "}

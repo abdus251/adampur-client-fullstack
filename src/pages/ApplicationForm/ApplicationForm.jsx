@@ -5,6 +5,7 @@ import useAxiosSecure from "../../hooks/useAxiosSecure";
 import { useState } from "react";
 import useCart from "../../hooks/useCart";
 import axios from "axios";
+import { Helmet } from "react-helmet-async";
 
 const image_hosting_key = import.meta.env.VITE_IMAGE_HOSTING_KEY;
 const image_hosting_api = `https://api.imgbb.com/1/upload?key=${image_hosting_key}`;
@@ -115,6 +116,9 @@ const ApplicationForm = () => {
 
   return (
     <div>
+       <Helmet>
+              <title>আদমপুর |  ভর্তি ফরম</title>
+            </Helmet>
   <div
     className="hero min-h-screen mt-36"
     style={{

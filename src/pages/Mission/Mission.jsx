@@ -1,8 +1,12 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 
 const Mission = () => {
   return (
     <>
+          <Helmet>
+            <title>আদমপুর | মিশন ও ভিশন </title>
+          </Helmet>
     <div className='font-noto-sans-bengali'>
       <div className='h-screen'>
         <img src="https://img.freepik.com/free-photo/boy-scouts-spending-time-nature_23-2149572837.jpg?t=st=1734627338~exp=1734630938~hmac=b204e3baa315505c6914203253f167c4e2a66a3d9d639686ff9c823efc25710f&w=740" alt="" className='w-full h-50% mt-24' />

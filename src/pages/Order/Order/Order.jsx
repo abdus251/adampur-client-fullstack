@@ -48,7 +48,7 @@ const Order = () => {
        <div>
        <img
           src={orderCoverImg}
-          className="rounded-full w-96 h-96 mx-auto items-center justify-center my-2"
+          className="rounded-full w-96 h-96 mx-auto items-center justify-center my-5"
         />
        </div>
         <div className="-mt-60 -ml-80 flex gap-2 justify-center items-center">

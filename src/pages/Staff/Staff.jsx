@@ -4,17 +4,21 @@ import salam from "../../assets/teacherImg/abdusbl.jpg";
 import norj from "../../assets/teacherImg/monni.png";
 import rahima from "../../assets/teacherImg/rahima.png";
 import nadia from "../../assets/teacherImg/nadia.png";
+import { Helmet } from "react-helmet-async";
 
 const Staff = () => {
   return (
     <>
+      <Helmet>
+        <title>আদমপুর | শিক্ষক</title>
+      </Helmet>
       <div className="font-noto-sans-bengali mt-40">
         <div className="text-center ">
           <h1 className="text-3xl text-orange-400 ">বিদ্যালয়ের স্টাফ</h1>
           <h3 className="text-xl my-4"> আমরা কারা</h3>
         </div>
 
-        <div >
+        <div>
           {/* আব্দুস সালাম */}
           <div className="grid sm:grid-cols-1 md:flex lg:flex">
             <div className="border border-black mx-auto px-2  p-5 w-1/2">
@@ -23,8 +27,13 @@ const Staff = () => {
             </div>
             <div className="border border-black mx-auto  p-5 w-1/2 text-justify sm:px-5 ">
               {/* Content goes here */}
-              <h1 className="text-3xl text-orange-400 text-center"> আব্দুস সালাম</h1>
-              <h4 className="text-xl text-center py-8">প্রধান শিক্ষক (ভারপ্রাপ্ত) </h4>
+              <h1 className="text-3xl text-orange-400 text-center">
+                {" "}
+                আব্দুস সালাম
+              </h1>
+              <h4 className="text-xl text-center py-8">
+                প্রধান শিক্ষক (ভারপ্রাপ্ত){" "}
+              </h4>
               <p className="leading-loose">
                 {" "}
                 বাংলাদেশের সর্বোচ্চ বিদ্যাপিঠ ঢাকা বিশ্ববিদ্যালয় থেকে লোক
@@ -52,9 +61,12 @@ const Staff = () => {
 
           {/* ayesha apa */}
           <div className="grid sm:grid-cols-1 md:flex lg:flex">
-          <div className="border border-black mx-auto px-2  ‍ w-1/2 text-justify sm-px-2 ">
+            <div className="border border-black mx-auto px-2  ‍ w-1/2 text-justify sm-px-2 ">
               {/* Content goes here */}
-              <h1 className="text-3xl  text-center mt-20 text-orange-400"> আয়েশা আক্তার</h1>
+              <h1 className="text-3xl  text-center mt-20 text-orange-400">
+                {" "}
+                আয়েশা আক্তার
+              </h1>
               <h4 className="text-xl text-center py-8">সহকারী শিক্ষক </h4>
               <p className="leading-loose">
                 সরকারি প্রাথমিক বিদ্যালয়ে শিক্ষকতা করার ক্ষেত্রে বিশ বছরেরও বেশি
@@ -63,8 +75,8 @@ const Staff = () => {
                 করেছেন। এছাড়াও পাঠদানে বিশেষ পারদর্শিতা অর্জনের জন্য তিনি অর্জন
                 করেছেন সার্টিফিকেট ইন ইডুকেশন (সিএনএড) ডিগ্রি। তার ডিগ্রিগুলি
                 শিক্ষাগত নেতৃত্ব, ইংরেজি ভাষা শিক্ষা এবং আন্তঃসাংস্কৃতিক যোগাযোগ
-                বিষয়ে, প্রতিটিই অত্যন্ত কৃতিত্বের সাথে অর্জিত। তিনি 
-                একজন স্বনামধন্য ও যোগ্য শিক্ষক। তার লক্ষ্য একটি অনুপ্রেরণামূলক স্কুল
+                বিষয়ে, প্রতিটিই অত্যন্ত কৃতিত্বের সাথে অর্জিত। তিনি একজন
+                স্বনামধন্য ও যোগ্য শিক্ষক। তার লক্ষ্য একটি অনুপ্রেরণামূলক স্কুল
                 সম্প্রদায় গড়ে তোলা, যা প্রতিটি দৃষ্টিকোণ থেকে শিক্ষায়
                 সম্পৃক্ত। নতুন চ্যালেঞ্জ ও পরিবেশের সাথে মানিয়ে নেওয়ার দক্ষতাও
                 তার অন্যতম বৈশিষ্ট্য। তার বিশ্বাস, তার প্রধান দায়িত্ব ভবিষ্যতে
@@ -78,20 +90,20 @@ const Staff = () => {
               {/* img goes here */}
               <img src={ayesha} alt="" className="w-full " />
             </div>
-            
-            
           </div>
-         
-           {/* samir sir */}
-         
-           <div className="grid sm:grid-cols-1 md:flex lg:flex">
-           <div className="border border-black mx-auto px-2  p-5 w-1/2">
+
+          {/* samir sir */}
+
+          <div className="grid sm:grid-cols-1 md:flex lg:flex">
+            <div className="border border-black mx-auto px-2  p-5 w-1/2">
               {/* img goes here */}
               <img src={samir} alt="" className="w-full " />
             </div>
             <div className="border border-black mx-auto px-2  p-5 w-1/2 text-justify ">
               {/* Content goes here */}
-              <h1 className="text-3xl text-orange-400 text-center mt-20">সমীর চন্দ্র সাহা</h1>
+              <h1 className="text-3xl text-orange-400 text-center mt-20">
+                সমীর চন্দ্র সাহা
+              </h1>
               <h4 className="text-xl text-center py-8"> সহকারী শিক্ষক </h4>
               <p className="leading-loose">
                 সমীর চন্দ্র সাহা একজন খ্যাতিমান গণিত শিক্ষক। বিজ্ঞান শিক্ষায়ও
@@ -105,14 +117,16 @@ const Staff = () => {
                 তার একনিষ্ঠ প্রতিশ্রুতির মাধ্যমে সমৃদ্ধ করেন।
               </p>
             </div>
-           
           </div>
 
           {/* মুন্নী */}
           <div className="grid sm:grid-cols-1 md:flex lg:flex">
             <div className="border border-black mx-auto px-2  p-5 w-1/2 text-justify px-10 ">
               {/* Content goes here */}
-              <h1 className="text-3xl text-orange-400 text-center mt-20"> নুরজাহান আক্তার</h1>
+              <h1 className="text-3xl text-orange-400 text-center mt-20">
+                {" "}
+                নুরজাহান আক্তার
+              </h1>
               <h4 className="text-xl text-center py-8"> সহকারী শিক্ষক </h4>
               <p className="leading-loose">
                 সরকারি প্রাথমিক বিদ্যালয়ে শিক্ষকতা করার ক্ষেত্রে প্রায় দশ বছরের
@@ -152,7 +166,10 @@ const Staff = () => {
             </div>
             <div className="border border-black mx-auto px-2  p-5 w-1/2 text-justify px-10 ">
               {/* Content goes here */}
-              <h1 className="text-3xl text-orange-400 text-center mt-20"> রহিমা ইসলাম</h1>
+              <h1 className="text-3xl text-orange-400 text-center mt-20">
+                {" "}
+                রহিমা ইসলাম
+              </h1>
               <h4 className="text-xl text-center py-8">সহকারী শিক্ষক </h4>
               <p className="leading-loose">
                 রহিমা ইসলাম একজন প্রাথমিক বিদ্যালয়ের শিক্ষিকা, যিনি জাতীয়
@@ -174,7 +191,10 @@ const Staff = () => {
           <div className="grid sm:grid-cols-1 md:flex lg:flex">
             <div className="border border-black mx-auto  p-5 w-1/2 text-justify px-5 ">
               {/* Content goes here */}
-              <h1 className="text-3xl text-orange-400 text-center mt-20"> নাদিয়া রহমান মিলি</h1>
+              <h1 className="text-3xl text-orange-400 text-center mt-20">
+                {" "}
+                নাদিয়া রহমান মিলি
+              </h1>
               <h4 className="text-xl text-center py-8"> সহকারী শিক্ষক </h4>
               <span className="leading-loose">
                 {" "}
