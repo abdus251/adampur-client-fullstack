@@ -11,7 +11,7 @@ const AddStudents = () => {
 
   useEffect(() => {
     // Fetch student data from the API
-    axios.get("http://localhost:5000/carts", {
+    axios.get("https://adampur-server-fullstack-3.onrender.com/carts", {
       params: { email: "abdus251@gmail.com" },
       withCredentials: true, // IMPORTANT: Required if using cookies
   })

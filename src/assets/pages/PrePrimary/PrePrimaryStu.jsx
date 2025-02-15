@@ -16,7 +16,7 @@ const PrePrimaryStu = ({ item }) => {
       confirmButtonText: "হ্যাঁ, মুছে ফেলুন!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:5000menu/${_id}`, {
+        fetch(`https://adampur-server-fullstack-3.onrender.commenu/${_id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())
