@@ -8,17 +8,32 @@ const AddStudents = () => {
   const axiosSecure = useAxiosSecure();
 
   const [students, setStudents] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Fetch student data from the API
     axios.get("https://adampur-server-fullstack-3.onrender.com/carts", {
       params: { email: "abdus251@gmail.com" },
-      withCredentials: true, // IMPORTANT: Required if using cookies
-  })
-  .then(response => console.log(response.data))
-  .catch(error => console.error("Error:", error));
-  
+      withCredentials: true, 
+    })
+    .then(response => {
+      setStudents(response.data);
+      setLoading(false); // Set loading to false once data is fetched
+    })
+    .catch(error => {
+      setError("Failed to load data");
+      setLoading(false);  // Handle error and stop loading
+    });
   }, []);
+
+  if (loading) {
+    return <div>Loading...</div>;  // Show a loading message or spinner
+  }
+  
+  if (error) {
+    return <div>{error}</div>;  // Show an error message if any
+  }
+  
 
   const handleDelete = (id) => {
     Swal.fire({
@@ -33,9 +48,7 @@ const AddStudents = () => {
       if (result.isConfirmed) {
         axiosSecure.delete(`/student/${id}`).then((res) => {
           if (res.data.deletedCount > 0) {
-            setStudents((prev) =>
-              prev.filter((student) => student._id !== id)
-            );
+            setStudents((prev) => prev.filter((student) => student._id !== id));
             Swal.fire({
               title: "মুছে ফেলা হয়েছে!",
               text: "আপনার ফাইল মুছে ফেলা হয়েছে।",
