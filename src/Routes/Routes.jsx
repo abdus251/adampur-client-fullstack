@@ -58,7 +58,7 @@ export const router = createBrowserRouter([
       {
         path: "applicationForm",
         element: <ApplicationForm />,
-        loader: () => fetch('http://localhost:5000')
+        loader: () => fetch('http://localhost:5173')
       },
       {
         path: "prePrimary",
