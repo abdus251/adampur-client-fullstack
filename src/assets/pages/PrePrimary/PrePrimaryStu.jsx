@@ -17,7 +17,7 @@ const PrePrimaryStu = ({ item }) => {
     }).then((result) => {
       if (result.isConfirmed) {
         fetch(`https://adampur-server-fullstack-3.onrender.commenu/${_id}`, {
-          method: "DELETE",
+          method: "DELETE", 
         })
           .then((res) => res.json())
           .then((data) => {

@@ -1,7 +1,6 @@
 import orderCoverImg from "../../../assets/home/building.jpg";
 import "react-tabs/style/react-tabs.css";
 import { Helmet } from "react-helmet-async";
-import logo from "../../../../public/Adompur logo.jpg";
 import DownloadFiles from "../DownloadFiles/DownloadFiles";
 import { motion } from "framer-motion";
 
@@ -54,7 +53,7 @@ const Order = () => {
         <div className="-mt-60 -ml-80 flex gap-2 justify-center items-center">
           <img
             className="h-28 w-28 ml-60 mt rounded-full"
-            src={logo}
+            src={"/Adompur logo.jpg"}
             alt="Logo"
           />
           <h1 className="text-sky-400 font-bold text-xl font-noto-sans-bengali">
