@@ -17,15 +17,15 @@ const Category = () => {
             heading={"বৈচিত্রময় কার্যক্রম"} subHeading={"সহ-শিক্ষামূলক উদ্যোগ"}></SectionTitle>
 
 <Swiper
-  slidesPerView={4} // Default for larger screens
+  slidesPerView={4} 
   spaceBetween={30}
   pagination={{
     clickable: true,
   }}
   modules={[Pagination]}
   breakpoints={{
-    320: { slidesPerView: 1, spaceBetween: 10 }, // Small screens
-    480: { slidesPerView: 2, spaceBetween: 15 }, // Slightly larger phones
+    320: { slidesPerView: 1, spaceBetween: 10 }, 
+    480: { slidesPerView: 2, spaceBetween: 15 },
     640: { slidesPerView: 2, spaceBetween: 20 }, // Small tablets
     768: { slidesPerView: 3, spaceBetween: 25 }, // Large tablets
     1024: { slidesPerView: 4, spaceBetween: 30 }, // Desktop

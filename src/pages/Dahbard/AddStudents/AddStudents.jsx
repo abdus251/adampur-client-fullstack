@@ -3,37 +3,46 @@ import React, { useEffect, useState } from "react";
 import { FaTrashAlt } from "react-icons/fa";
 import Swal from "sweetalert2";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
+import useAuth from "../../../hooks/useAuth";
 
 const AddStudents = () => {
   const axiosSecure = useAxiosSecure();
-
+  const { user } = useAuth();
   const [students, setStudents] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios.get("https://adampur-server-fullstack-3.onrender.com/carts", {
-      params: { email: "email" },
-      withCredentials: true, 
-    })
-    .then(response => {
-      setStudents(response.data);
-      setLoading(false); // Set loading to false once data is fetched
-    })
-    .catch(error => {
-      setError("Failed to load data");
-      setLoading(false);  // Handle error and stop loading
-    });
-  }, []);
+    if (!user?.email) return;
+
+    axiosSecure
+      .get("/student", { params: { email:  user.email } })
+      .then((response) => {
+        console.log("API Response:", response.data);
+
+
+        if (Array.isArray(response.data)) {
+          setStudents(response.data);
+        } else {
+          console.error("Expected an array but got:", response.data);
+          setStudents([]);
+        }
+        setLoading(false);
+      })
+      .catch(error => {
+        console.error("Error fetching students:", error);
+        setError("Failed to load data");
+        setLoading(false);
+      });
+  }, [axiosSecure, user?.email]);
 
   if (loading) {
-    return <div>Loading...</div>;  // Show a loading message or spinner
+    return <div>Loading...</div>;
   }
-  
+
   if (error) {
-    return <div>{error}</div>;  // Show an error message if any
+    return <div>{error}</div>; 
   }
-  
 
   const handleDelete = (id) => {
     Swal.fire({
@@ -61,10 +70,10 @@ const AddStudents = () => {
   };
 
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto font-noto-sans-bengali">
       <h3 className="text-3xl text-center text-sky-400 my-10">
         ভর্তিচ্ছুক শিক্ষার্থীদের তালিকা:{" "}
-        {students.length
+        {(students?.length || 0)
           .toString()
           .replace(/\d/g, (digit) => "০১২৩৪৫৬৭৮৯"[parseInt(digit, 10)])}{" "}
         জন

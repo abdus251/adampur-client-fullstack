@@ -21,7 +21,7 @@ const Dashboard = () => {
   return (
     <div className="flex">
     {/* Sidebar */}
-    <div className="w-64 min-h-screen bg-sky-400 text-white">
+    <div className="w-64 min-h-screen bg-sky-400 text-white font-noto-sans-bengali">
       <ul className="menu p-4">
         {isAdmin ? (
           <>
@@ -32,7 +32,7 @@ const Dashboard = () => {
                   isActive ? "bg-sky-500 text-white font-semibold shadow-md" : "hover:text-gray-200"
                 }
               >
-                <RiHomeGearLine />
+                <RiHomeGearLine className="text-orange-500 font-semibold" />
                 এডমিন হোম
               </NavLink>
             </li>
@@ -43,7 +43,7 @@ const Dashboard = () => {
                   isActive ? "bg-sky-500 text-white font-semibold shadow-md" : "hover:text-gray-200"
                 }
               >
-                <FaList />
+                <FaList className="text-orange-500 font-semibold" />
                 ভর্তিচ্ছু শিক্ষার্থী
               </NavLink>
             </li>
@@ -54,7 +54,7 @@ const Dashboard = () => {
                   isActive ? "bg-sky-500 text-white font-semibold shadow-md" : "hover:text-gray-200"
                 }
               >
-                <IoIosPersonAdd />
+                <IoIosPersonAdd className="text-orange-500 font-semibold"/>
                 শিক্ষার্থী যুক্ত করুন
               </NavLink>
             </li>
@@ -65,7 +65,7 @@ const Dashboard = () => {
                   isActive ? "bg-sky-500 text-white font-semibold shadow-md" : "hover:text-gray-200"
                 }
               >
-                <GrUserAdmin />
+                <GrUserAdmin className="text-orange-500 font-semibold"/>
                 শিক্ষার্থী ব্যবস্থাপনা
               </NavLink>
             </li>
@@ -76,21 +76,11 @@ const Dashboard = () => {
                   isActive ? "bg-sky-500 text-white font-semibold shadow-md" : "hover:text-gray-200"
                 }
               >
-                <FaUsers />
+                <FaUsers className="text-orange-500 font-semibold" />
                 সব ইউজার
               </NavLink>
             </li>
-            {/* <li>
-              <NavLink
-                to="/dashboard/addPupil"
-                className={({ isActive }) =>
-                  isActive ? "bg-sky-500 text-white font-semibold shadow-md" : "hover:text-gray-200"
-                }
-              >
-                <FaUsers />
-                Add Pupil
-              </NavLink>
-            </li> */}
+           
           </>
         ) : (
           <>
@@ -101,7 +91,7 @@ const Dashboard = () => {
                   isActive ? "bg-sky-500 text-white font-semibold shadow-md" : "hover:text-gray-200"
                 }
               >
-                <FaHome />
+                <FaHome className="text-orange-500 font-semibold" />
                 ইউজার হোম
               </NavLink>
             </li>
@@ -112,7 +102,7 @@ const Dashboard = () => {
                   isActive ? "bg-sky-500 text-white font-semibold shadow-md" : "hover:text-gray-200"
                 }
               >
-                <FaShoppingCart />
+                <FaShoppingCart className="text-orange-500 font-semibold"/>
                 আমার কার্ট ({cart.length})
               </NavLink>
             </li>
@@ -123,7 +113,7 @@ const Dashboard = () => {
                   isActive ? "bg-sky-500 text-white font-semibold shadow-md" : "hover:text-gray-200"
                 }
               >
-                <FaAd />
+                <FaAd className="text-orange-500 font-semibold"/>
                 রিভিউ এন্ড রেটিং
               </NavLink>
             </li>
@@ -145,7 +135,7 @@ const Dashboard = () => {
                   isActive ? "bg-sky-500 text-white font-semibold shadow-md" : "hover:text-gray-200"
                 }
               >
-                <FaList />
+                <FaList className="text-orange-500 font-semibold"/>
                 ভর্তিচ্ছু শিক্ষার্থী
               </NavLink>
             </li>
@@ -161,7 +151,7 @@ const Dashboard = () => {
               isActive ? "bg-sky-500 text-white font-semibold shadow-md" : "hover:text-gray-200"
             }
           >
-            <FaHome />
+            <FaHome className="text-orange-500 font-semibold" />
             হোম
           </NavLink>
         </li>
@@ -172,7 +162,7 @@ const Dashboard = () => {
               isActive ? "bg-sky-500 text-white font-semibold shadow-md" : "hover:text-gray-200"
             }
           >
-            <LiaSchoolSolid />
+            <LiaSchoolSolid className="text-orange-500 font-semibold"/>
             প্রাথমিক
           </NavLink>
         </li>
@@ -183,7 +173,7 @@ const Dashboard = () => {
               isActive ? "bg-sky-500 text-white font-semibold shadow-md" : "hover:text-gray-200"
             }
           >
-            <FaEnvelope />
+            <FaEnvelope className="text-orange-500 font-semibold"/>
             যোগাযোগ
           </NavLink>
         </li>

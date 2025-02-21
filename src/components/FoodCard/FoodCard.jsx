@@ -1,8 +1,9 @@
 import Swal from "sweetalert2";
 import useAuth from "../../hooks/useAuth";
 import { useLocation, useNavigate } from "react-router-dom";
-import useAxiosSecur from "../../hooks/useAxiosSecure";
+
 import useCart from "../../hooks/useCart";
+import useAxiosSecure from "../../hooks/useAxiosSecure";
 
 const FoodCard = ({ item }) => {
   const {
@@ -18,9 +19,10 @@ const FoodCard = ({ item }) => {
 
   const { user } = useAuth();
   const navigate = useNavigate();
-  const location = useLocation();
-  const axiosSecure = useAxiosSecur();
+  
   const [, refetch] = useCart();
+  const location = useLocation();
+  const axiosSecure = useAxiosSecure();
 
   const handleAddToCart = () => {
     if (user && user.email) {

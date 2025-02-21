@@ -20,14 +20,17 @@ const ApplicationForm = () => {
   const [formData, setFormData] = useState({
     name: "",
     photo: "",
+    birthDate: "",  
     bcn: "",
     fName: "",
     mName: "",
     fNid: "",
     moNum: "",
+    email: user?.email || "", 
     clas: "",
     price: "",
   });
+  
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -35,38 +38,23 @@ const ApplicationForm = () => {
   };
 
   const handleFileChange = async (e) => {
-  const file = e.target.files[0];
-  if (!file) return;
-
-  const formData = new FormData();
-  formData.append("image", file);
-
-  try {
-    const response = await axios.post(image_hosting_api, formData);
-    if (response.data.success) {
-      const imageUrl = response.data.data.display_url;
-      setFormData((prevData) => ({ ...prevData, photo: imageUrl }));
-      Swal.fire({
-        title: "Image Uploaded!",
-        text: "Your image has been successfully uploaded.",
-        icon: "success",
-      });
-    } else {
-      Swal.fire({
-        title: "Upload Failed",
-        text: "There was an issue uploading your image. Please try again.",
-        icon: "error",
-      });
+    const file = e.target.files[0];
+    if (!file) return;
+  
+    const formData = new FormData(); // This redefines formData, overwriting state
+    formData.append("image", file);
+  
+    try {
+      const response = await axios.post(image_hosting_api, formData);
+      if (response.data.success) {
+        const imageUrl = response.data.data.display_url;
+        setFormData((prevData) => ({ ...prevData, photo: imageUrl })); // Correct way
+      }
+    } catch (error) {
+      console.error("Error uploading image:", error);
     }
-  } catch (error) {
-    console.error("Error uploading image:", error);
-    Swal.fire({
-      title: "Error",
-      text: "Failed to upload the image. Please try again later.",
-      icon: "error",
-    });
-  }
-};
+  };
+  
 
   const handleAddToCart = (event) => {
     event.preventDefault();
@@ -301,7 +289,7 @@ const ApplicationForm = () => {
 
               {/* Submit Button */}
               <div className="col-span-1 md:col-span-2">
-                <button className="btn w-full rounded-none bg-black text-white">
+                <button type="submit" className="btn w-full rounded-none bg-black text-white">
                   জমা দিন
                 </button>
               </div>

@@ -58,7 +58,7 @@ export const router = createBrowserRouter([
       {
         path: "applicationForm",
         element: <ApplicationForm />,
-        loader: () => fetch('https://adampur-server-fullstack-3.onrender.com')
+        loader: () => fetch('http://localhost:5000')
       },
       {
         path: "prePrimary",
@@ -72,10 +72,6 @@ export const router = createBrowserRouter([
         path: "staff",
         element: <Staff></Staff>,
       },
-//       {
-// path: "student",
-// element: <StudentPage></StudentPage>
-//       },
       {
         path: "contact",
         element: <Contact />,
@@ -173,7 +169,7 @@ export const router = createBrowserRouter([
           </AdminRoute>
         ),
         loader: ({ params }) =>
-          fetch(`https://adampur-server-fullstack-3.onrender.commenu/${params.id}`),
+          fetch(`http://localhost:5000/menu/${params.id}`),
       },
       {
         path: "users",
@@ -186,7 +182,7 @@ export const router = createBrowserRouter([
       {
         path: "addStudents",
         element: <AddStudents></AddStudents>,
-        loader: () => fetch("https://adampur-server-fullstack-3.onrender.comstudent"),
+        loader: () => fetch("http://localhost:5000/student"),
       },
     ],
   },

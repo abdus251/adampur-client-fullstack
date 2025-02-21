@@ -9,7 +9,7 @@
 //   useEffect(() => {
 //     const fetchData = async () => {
 //       try {
-//         // const response = await axios.get('https://adampur-server-fullstack-3.onrender.commenu');
+//         // const response = await axios.get('https://adampur-server-fullstack-3.onrender.com');
 //         setStudents(response.data);
 //       } catch (error) {
 //         setError('Failed to fetch students');

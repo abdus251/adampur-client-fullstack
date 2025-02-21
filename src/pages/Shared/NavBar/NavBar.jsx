@@ -26,16 +26,13 @@ const NavBar = () => {
       <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/about">আমাদের সম্পর্কে</Link></li>
       <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/applicationForm">ভর্তি ফরম</Link></li>
       {/* Cart Button */}
-    <Link to="/dashboard/cart" className="my-2 lg:my-0">
-      <button className="btn flex items-center">
-        <MdOutlineShoppingCart />
-        {cart?.length > 0 && <span className="badge badge-secondary ml-2">+{cart.length}</span>}
-      </button>
+      <li>
+    <Link to="/dashboard" className="my-2 lg:ml-5 font-noto-sans-bengali">
+     ড্যাশবোর্ড
     </Link>
+    </li>
       <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/prePrimary">প্রাক-প্রাথমিক</Link></li>
       <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/primary">প্রাথমিক</Link></li>
-      {/* <li className="font-noto-sans-bengali my-2 lg:ml-5"><Link to="/staff">জনবল</Link></li> */}
-
       <li className="font-noto-sans-bengali my-2 lg:ml-5 relative">
         <details>
           <summary className="cursor-pointer">জনবল</summary>
@@ -46,8 +43,15 @@ const NavBar = () => {
           </ul>
         </details>
       </li>
-
-      <li className="font-noto-sans-bengali my-2 lg:ml-10"><Link to="/contact">যোগাযোগ</Link></li>
+ {/* Login/Logout */}
+ <li className=" lg:ml-5 ">
+      {user ? (
+        <button onClick={handleLogOut} className="btn btn-ghost font-noto-sans-bengali">লগআউট</button>
+      ) : (
+        <Link to="/login" className="font-noto-sans-bengali">লগইন</Link>
+      )}
+    </li>
+      
       <li className="font-noto-sans-bengali my-2 lg:ml-10"><Link to="/shop">সততা স্টোর</Link></li>
       <li className="font-noto-sans-bengali my-2 lg:ml-10 relative">
         <details>
@@ -60,15 +64,7 @@ const NavBar = () => {
         </details>
       </li>
     </ul>
-  
-    {/* Login/Logout */}
-    <div className="my-2 lg:my-0 lg:ml-10">
-      {user ? (
-        <button onClick={handleLogOut} className="btn btn-ghost font-noto-sans-bengali">লগআউট</button>
-      ) : (
-        <Link to="/login" className="font-noto-sans-bengali">লগইন</Link>
-      )}
-    </div>
+    <li className="font-noto-sans-bengali my-2 lg:ml-10"><Link to="/contact">যোগাযোগ</Link></li>
   </nav>
   );
   const introChildren = {
@@ -79,19 +75,14 @@ const NavBar = () => {
   return (
     <>
       {/* Logo Section */}
-      <div className="flex items-center justify-center my-3 ">
-      <a className="flex gap-5 justify-center items-center">
-        <div>
-          <img className="h-24 w-24" src="/Adompur logo.jpg" alt="Adompur Logo" />
-
-        </div>
-        <motion.div
+      <div className="flex items-center justify-center my-3 w-full">
+  <motion.div
           className=""
           variants={introChildren}
           initial="hidden"
           animate="visible"
         >
-          <span className="text-2xl text-sky-400 font-bold font-noto-sans-bengali">
+          <div className="text-2xl text-right text-sky-400 font-bold font-noto-sans-bengali mr-5">
             <span className="text-orange-400">আ</span>দমপুর <br />
             <span className="text-orange-400">স</span>
             রকারি 
@@ -103,8 +94,30 @@ const NavBar = () => {
             ন্দর, 
             <span className="text-orange-400"> না</span>
             রায়ণগঞ্জ
-          </span>
+          </div>
         </motion.div>
+      <a className="flex gap-5 justify-center items-center">
+        <div>
+          <img className="h-24 w-24" src="/Adompur logo.jpg" alt="Adompur Logo" />
+
+        </div>
+        <div className="flex flex-col text-left mr-5 font-noto-sans-bengali text-sky-400 font-bold">
+ 
+  <span className="block">
+    <span className="text-orange-400">স্থ</span>াপিত: ১৯৬৯ খ্রি.
+  </span>
+  <span className="block">
+    <span className="text-orange-400">মো</span>বাইল: (+৮৮০) ১৯১৩৪৭৫১৭৯
+  </span>
+  <span className="block">
+    <span className="text-orange-400">ই</span>মেইল: adampurgps6@gmail.com
+  </span>
+  <span className="block">
+    <span className="text-orange-400">E</span>MIS: 311020105
+  </span>
+</div>
+
+
       </a>
     </div>
     

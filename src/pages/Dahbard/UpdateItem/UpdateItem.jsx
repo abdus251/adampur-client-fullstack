@@ -4,13 +4,11 @@ import Swal from 'sweetalert2';
 import useAxiosPublic from '../../../hooks/useAxiosPublic';
 import useAxiosSecure from '../../../hooks/useAxiosSecure';
 import { useLoaderData } from 'react-router-dom';
-import MenuItem from '../../Shared/MenuItem/MenuItem';
-import { FaUtensils } from 'react-icons/fa';
 const image_hosting_key = import.meta.env.VITE_IMAGE_HOSTING_KEY;
 const image_hosting_api = `https://api.imgbb.com/1/upload?key=${image_hosting_key}`;
 
 const UpdateItem = () => {
-  const {_id, name, roll_number, age, exSchoolName,date_of_birth, hobbies, grade, category, price, description, photo_url , currency, isOptional, paymentMode, remarks } = useLoaderData();
+  const {_id, name, roll_number, age, exSchoolName,date_of_birth, price, description,  currency,  paymentMode } = useLoaderData();
   const loaderData = useLoaderData();
 console.log("Loader Data:", loaderData);
 
@@ -81,7 +79,7 @@ console.log("Loader Data:", loaderData);
   return (
     <div>
         <div>
-        <div>
+        <div className='font-noto-sans-bengali'>
         <form onSubmit={handleSubmit(onSubmit)}>
             <h1 className="text-3xl text-center text-sky-400">শিক্ষার্থীর তথ্য সংশোধন করুন</h1>
             {/* name */}
