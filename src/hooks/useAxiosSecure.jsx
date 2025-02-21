@@ -4,7 +4,7 @@ import useAuth from "./useAuth";
 
 // Create an Axios instance with a base URL
 const axiosSecure = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://adampur-server-fullstack-3.onrender.com",
   withCredentials: true,
 });
 
