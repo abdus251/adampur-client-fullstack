@@ -19,7 +19,7 @@ const NavBar = () => {
   };
 
   const navOptions = (
-    <nav className="w-full flex flex-col lg:flex-row lg:items-center lg:justify-between overflow-auto">
+    <nav className="w-full flex flex-col lg:flex-row lg:items-center lg:justify-between overflow-auto font-noto-sans-bengali">
     {/* Navigation Links */}
     <ul className="flex flex-wrap items-start lg:flex-row">
       <li className="font-noto-sans-bengali my-2"><Link to="/">হোম</Link></li>
